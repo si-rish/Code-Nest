@@ -1,0 +1,103 @@
+/* Navbar.css */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #33333384;
+    color: white;
+    margin-top: 15px;
+    border-radius: 25px;
+    height: 35px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .cn-logo{
+    height: 42px;
+  }
+
+  .cn-drop{
+    height: 10px;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .submenu {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2f2d2d;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 20px;
+    padding: 10px 5px;
+    line-height: 30px;
+    
+  }
+
+  hr{
+    width: 75%;
+    font-weight: 100;
+  }
+  
+  .submenu:hover .dropdown-content {
+    display: block;
+    
+  }
+  
+  .auth-buttons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1;
+    }
+  
+    .menu.show {
+      display: flex;
+    }
+  
+    .menu a {
+      margin: 10px;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  }
+  

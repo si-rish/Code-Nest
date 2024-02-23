@@ -1,13 +1,14 @@
 import React from 'react'
-import "./Home.css"
+import "./Resources.css"
 import Navbar from '../../components/Navbar/Navbar'
 
-function Home() {
+function Resources() {
   return (
     <>
     <Navbar/>
+    <div>Resources</div>
     </>
   )
 }
 
-export default Home
+export default Resources

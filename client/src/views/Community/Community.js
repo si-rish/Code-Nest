@@ -1,13 +1,16 @@
 import React from 'react'
-import "./Home.css"
+import "./Community.css"
 import Navbar from '../../components/Navbar/Navbar'
 
-function Home() {
+
+function Community() {
   return (
     <>
     <Navbar/>
+    <div>Community</div>
+    
     </>
   )
 }
 
-export default Home
+export default Community

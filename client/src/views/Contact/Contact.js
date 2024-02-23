@@ -1,13 +1,14 @@
 import React from 'react'
-import "./Home.css"
+import "./Contact.css"
 import Navbar from '../../components/Navbar/Navbar'
 
-function Home() {
+function Contact() {
   return (
     <>
     <Navbar/>
+    <div>Contact</div>
     </>
   )
 }
 
-export default Home
+export default Contact

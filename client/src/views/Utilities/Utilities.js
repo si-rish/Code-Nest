@@ -1,13 +1,14 @@
 import React from 'react'
-import "./Home.css"
+import "./Utilities.css"
 import Navbar from '../../components/Navbar/Navbar'
 
-function Home() {
+function Utilities() {
   return (
     <>
     <Navbar/>
+    <div>Utilities</div>
     </>
   )
 }
 
-export default Home
+export default Utilities
