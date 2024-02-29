@@ -2,20 +2,21 @@
 .top-section {
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .top-section h1 {
-    font-size: 35px;
+    font-size: 44px;
     margin-bottom: 10px;
     margin-top: 5%;
 
   }
   
   .top-section p {
-    color: #555;
-    font-size: 16px;
-    font-weight: 300;
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #b2b9c6;
   }
   

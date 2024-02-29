@@ -26,7 +26,7 @@ const NewsApp = () => {
   return (
     <div className="news-app-container">
 
-      <div className="left-section">
+      <div className="news-left-section">
         {/* <div className="search-filter">
           <label htmlFor="category">Select Category:</label>
           <select
@@ -39,9 +39,10 @@ const NewsApp = () => {
             <option value="ai">Artificial Intelligence</option>
           </select>
         </div> */}
-        <div className="card-container">
+    
+        <div className="news-card-container">
           {news.slice(0, 20).map((article, index) => (
-            <div className="card" key={index}>
+            <div className="news-card" key={index}>
               <img src={article.urlToImage} alt={article.title} />
               <h3>{article.title}</h3>
               <button className='read-more' onClick={() => window.open(article.url, '_blank')}>
@@ -51,9 +52,9 @@ const NewsApp = () => {
           ))}
         </div>
       </div>
-      <div className="right-section">
+      <div className="news-right-section">
         {news.slice(0, 25).map((article, index) => (
-          <div className="small-card" key={index}>
+          <div className="news-small-card" key={index}>
             <h4>{article.title}</h4>
             <a href={article.url} target="_blank" rel="noopener noreferrer">
               Read More

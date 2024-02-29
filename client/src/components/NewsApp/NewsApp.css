@@ -4,14 +4,15 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    margin: 0% 5%;
   }
   
   
-  .left-section {
+  .news-left-section {
     width: 75%;
   }
   
-  .right-section {
+  .news-right-section {
     width: 25%;
     border-left: 1px solid #ccc;
     padding-left: 20px;
@@ -21,12 +22,12 @@
     margin-bottom: 20px;
   }
   
-  .card-container {
+  .news-card-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .card {
+  .news-card {
     width: 40%;
     margin: 10px;
     padding: 18px;
@@ -35,48 +36,68 @@
     background-color: #33333384;
   }
   
-  .card img {
+  .news-card img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 4px;
   }
   
-  .card h3 {
+  .news-card h3 {
     font-size: 16px;
     margin-top: 10px;
   }
   
-  .card button {
-    background-color: #007bff;
-    color: #fff;
+  .news-card button {
+    background-color: #219653;
+    color: white;
+    font-weight: 700;
     padding: 5px 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 19px;
     cursor: pointer;
   }
   
-  .card button:hover {
-    background-color: #0056b3;
+  .news-card button:hover {
+    background-color: #27ae60;
   }
   
-  .small-card {
+  .news-small-card {
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 8%;
   }
   
-  .small-card h4 {
+  .news-small-card h4 {
     font-size: 16px;
   }
   
-  .small-card a {
-    color: #007bff;
+  .news-small-card a {
+    color: #3498db;
     text-decoration: none;
     font-weight: bold;
   }
   
-  .small-card a:hover {
+  .news-small-card a:hover {
     text-decoration: underline;
   }
   
+
+  /* Small devices (landscape phones) */
+@media only screen and (max-width: 767px) {
+  .news-app-container {
+      flex-direction: column;
+  }
+
+  .news-left-section {
+      width: 100%;
+  }
+
+  .news-right-section {
+      display: none; /* Hide the right-side section on small devices */
+  }
+
+  .news-card {
+      width: 100%;
+  }
+}

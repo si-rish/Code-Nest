@@ -11,6 +11,10 @@ import Resources from './views/Resources/Resources';
 import Utilities from './views/Utilities/Utilities';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
+import Books from './components/Books/Books';
+import Roadmap from './components/Roadmap/Roadmap';
+import Projects from './components/Projects/Projects';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -56,6 +60,19 @@ const router = createBrowserRouter([
       "path": "/signup",
       "element": <Signup/>
     },
+    {
+      "path": "/books",
+      "element": <Books/>
+    },
+    {
+      "path": "/roadmaps",
+      "element": <Roadmap/>
+    },
+    {
+      "path": "/projects",
+      "element": <Projects/>
+    },
+
   
 ])
 

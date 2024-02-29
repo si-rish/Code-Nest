@@ -25,14 +25,14 @@ const Navbar = () => {
             <Link to="/roadmaps">Roadmaps</Link><hr/>
             <Link to="/projects">Projects</Link><hr/>
             <Link to="/books">Books</Link><hr/>
-            <Link to="/others">Others</Link>
+            {/* <Link to="/others">Others</Link> */}
           </div>
         </div>
         <div className="submenu">
           <Link to="/utilities">Utilities&nbsp;<img src={drop} className='cn-drop'/> </Link>
           <div className="dropdown-content">
             <Link to="/resume-builder">Resume Builder</Link><hr/>
-            <Link to="/jobs-internships">Jobs & Internships</Link>
+            {/* <Link to="/jobs-internships">Jobs & Internships</Link> */}
           </div>
         </div>
         <div className="submenu">

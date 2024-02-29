@@ -1,0 +1,220 @@
+{
+  "categories": [
+    {
+      "name": "Programming languages",
+      "topics": [
+        {
+          "name": "C language",
+          "image": "c-logo.png",
+          "caption": "A procedural programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "c.pdf"
+        },
+        {
+          "name": "C++",
+          "image": "cpp.png",
+          "caption": "An object-oriented programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "cpp.pdf"
+        },
+        {
+          "name": "Python",
+          "image": "python.png",
+          "caption": "A high-level, interpreted programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "python.pdf"
+        },
+        {
+          "name": "JavaScript",
+          "image": "js-logo.png",
+          "caption": "A versatile scripting programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "javascript.pdf"
+        },
+        {
+          "name": "Java",
+          "image": "java-logo.png",
+          "caption": "A general-purpose, object-oriented language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "java.pdf"
+        },
+        {
+          "name": "C#",
+          "image": "c-sharp.png",
+          "caption": "A modern, object-oriented programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "csharp.pdf"
+        },
+        {
+          "name": "PHP",
+          "image": "php.png",
+          "caption": "A server-side scripting programming language",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "php.pdf"
+        },
+        {
+          "name": "SQL",
+          "image": "sql.png",
+          "caption": "A domain-specific language for managing relational databases",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "sql.pdf"
+        },
+        {
+          "name": "Swift",
+          "image": "swift.png",
+          "caption": "A powerful and intuitive programming language for iOS, macOS, watchOS, and tvOS",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "swift.pdf"
+        },
+        {
+          "name": "Kotlin",
+          "image": "kotlin.png",
+          "caption": "A modern programming language that makes developers happier",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "kotlin.pdf"
+        },
+        {
+          "name": "Go ",
+          "image": "go-lang.png",
+          "caption": "An open-source programming language that makes it easy to build simple, reliable, and efficient software",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "golang.pdf"
+        },
+        {
+          "name": "Rust",
+          "image": "rust.png",
+          "caption": "A language empowering everyone to build reliable and efficient software",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "rust.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "topics": [
+        {
+          "name": "Frontend Developer",
+          "image": "frontend.png",
+          "caption": "Developing user interfaces for websites and web applications",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "frontend.pdf"
+        },
+        {
+          "name": "Backend Developer",
+          "image": "backend.png",
+          "caption": "Building server-side applications and databases",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "backend.pdf"
+        },
+        {
+          "name": "Full Stack Developer",
+          "image": "fullstack.png",
+          "caption": "Handling both frontend and backend development tasks",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "full-stack.pdf"
+        },
+        {
+          "name": "Mobile App Developer",
+          "image": "mobileapp.png",
+          "caption": "Creating applications for mobile devices",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "android.pdf"
+        },
+        {
+          "name": "Data Scientist",
+          "image": "data-science1.png",
+          "caption": "Analyzing and interpreting complex data",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "data-scientist.pdf"
+        },
+        {
+          "name": "DevOps Engineer",
+          "image": "dev.png",
+          "caption": "Combining development with IT operations",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "devops.pdf"
+        },
+        {
+          "name": "Security Developer",
+          "image": "security.png",
+          "caption": "Ensuring the security of applications and systems",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "security.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Technologies",
+      "topics": [
+        {
+          "name": "GitHub",
+          "image": "git.png",
+          "caption": "Version control system for tracking changes in source code during software development",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "git.pdf"
+        },
+        {
+          "name": "Docker",
+          "image": "docker.png",
+          "caption": "Platform for automating the deployment, scaling, and management of containerized applications",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "docker.pdf"
+        },
+        {
+          "name": "Kubernetes",
+          "image": "kubernetes.png",
+          "caption": "Open-source platform for automating the deployment, scaling, and management of containerized applications",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "kubernetes.pdf"
+        }
+      ]
+    },
+    {
+      "name": "IT Fields",
+      "topics": [
+        {
+          "name": "Artificial Intelligence",
+          "image": "ai.png",
+          "caption": "Simulating human intelligence in machines using algorithms and models",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "ai.pdf"
+        },
+        {
+          "name": "Machine Learning",
+          "image": "ml.png",
+          "caption": "Using algorithms to enable computers to learn and make predictions or decisions",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "ml.pdf"
+        },
+        {
+          "name": "Data Science",
+          "image": "data.png",
+          "caption": "Extracting insights and knowledge from structured and unstructured data",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "ai-data-science.pdf"
+        },
+        {
+          "name": "Cloud Computing",
+          "image": "cloud.png",
+          "caption": "Delivering computing services over the internet",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "cloud.pdf"
+        },
+        {
+          "name": "Cyber Security",
+          "image": "cyber.png",
+          "caption": "Protecting computer systems, networks, and programs from digital attacks",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "cyber-security.pdf"
+        },
+        {
+          "name": "Software Development",
+          "image": "software.png",
+          "caption": "Creating, testing, and maintaining software applications",
+          "buttonText": "Get Roadmap",
+          "roadmapDocs": "software.pdf"
+        }
+      ]
+    }
+  ]
+}

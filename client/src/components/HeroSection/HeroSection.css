@@ -1,0 +1,66 @@
+/* YourComponent.css */
+.hero-container {
+    display: flex;
+    height: 80vh;
+    margin: 30px 50px ;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .heading-container {
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  
+  .sec-text {
+    color: #3498db; /* Add your desired color */
+  }
+  
+  .description {
+    margin-bottom: 30px;
+    line-height: 2;
+    padding-right: 12%;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #b2b9c6;
+  }
+  
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #219653; /* Add your desired color */
+    color: #fff; /* Add your desired color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 19px;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #27ae60; /* Add your desired hover color */
+    
+  }
+  
+  .right-section {
+    flex: 1;
+    background: url('https://images.unsplash.com/photo-1498758536662-35b82cd15e29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHBlb3BsZSUyMGNvbXB1dGVyfGVufDB8fDB8fHww') center/cover no-repeat;
+    transition: transform 0.3s;
+    border-radius: 19px;
+  }
+  
+  .right-section:hover {
+    transform: scale(1.03); /* Add your desired hover effect */
+  }
+  
