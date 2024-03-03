@@ -1,0 +1,2544 @@
+{
+    "topics": [
+        {
+            "name": "Spotting Errors",
+            "questions": [
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "Identify the error in the following sentence:\n'The team, along with their coach, are planning strategies for the upcoming match.'",
+                    "options": [
+                        "The",
+                        "team",
+                        "are",
+                        "upcoming"
+                    ],
+                    "answer": "are",
+                    "explanation": "The subject 'team' is singular, so the verb 'are' should be 'is'. The correct sentence is: 'The team, along with their coach, is planning strategies for the upcoming match.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "medium",
+                    "question": "Identify the error in the following pattern:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K L]\n[Image: M N O P]",
+                    "options": [
+                        "F",
+                        "G",
+                        "L",
+                        "M"
+                    ],
+                    "answer": "L",
+                    "explanation": "The correct pattern should be:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K L]\n[Image: M N O P]\n\nThe error is in the original position of 'L', it should be in the last column."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "hard",
+                    "question": "Find the error in the sentence:\n'The company's success was not only due to the CEO's vision but also because of their dedicated employees.'",
+                    "options": [
+                        "company's",
+                        "success",
+                        "because",
+                        "their"
+                    ],
+                    "answer": "their",
+                    "explanation": "The pronoun 'their' does not have a clear antecedent. It should be 'its' referring to the singular noun 'company.' The correct sentence is: 'The company's success was not only due to the CEO's vision but also because of its dedicated employees.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "hard",
+                    "question": "Identify the error in the sequence:\n[Image: Circle Square Triangle Circle]\n[Image: Square Triangle Circle Square]\n[Image: Triangle Circle Square Triangle]",
+                    "options": [
+                        "Circle",
+                        "Square",
+                        "Triangle",
+                        "Square Triangle"
+                    ],
+                    "answer": "Square Triangle",
+                    "explanation": "The correct sequence should be:\n[Image: Circle Square Triangle Circle]\n[Image: Square Triangle Circle Square]\n[Image: Triangle Circle Square Triangle]\n\nThe error is in the position of 'Square Triangle' which should be at the end of the second row."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "In the sentence, 'Each of the students were given a different assignment,' identify the error.",
+                    "options": [
+                        "Each",
+                        "students",
+                        "were",
+                        "different"
+                    ],
+                    "answer": "were",
+                    "explanation": "The subject 'Each' is singular, so the verb 'were' should be 'was'. The correct sentence is: 'Each of the students was given a different assignment.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "medium",
+                    "question": "Identify the error in the pattern:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K]\n[Image: L M N O]",
+                    "options": [
+                        "K",
+                        "L",
+                        "M",
+                        "N O"
+                    ],
+                    "answer": "N O",
+                    "explanation": "The correct pattern should be:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K L]\n[Image: M N O P]\n\nThe error is in the last row; 'N O' is incomplete and should be 'N O P'."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "hard",
+                    "question": "Find the error in the sentence:\n'The committee members, as well as the chairperson, are appointed for their expertise.'",
+                    "options": [
+                        "committee",
+                        "members",
+                        "as well as",
+                        "are"
+                    ],
+                    "answer": "are",
+                    "explanation": "The subject 'committee' is singular, so the verb 'are' should be 'is'. The correct sentence is: 'The committee members, as well as the chairperson, is appointed for their expertise.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "hard",
+                    "question": "Identify the error in the sequence:\n[Image: Square Circle Triangle Square]\n[Image: Circle Triangle Square Circle]\n[Image: Triangle Square Circle Triangle]",
+                    "options": [
+                        "Square",
+                        "Circle",
+                        "Triangle",
+                        "Square Circle"
+                    ],
+                    "answer": "Square Circle",
+                    "explanation": "The correct sequence should be:\n[Image: Square Circle Triangle Square]\n[Image: Circle Triangle Square Circle]\n[Image: Triangle Square Circle Triangle]\n\nThe error is in the position of 'Square Circle' which should be at the end of the first row."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "Identify the error in the sentence:\n'Most of the work have already been completed by the diligent team.'",
+                    "options": [
+                        "Most",
+                        "work",
+                        "have",
+                        "diligent"
+                    ],
+                    "answer": "have",
+                    "explanation": "The subject 'Most' is singular, so the verb 'have' should be 'has'. The correct sentence is: 'Most of the work has already been completed by the diligent team.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "medium",
+                    "question": "Identify the error in the pattern:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K L]\n[Image: M N O]",
+                    "options": [
+                        "K",
+                        "L",
+                        "M",
+                        "N O"
+                    ],
+                    "answer": "N O",
+                    "explanation": "The correct pattern should be:\n[Image: A B C D]\n[Image: E F G H]\n[Image: I J K L]\n[Image: M N O P]\n\nThe error is in the last row; 'N O' is incomplete and should be 'N O P'."
+                }
+            ]
+        },
+        {
+            "name": "Synonyms - Verbal Ability",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Find a synonym for 'ephemeral'.",
+                    "options": [
+                        "Transient",
+                        "Enduring",
+                        "Perpetual",
+                        "Immutable"
+                    ],
+                    "answer": "Transient",
+                    "explanation": "Ephemeral means lasting for a very short time, and 'Transient' is a synonym as it also refers to something temporary or short-lived."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the synonym for 'pinnacle'.",
+                    "options": [
+                        "Apex",
+                        "Base",
+                        "Nadir",
+                        "Summit"
+                    ],
+                    "answer": "Summit",
+                    "explanation": "'Pinnacle' and 'Summit' both refer to the highest point or peak of something."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Select the synonym for 'obfuscate'.",
+                    "options": [
+                        "Clarify",
+                        "Obscure",
+                        "Illuminate",
+                        "Enlighten"
+                    ],
+                    "answer": "Obscure",
+                    "explanation": "'Obfuscate' means to deliberately make something unclear or difficult to understand, and 'Obscure' is a synonym as it also implies making something not easily comprehensible."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "What is a synonym for 'vicissitude'?",
+                    "options": [
+                        "Stability",
+                        "Change",
+                        "Constancy",
+                        "Invariability"
+                    ],
+                    "answer": "Change",
+                    "explanation": "'Vicissitude' refers to a change or variation in circumstances, and 'Change' is a suitable synonym in this context."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Find the synonym for 'insipid'.",
+                    "options": [
+                        "Zestful",
+                        "Piquant",
+                        "Bland",
+                        "Flavorful"
+                    ],
+                    "answer": "Bland",
+                    "explanation": "'Insipid' means lacking flavor or interest, and 'Bland' is a synonym as it conveys a similar idea of dullness or lack of excitement."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the synonym for 'ubiquitous'.",
+                    "options": [
+                        "Rare",
+                        "Pervasive",
+                        "Scarce",
+                        "Limited"
+                    ],
+                    "answer": "Pervasive",
+                    "explanation": "'Ubiquitous' means present everywhere, and 'Pervasive' is a synonym as it also describes something widespread or prevalent."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Select the synonym for 'maudlin'.",
+                    "options": [
+                        "Sentimental",
+                        "Rational",
+                        "Objective",
+                        "Stoic"
+                    ],
+                    "answer": "Sentimental",
+                    "explanation": "'Maudlin' refers to overly sentimental or emotional, and 'Sentimental' is a synonym conveying a similar emotional tone."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "What is a synonym for 'fecund'?",
+                    "options": [
+                        "Infertile",
+                        "Sterile",
+                        "Productive",
+                        "Barren"
+                    ],
+                    "answer": "Productive",
+                    "explanation": "'Fecund' means capable of producing offspring or vegetation, and 'Productive' is a synonym indicating a high level of productivity or fertility."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Find the synonym for 'inchoate'.",
+                    "options": [
+                        "Formative",
+                        "Complete",
+                        "Mature",
+                        "Final"
+                    ],
+                    "answer": "Formative",
+                    "explanation": "'Inchoate' means just begun and not fully formed, and 'Formative' is a synonym as it denotes a stage of development."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the synonym for 'serendipity'.",
+                    "options": [
+                        "Fortuity",
+                        "Misfortune",
+                        "Destiny",
+                        "Fate"
+                    ],
+                    "answer": "Fortuity",
+                    "explanation": "'Serendipity' refers to the occurrence and development of events by chance in a happy or beneficial way, and 'Fortuity' is a synonym indicating a fortunate coincidence."
+                }
+            ]
+        },
+        {
+            "name": "Antonyms - Verbal and Non-Verbal Ability",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Select the antonym for the word 'Ubiquitous'.",
+                    "options": [
+                        "Scarce",
+                        "Pervasive",
+                        "Abundant",
+                        "Omnipresent"
+                    ],
+                    "answer": "Scarce",
+                    "explanation": "Ubiquitous means present, appearing, or found everywhere. Scarce is the opposite, meaning not enough or rare."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the antonym for the term 'Austere'.",
+                    "options": [
+                        "Lavish",
+                        "Severe",
+                        "Spartan",
+                        "Stoic"
+                    ],
+                    "answer": "Lavish",
+                    "explanation": "Austere means stern or severe in appearance or manner. Lavish, on the other hand, implies extravagance and abundance."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the antonym for 'Enervate'.",
+                    "options": [
+                        "Invigorate",
+                        "Exhaust",
+                        "Weaken",
+                        "Debilitate"
+                    ],
+                    "answer": "Invigorate",
+                    "explanation": "Enervate means to weaken or drain of energy. Invigorate is the opposite, meaning to give strength or energy."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Find the antonym for 'Ineffable'.",
+                    "options": [
+                        "Unspeakable",
+                        "Mundane",
+                        "Inexpressible",
+                        "Indescribable"
+                    ],
+                    "answer": "Mundane",
+                    "explanation": "Ineffable refers to something too great or extreme to be expressed in words. Mundane is the opposite, meaning ordinary or commonplace."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Select the antonym for 'Verbose'.",
+                    "options": [
+                        "Loquacious",
+                        "Concise",
+                        "Garrulous",
+                        "Prolix"
+                    ],
+                    "answer": "Concise",
+                    "explanation": "Verbose means using more words than necessary. Concise is the opposite, meaning expressing much in few words."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the antonym for 'Exacerbate'.",
+                    "options": [
+                        "Aggravate",
+                        "Mitigate",
+                        "Intensify",
+                        "Escalate"
+                    ],
+                    "answer": "Mitigate",
+                    "explanation": "Exacerbate means to make a situation worse. Mitigate is the antonym, indicating the action of making something less severe or painful."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Find the antonym for 'Mellifluous'.",
+                    "options": [
+                        "Harmonious",
+                        "Jarring",
+                        "Melodious",
+                        "Dulcet"
+                    ],
+                    "answer": "Jarring",
+                    "explanation": "Mellifluous refers to a sweet or musical sound. Jarring is the opposite, meaning harsh or discordant."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the antonym for 'Acrimonious'.",
+                    "options": [
+                        "Bitter",
+                        "Spiteful",
+                        "Amicable",
+                        "Rancorous"
+                    ],
+                    "answer": "Amicable",
+                    "explanation": "Acrimonious means bitter or sharp in language or tone. Amicable is the opposite, indicating friendliness and goodwill."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Select the antonym for 'Ponderous'.",
+                    "options": [
+                        "Cumbersome",
+                        "Light",
+                        "Bulky",
+                        "Weighty"
+                    ],
+                    "answer": "Light",
+                    "explanation": "Ponderous means heavy and slow-moving. Light is the antonym, suggesting something of little weight or easy movement."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the antonym for 'Ephemeral'.",
+                    "options": [
+                        "Transient",
+                        "Perpetual",
+                        "Fleeting",
+                        "Momentary"
+                    ],
+                    "answer": "Perpetual",
+                    "explanation": "Ephemeral means lasting for a very short time. Perpetual is the opposite, indicating something that continues indefinitely."
+                }
+            ]
+        },
+        {
+            "name": "Selecting Words",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the word that is most opposite in meaning to 'ephemeral'.",
+                    "options": [
+                        "eternal",
+                        "fleeting",
+                        "transient",
+                        "temporary"
+                    ],
+                    "answer": "eternal",
+                    "explanation": "The word 'ephemeral' means lasting for a very short time. The opposite would be 'eternal', which means lasting forever."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Select the word that best fits the blank: The mysterious painting left everyone in a state of __________.",
+                    "options": [
+                        "amazement",
+                        "equanimity",
+                        "apathy",
+                        "indifference"
+                    ],
+                    "answer": "amazement",
+                    "explanation": "The word 'amazement' suggests a state of wonder or astonishment, which fits the context of a mysterious painting."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the word that is a synonym for 'ubiquitous'.",
+                    "options": [
+                        "scarce",
+                        "omnipresent",
+                        "rare",
+                        "limited"
+                    ],
+                    "answer": "omnipresent",
+                    "explanation": "'Ubiquitous' means present, appearing, or found everywhere. 'Omnipresent' is a synonym, indicating being everywhere at the same time."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the word that is most analogous to 'frugal' in the given set: lavish, economical, extravagant, moderate.",
+                    "options": [
+                        "lavish",
+                        "economical",
+                        "extravagant",
+                        "moderate"
+                    ],
+                    "answer": "economical",
+                    "explanation": "'Frugal' and 'economical' both suggest being careful with money and avoiding waste, making 'economical' the most analogous word."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the word that does not belong to the group: magnanimous, benevolent, vindictive, altruistic.",
+                    "options": [
+                        "magnanimous",
+                        "benevolent",
+                        "vindictive",
+                        "altruistic"
+                    ],
+                    "answer": "vindictive",
+                    "explanation": "The words 'magnanimous,' 'benevolent,' and 'altruistic' all have positive connotations related to kindness or generosity, while 'vindictive' has a negative connotation, meaning seeking revenge."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Choose the word that correctly completes the analogy: Dog is to bark as cat is to ________.",
+                    "options": [
+                        "meow",
+                        "growl",
+                        "purr",
+                        "hiss"
+                    ],
+                    "answer": "meow",
+                    "explanation": "Dogs bark, and cats meow. The analogy reflects the characteristic vocalization of each animal."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Select the word that is a hypernym for 'violin'.",
+                    "options": [
+                        "instruments",
+                        "string",
+                        "musician",
+                        "orchestra"
+                    ],
+                    "answer": "instruments",
+                    "explanation": "'Violin' is a specific type of musical instrument. The hypernym, or the general category, would be 'instruments.'"
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the antonym for 'cacophony'.",
+                    "options": [
+                        "harmony",
+                        "dissonance",
+                        "discord",
+                        "noise"
+                    ],
+                    "answer": "harmony",
+                    "explanation": "While 'cacophony' refers to a harsh, discordant mixture of sounds, 'harmony' represents a pleasing arrangement of sounds. Therefore, 'harmony' is the antonym."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Choose the word that is a synonym for 'obfuscate'.",
+                    "options": [
+                        "clarify",
+                        "muddle",
+                        "illuminate",
+                        "elucidate"
+                    ],
+                    "answer": "muddle",
+                    "explanation": "'Obfuscate' means to deliberately make something unclear or difficult to understand. 'Muddle' is a synonym, indicating confusion or disorder."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Select the word that best describes a person who is skilled in many different fields.",
+                    "options": [
+                        "specialist",
+                        "adept",
+                        "versatile",
+                        "proficient"
+                    ],
+                    "answer": "versatile",
+                    "explanation": "A person who is skilled in many different fields and can adapt to various tasks is described as 'versatile.'"
+                }
+            ]
+        },
+        {
+            "name": "Spellings - Verbal and Non-Verbal Ability",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the correctly spelled word:",
+                    "options": [
+                        "Exaggerate",
+                        "Exagerate",
+                        "Exajerate",
+                        "Exaggarate"
+                    ],
+                    "answer": "Exaggerate",
+                    "explanation": "The correct spelling is 'Exaggerate,' meaning to represent something as being greater, better, or worse than it really is."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the correctly spelled word:",
+                    "options": [
+                        "Innoculate",
+                        "Inoculate",
+                        "Innocculate",
+                        "Innoccullate"
+                    ],
+                    "answer": "Inoculate",
+                    "explanation": "The correct spelling is 'Inoculate,' referring to the act of introducing a vaccine into the body to produce immunity against a specific disease."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Which word is spelled correctly?",
+                    "options": [
+                        "Conceivabble",
+                        "Conceivble",
+                        "Conceivable",
+                        "Conceivabble"
+                    ],
+                    "answer": "Conceivable",
+                    "explanation": "The correct spelling is 'Conceivable,' meaning capable of being imagined or understood."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Choose the correct spelling:",
+                    "options": [
+                        "Supersede",
+                        "Supercede",
+                        "Superseed",
+                        "Supersed"
+                    ],
+                    "answer": "Supersede",
+                    "explanation": "The correct spelling is 'Supersede,' meaning to take the place of a person or thing previously in authority or use."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the correctly spelled word:",
+                    "options": [
+                        "Acommodate",
+                        "Accomodate",
+                        "Accommodate",
+                        "Acommmodate"
+                    ],
+                    "answer": "Accommodate",
+                    "explanation": "The correct spelling is 'Accommodate,' meaning to provide lodging or room for; to fit in with the wishes or needs of."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Which word is spelled correctly?",
+                    "options": [
+                        "Embarrassment",
+                        "Embarassment",
+                        "Embarasment",
+                        "Embbarrassment"
+                    ],
+                    "answer": "Embarrassment",
+                    "explanation": "The correct spelling is 'Embarrassment,' referring to a feeling of self-consciousness, shame, or awkwardness."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the correctly spelled word:",
+                    "options": [
+                        "Liaision",
+                        "Liaisson",
+                        "Liaison",
+                        "Liazen"
+                    ],
+                    "answer": "Liaison",
+                    "explanation": "The correct spelling is 'Liaison,' indicating a close bond or connection, often in a professional or diplomatic context."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the correctly spelled word:",
+                    "options": [
+                        "Disseminate",
+                        "Dissiminate",
+                        "Disemminate",
+                        "Dissemenate"
+                    ],
+                    "answer": "Disseminate",
+                    "explanation": "The correct spelling is 'Disseminate,' meaning to spread or disperse widely."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Which word is spelled correctly?",
+                    "options": [
+                        "Revelant",
+                        "Relevent",
+                        "Relevant",
+                        "Releavant"
+                    ],
+                    "answer": "Relevant",
+                    "explanation": "The correct spelling is 'Relevant,' meaning closely connected or appropriate to what is being considered."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Choose the correct spelling:",
+                    "options": [
+                        "Chauvinist",
+                        "Chauvinistt",
+                        "Chauvinyst",
+                        "Chauvenist"
+                    ],
+                    "answer": "Chauvinist",
+                    "explanation": "The correct spelling is 'Chauvinist,' referring to a person displaying excessive or prejudiced loyalty to their own gender, group, or country."
+                }
+            ]
+        },
+        {
+            "name": "Sentence Formation",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Arrange the following words to form a grammatically correct sentence: Technology / shaping / is / the / future / of / our.",
+                    "options": [
+                        "The future of our shaping technology is.",
+                        "Technology is shaping the future of our.",
+                        "Shaping the future of our technology is.",
+                        "Is the future of our technology shaping."
+                    ],
+                    "answer": "Technology is shaping the future of our.",
+                    "explanation": "The correct arrangement is 'Technology is shaping the future of our.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the correct sentence structure: Although / she / hard / works, / success / she / not always / guarantees.",
+                    "options": [
+                        "Although she hard works, success she not always guarantees.",
+                        "Although she works hard, success not always guarantees.",
+                        "Although hard she works, guarantees not always success.",
+                        "Although works she hard, guarantees success not always."
+                    ],
+                    "answer": "Although she works hard, success not always guarantees.",
+                    "explanation": "The correct sentence structure is 'Although she works hard, success not always guarantees.'"
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Combine the following sentences using an appropriate conjunction: The storm was fierce. We managed to reach the shelter in time.",
+                    "options": [
+                        "The storm was fierce and managed to reach the shelter in time.",
+                        "Although the storm was fierce, we managed to reach the shelter in time.",
+                        "The storm was fierce; however, we managed to reach the shelter in time.",
+                        "Despite the storm being fierce, we managed to reach the shelter in time."
+                    ],
+                    "answer": "Despite the storm being fierce, we managed to reach the shelter in time.",
+                    "explanation": "The correct conjunction to combine the sentences is 'Despite.' The combined sentence is: 'Despite the storm being fierce, we managed to reach the shelter in time.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the correct sentence: The mountain climbers were neither tired nor cold.",
+                    "options": [
+                        "The mountain climbers were tired or cold.",
+                        "The mountain climbers were tired nor cold.",
+                        "The mountain climbers neither were tired nor cold.",
+                        "The mountain climbers were tired and cold."
+                    ],
+                    "answer": "The mountain climbers were neither tired nor cold.",
+                    "explanation": "The correct sentence is 'The mountain climbers were neither tired nor cold.'"
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Reorder the words to create a coherent sentence: In / a / communication / clear / key / is / message / a.",
+                    "options": [
+                        "A key message is in clear communication a.",
+                        "In clear communication, a key message is.",
+                        "A clear key message is in communication.",
+                        "Communication is a key message in clear."
+                    ],
+                    "answer": "In clear communication, a key message is.",
+                    "explanation": "The correct arrangement is 'In clear communication, a key message is.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Select the sentence with correct subject-verb agreement: Neither of the students ________ completed the assignment on time.",
+                    "options": [
+                        "have",
+                        "has",
+                        "are",
+                        "is"
+                    ],
+                    "answer": "has",
+                    "explanation": "The correct sentence is 'Neither of the students has completed the assignment on time.' The subject 'Neither' is singular, so the verb 'has' is used."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Combine the sentences using an appropriate relative pronoun: The book is on the shelf. You recommended the book to me.",
+                    "options": [
+                        "The book that you recommended is on the shelf.",
+                        "The book on the shelf you recommended to me.",
+                        "You recommended to me the book on the shelf.",
+                        "The book is on the shelf recommended by you."
+                    ],
+                    "answer": "The book that you recommended is on the shelf.",
+                    "explanation": "The correct sentence is 'The book that you recommended is on the shelf.' The relative pronoun 'that' connects the two sentences."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the correct sentence: The team, as well as the coach, ________ excited about the upcoming match.",
+                    "options": [
+                        "is",
+                        "am",
+                        "are",
+                        "be"
+                    ],
+                    "answer": "is",
+                    "explanation": "The correct sentence is 'The team, as well as the coach, is excited about the upcoming match.' The subject 'team' is singular, so the verb 'is' is used."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Rearrange the following words to form a coherent sentence: Of / benefits / exercising / numerous / are / the.",
+                    "options": [
+                        "Exercising benefits are numerous of the.",
+                        "The benefits of exercising are numerous.",
+                        "Numerous are the benefits of exercising.",
+                        "Exercising of the benefits are numerous."
+                    ],
+                    "answer": "The benefits of exercising are numerous.",
+                    "explanation": "The correct arrangement is 'The benefits of exercising are numerous.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the correct sentence: Each of the students ________ received a certificate for their achievements.",
+                    "options": [
+                        "have",
+                        "has",
+                        "are",
+                        "is"
+                    ],
+                    "answer": "has",
+                    "explanation": "The correct sentence is 'Each of the students has received a certificate for their achievements.' The subject 'Each' is singular, so the verb 'has' is used."
+                }
+            ]
+        },
+        {
+            "name": "Ordering of Words",
+            "questions": [
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "Arrange the following words to form a grammatically correct sentence: 1. The 2. mysterious 3. ancient 4. book 5. was",
+                    "options": [
+                        "1-2-3-4-5",
+                        "3-1-2-5-4",
+                        "2-3-1-4-5",
+                        "4-5-3-1-2"
+                    ],
+                    "answer": "3-1-2-5-4",
+                    "explanation": "The correct sentence is: 'The ancient mysterious book was.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "medium",
+                    "question": "Arrange the given images to form a logical sequence.",
+                    "image_urls": [
+                        "image1.jpg",
+                        "image2.jpg",
+                        "image3.jpg",
+                        "image4.jpg"
+                    ],
+                    "options": [
+                        "1-2-3-4",
+                        "3-1-4-2",
+                        "2-4-1-3",
+                        "4-3-2-1"
+                    ],
+                    "answer": "3-1-4-2",
+                    "explanation": "Image sequence: 3, 1, 4, 2."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "hard",
+                    "question": "Reorder the following words to create a coherent sentence: 1. abyss 2. into 3. he 4. stared 5. the",
+                    "options": [
+                        "1-2-3-4-5",
+                        "2-4-1-3-5",
+                        "5-3-4-1-2",
+                        "3-1-5-2-4"
+                    ],
+                    "answer": "2-4-1-3-5",
+                    "explanation": "The correct sentence is: 'He stared into the abyss.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "hard",
+                    "question": "Arrange the given geometric shapes to form a meaningful pattern.",
+                    "image_urls": [
+                        "shape1.jpg",
+                        "shape2.jpg",
+                        "shape3.jpg",
+                        "shape4.jpg"
+                    ],
+                    "options": [
+                        "1-2-3-4",
+                        "2-4-1-3",
+                        "3-1-4-2",
+                        "4-3-2-1"
+                    ],
+                    "answer": "2-4-1-3",
+                    "explanation": "Geometric pattern: 2, 4, 1, 3."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "Arrange the words to form a grammatically correct sentence: 1. courage 2. in 3. she 4. demonstrated 5. challenging situations",
+                    "options": [
+                        "1-2-3-4-5",
+                        "3-4-1-5-2",
+                        "5-2-1-3-4",
+                        "4-3-5-1-2"
+                    ],
+                    "answer": "3-4-1-5-2",
+                    "explanation": "The correct sentence is: 'She demonstrated courage in challenging situations.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "hard",
+                    "question": "Arrange the following puzzle pieces to form a complete picture.",
+                    "image_urls": [
+                        "piece1.jpg",
+                        "piece2.jpg",
+                        "piece3.jpg",
+                        "piece4.jpg"
+                    ],
+                    "options": [
+                        "1-2-3-4",
+                        "4-1-3-2",
+                        "2-3-4-1",
+                        "3-4-1-2"
+                    ],
+                    "answer": "4-1-3-2",
+                    "explanation": "Puzzle arrangement: 4, 1, 3, 2."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "hard",
+                    "question": "Create a meaningful sentence by rearranging the following words: 1. midnight 2. mysterious 3. the 4. under 5. moonlight",
+                    "options": [
+                        "2-5-4-3-1",
+                        "1-3-4-2-5",
+                        "5-2-3-1-4",
+                        "4-1-2-5-3"
+                    ],
+                    "answer": "2-5-4-3-1",
+                    "explanation": "The correct sentence is: 'The mysterious moonlight under midnight.'"
+                },
+                {
+                    "type": "non-verbal",
+                    "difficulty": "medium",
+                    "question": "Arrange the sequence of shapes to form a logical pattern.",
+                    "image_urls": [
+                        "shapeA.jpg",
+                        "shapeB.jpg",
+                        "shapeC.jpg",
+                        "shapeD.jpg"
+                    ],
+                    "options": [
+                        "C-A-D-B",
+                        "B-C-A-D",
+                        "D-B-C-A",
+                        "A-D-B-C"
+                    ],
+                    "answer": "C-A-D-B",
+                    "explanation": "Shape sequence: C, A, D, B."
+                },
+                {
+                    "type": "verbal",
+                    "difficulty": "medium",
+                    "question": "Rearrange the words to create a meaningful sentence: 1. echoed 2. the 3. through 4. ancient 5. cavern",
+                    "options": [
+                        "4-2-5-3-1",
+                        "1-3-2-5-4",
+                        "5-1-4-3-2",
+                        "3-4-1-2-5"
+                    ],
+                    "answer": "4-2-5-3-1",
+                    "explanation": "The correct sentence is: 'The ancient cavern echoed through.'"
+                }
+            ]
+        },
+        {
+            "name": "Sentence Correction",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the grammatically correct sentence:",
+                    "options": [
+                        "He don't like pizza.",
+                        "She doesn't likes pizza.",
+                        "They doesn't like pizza.",
+                        "We don't likes pizza."
+                    ],
+                    "answer": "They doesn't like pizza.",
+                    "explanation": "The correct sentence should be 'They don't like pizza.' Use 'don't' with plural subjects."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the sentence with the correct word usage:",
+                    "options": [
+                        "The affect of climate change is visible.",
+                        "The effect of climate change is visible.",
+                        "The affect on climate change is visible.",
+                        "The effect on climate change is visible."
+                    ],
+                    "answer": "The effect of climate change is visible.",
+                    "explanation": "'Affect' is a verb, and 'effect' is a noun. In this context, 'effect' is the correct choice."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the sentence with proper punctuation:",
+                    "options": [
+                        "She ran quickly but he caught her, easily.",
+                        "She ran quickly but, he caught her easily.",
+                        "She ran quickly but he caught her easily.",
+                        "She ran quickly, but he caught her easily."
+                    ],
+                    "answer": "She ran quickly, but he caught her easily.",
+                    "explanation": "Use a comma before a coordinating conjunction (like 'but') when connecting two independent clauses."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the sentence with correct parallel structure:",
+                    "options": [
+                        "She likes swimming, hiking, and to read.",
+                        "She likes swimming, hiking, and reading.",
+                        "She likes to swim, hike, and reading.",
+                        "She likes to swim, to hike, and reading."
+                    ],
+                    "answer": "She likes swimming, hiking, and reading.",
+                    "explanation": "Maintain parallel structure when listing items. In this case, use gerunds (swimming, hiking) or infinitives (to swim, to hike) consistently."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Choose the sentence with proper subject-verb agreement:",
+                    "options": [
+                        "The team are playing exceptionally well.",
+                        "The team is playing exceptionally well.",
+                        "The team am playing exceptionally well.",
+                        "The team be playing exceptionally well."
+                    ],
+                    "answer": "The team is playing exceptionally well.",
+                    "explanation": "When 'team' is the subject, it is treated as a singular noun, requiring a singular verb ('is' instead of 'are')."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Select the sentence with the correct use of articles:",
+                    "options": [
+                        "She is a expert in her field.",
+                        "She is an expert in her field.",
+                        "She is expert in her field.",
+                        "She is the expert in her field."
+                    ],
+                    "answer": "She is an expert in her field.",
+                    "explanation": "Use 'an' before words that begin with a vowel sound. In this case, 'expert' begins with a vowel sound."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the sentence with proper tense consistency:",
+                    "options": [
+                        "She will finish the project yesterday.",
+                        "She finishes the project yesterday.",
+                        "She finished the project yesterday.",
+                        "She finishing the project yesterday."
+                    ],
+                    "answer": "She finished the project yesterday.",
+                    "explanation": "Maintain consistent verb tenses. In this case, 'finished' aligns with the past tense indicated by 'yesterday.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the sentence with correct use of modifiers:",
+                    "options": [
+                        "Eager to impress, the essay was written by the student.",
+                        "Eager to impress, the student wrote the essay.",
+                        "The essay was written by the student, eager to impress.",
+                        "The essay, eager to impress, was written by the student."
+                    ],
+                    "answer": "Eager to impress, the student wrote the essay.",
+                    "explanation": "Place modifiers near the word they are meant to modify. In this case, 'eager to impress' should be close to 'the student.'"
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the sentence with correct use of conditional clauses:",
+                    "options": [
+                        "If he would have known, he will come.",
+                        "If he knows, he would come.",
+                        "If he knew, he would come.",
+                        "If he will know, he will come."
+                    ],
+                    "answer": "If he knew, he would come.",
+                    "explanation": "Use 'if' with the past simple tense in the conditional clause, and 'would' + base verb in the main clause for unreal or hypothetical situations."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the sentence with correct pronoun usage:",
+                    "options": [
+                        "Him and I are going to the concert.",
+                        "He and me are going to the concert.",
+                        "Him and me are going to the concert.",
+                        "He and I are going to the concert."
+                    ],
+                    "answer": "He and I are going to the concert.",
+                    "explanation": "Use the subject pronouns 'he' and 'I' when they are the subjects of the sentence."
+                }
+            ]
+        },
+        {
+            "name": "Adjectives - Verbal and Non-Verbal Ability",
+            "questions": [
+                {
+                    "difficulty": "medium",
+                    "question": "Identify the adjective in the following sentence: 'The mysterious old mansion stood on the hill.'",
+                    "options": [
+                        "Mysterious",
+                        "Old",
+                        "Mansion",
+                        "Hill"
+                    ],
+                    "answer": "Mysterious",
+                    "explanation": "The word 'mysterious' describes the type of mansion, making it an adjective."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "In the sentence 'The chef prepared a delicious three-course meal,' what type of adjective is 'three-course'?",
+                    "options": [
+                        "Descriptive",
+                        "Quantitative",
+                        "Demonstrative",
+                        "Possessive"
+                    ],
+                    "answer": "Quantitative",
+                    "explanation": "'Three-course' indicates a specific quantity, making it a quantitative adjective."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the comparative form of the adjective in the sentence: 'This mountain is the highest in the entire range.'",
+                    "options": [
+                        "Mountain",
+                        "Highest",
+                        "Entire",
+                        "Range"
+                    ],
+                    "answer": "Highest",
+                    "explanation": "The comparative form of the adjective 'high' is 'highest,' used to compare one mountain to others in the range."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Select the sentence where the adjective is used in the superlative form.",
+                    "options": [
+                        "She is more intelligent than her sister.",
+                        "This is the most challenging puzzle I've ever solved.",
+                        "The cat is quicker than the dog.",
+                        "His car is faster than mine."
+                    ],
+                    "answer": "This is the most challenging puzzle I've ever solved.",
+                    "explanation": "In this sentence, 'most challenging' is the superlative form of the adjective 'challenging.'"
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Which of the following sentences contains an adjective phrase?",
+                    "options": [
+                        "The cat sat on the mat.",
+                        "Running late, she missed the bus.",
+                        "The tall tree swayed in the breeze.",
+                        "He handed me a book."
+                    ],
+                    "answer": "The tall tree swayed in the breeze.",
+                    "explanation": "The phrase 'tall tree' functions as an adjective, describing the type of tree."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the adjective clause in the sentence: 'The girl, whose painting won the competition, was ecstatic.'",
+                    "options": [
+                        "The girl",
+                        "Whose painting won the competition",
+                        "Was ecstatic",
+                        "The competition"
+                    ],
+                    "answer": "Whose painting won the competition",
+                    "explanation": "The clause 'whose painting won the competition' provides additional information about the girl, acting as an adjective."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "In the phrase 'a day so hot,' what type of adjective is 'so'?",
+                    "options": [
+                        "Descriptive",
+                        "Quantitative",
+                        "Demonstrative",
+                        "Intensifier"
+                    ],
+                    "answer": "Intensifier",
+                    "explanation": "'So' in this context intensifies the adjective 'hot,' expressing the degree of heat."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Which sentence uses an adjective to express a subjective opinion?",
+                    "options": [
+                        "The ancient ruins are fascinating.",
+                        "The textbook is heavy.",
+                        "The roses smell sweet.",
+                        "The movie is too long."
+                    ],
+                    "answer": "The ancient ruins are fascinating.",
+                    "explanation": "The adjective 'fascinating' reflects a subjective opinion about the ancient ruins."
+                },
+                {
+                    "difficulty": "hard",
+                    "question": "Identify the adjectival phrase in the sentence: 'The artist with the colorful palette created a masterpiece.'",
+                    "options": [
+                        "With the colorful palette",
+                        "The artist",
+                        "Created a masterpiece",
+                        "Colorful palette"
+                    ],
+                    "answer": "With the colorful palette",
+                    "explanation": "The phrase 'with the colorful palette' acts as an adjectival phrase, providing more information about the artist."
+                },
+                {
+                    "difficulty": "medium",
+                    "question": "Choose the sentence where the adjective functions as a predicate adjective.",
+                    "options": [
+                        "The sky appeared clear and blue.",
+                        "The cat sat calm on the windowsill.",
+                        "The coffee smelled aromatic.",
+                        "The teacher seemed strict."
+                    ],
+                    "answer": "The sky appeared clear and blue.",
+                    "explanation": "In this sentence, 'clear and blue' acts as a predicate adjective, describing the state of the sky."
+                }
+            ]
+        },
+        {
+            "name": "Prepositions",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct preposition to fill in the blank: She is allergic ___ cats.",
+                "options": [
+                  "to",
+                  "with",
+                  "of",
+                  "for"
+                ],
+                "answer": "to",
+                "explanation": "The correct preposition in this case is 'to.' Therefore, the sentence would be 'She is allergic to cats.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the incorrect usage of the preposition: The book is lying beside the table.",
+                "options": [
+                  "beside",
+                  "lying",
+                  "the",
+                  "table"
+                ],
+                "answer": "lying",
+                "explanation": "The correct preposition should be 'beside,' and 'lying' is incorrect in this context. The correct sentence is 'The book is lying beside the table.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the sentence with the appropriate preposition: He was accused ___ stealing the company's confidential information.",
+                "options": [
+                  "in",
+                  "of",
+                  "on",
+                  "with"
+                ],
+                "answer": "of",
+                "explanation": "The correct preposition in this case is 'of.' Therefore, the sentence would be 'He was accused of stealing the company's confidential information.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Choose the correct preposition to complete the sentence: The treasure is hidden ___ the ancient ruins.",
+                "options": [
+                  "among",
+                  "between",
+                  "inside",
+                  "within"
+                ],
+                "answer": "within",
+                "explanation": "The correct preposition here is 'within.' Therefore, the sentence would be 'The treasure is hidden within the ancient ruins.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the preposition in the following sentence: The cat jumped over the fence.",
+                "options": [
+                  "cat",
+                  "jumped",
+                  "over",
+                  "fence"
+                ],
+                "answer": "over",
+                "explanation": "'Over' is the preposition in this sentence. The sentence describes the action of jumping across or above the fence."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct preposition to complete the sentence: The students are excited ___ the upcoming field trip.",
+                "options": [
+                  "about",
+                  "with",
+                  "for",
+                  "to"
+                ],
+                "answer": "about",
+                "explanation": "The correct preposition in this case is 'about.' Therefore, the sentence would be 'The students are excited about the upcoming field trip.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the correct preposition in the sentence: We will meet you ___ the entrance of the museum.",
+                "options": [
+                  "at",
+                  "in",
+                  "on",
+                  "with"
+                ],
+                "answer": "at",
+                "explanation": "'At' is the correct preposition in this sentence. It indicates the specific location where the meeting will take place."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the sentence with the appropriate preposition: The cat squeezed ___ the narrow opening in the door.",
+                "options": [
+                  "through",
+                  "by",
+                  "among",
+                  "between"
+                ],
+                "answer": "through",
+                "explanation": "The correct preposition here is 'through.' Therefore, the sentence would be 'The cat squeezed through the narrow opening in the door.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct preposition to fill in the blank: The keys are ___ the top drawer of the desk.",
+                "options": [
+                  "on",
+                  "in",
+                  "at",
+                  "with"
+                ],
+                "answer": "in",
+                "explanation": "The correct preposition in this case is 'in.' Therefore, the sentence would be 'The keys are in the top drawer of the desk.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the incorrect preposition: The chef is skilled ___ creating unique dishes.",
+                "options": [
+                  "skilled",
+                  "creating",
+                  "unique",
+                  "in"
+                ],
+                "answer": "creating",
+                "explanation": "'Creating' is not a preposition; it is a gerund in this context. The correct sentence is 'The chef is skilled in creating unique dishes.'"
+              }
+            ]
+          },
+          {
+            "name": "Articles",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct article: ___ apple fell from the tree.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "An",
+                "explanation": "The use of 'an' is correct here because it precedes a word starting with a vowel sound ('apple')."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Fill in the blank with the appropriate article: She has ___ MBA degree from a prestigious university.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "An",
+                "explanation": "Since 'MBA' is pronounced with the sound 'em,' 'an' is the correct article to use before it."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the incorrect sentence: \n A) The cat is sitting on an old chair. \n B) I would like a coffee, please. \n C) She wants to become the architect. \n D) No article is needed.",
+                "options": ["A", "B", "C", "D"],
+                "answer": "C",
+                "explanation": "The correct article in option C should be 'an' before 'architect' since it begins with a vowel sound."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Choose the appropriate article: He is ___ honest man I have ever met.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "The",
+                "explanation": "In this context, 'the' is used to specify a particular honest man, making it the correct choice."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the sentence: My friend is ___ artist and ___ musician.",
+                "options": ["A, A", "An, A", "An, An", "The, The"],
+                "answer": "An, A",
+                "explanation": "The first blank requires 'an' before 'artist' because it starts with a vowel sound, while the second blank takes 'a' before 'musician' as it begins with a consonant sound."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct option: I saw ___ eagle in the sky yesterday.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "An",
+                "explanation": "Since 'eagle' is pronounced with a vowel sound ('ee'), 'an' is the correct article to use."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the sentence with the correct article usage: \n A) She is studying to be a lawyer. \n B) He wants to be an doctor. \n C) I adopted a cat from the shelter. \n D) No article is required.",
+                "options": ["A", "B", "C", "D"],
+                "answer": "A",
+                "explanation": "Option A uses the correct article 'a' before 'lawyer,' while option B should have 'a' instead of 'an' before 'doctor.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Fill in the blank: ___ moon is shining brightly in the night sky.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "The",
+                "explanation": "'The' is used to specify a particular moon, making it the correct article in this context."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct article: I bought ___ new phone yesterday.",
+                "options": ["A", "An", "The", "No article"],
+                "answer": "A",
+                "explanation": "Since 'new' starts with a consonant sound, 'a' is the appropriate article to use before 'phone.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the sentence with the correct article usage: \n A) An owl hooted in the dark forest. \n B) I found a unicorn in the book. \n C) The honesty is a rare quality. \n D) No article is needed.",
+                "options": ["A", "B", "C", "D"],
+                "answer": "A",
+                "explanation": "Option A uses the correct article 'an' before 'owl' due to the vowel sound, while option C is incorrect as 'honesty' does not require an article."
+              }
+            ]
+          },
+          {
+            "name": "Verbal Analogies",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Dog is to bark as cat is to ______.",
+                "options": [
+                  "Roar",
+                  "Meow",
+                  "Chirp",
+                  "Howl"
+                ],
+                "answer": "Meow",
+                "explanation": "Just as dogs bark, cats meow. The relationship between the words in the analogy is based on the sound each animal makes."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If black is related to white in the same way as day is related to night, what is the opposite of 'up'?",
+                "options": [
+                  "Down",
+                  "Left",
+                  "Right",
+                  "Sideways"
+                ],
+                "answer": "Down",
+                "explanation": "The relationship between black and white is that they are opposites. Similarly, day and night are opposites, so the opposite of 'up' is 'down'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If book is related to author in the same way as painting is related to ______.",
+                "options": [
+                  "Canvas",
+                  "Artist",
+                  "Brush",
+                  "Gallery"
+                ],
+                "answer": "Artist",
+                "explanation": "An author writes a book, just as an artist creates a painting. The relationship is based on the creator of the respective works."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Tyranny is to oppression as anarchy is to ______.",
+                "options": [
+                  "Order",
+                  "Chaos",
+                  "Freedom",
+                  "Revolution"
+                ],
+                "answer": "Chaos",
+                "explanation": "Tyranny results in oppression, while anarchy leads to chaos. The analogy reflects the negative consequences of the respective political states."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If laughter is related to joy in the same way as tears is related to ______.",
+                "options": [
+                  "Pain",
+                  "Sadness",
+                  "Emotion",
+                  "Laughter"
+                ],
+                "answer": "Sadness",
+                "explanation": "Laughter is associated with joy, and tears are associated with sadness. The analogy is based on the emotional connection between the pairs."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If triangle is related to three in the same way as quadrilateral is related to ______.",
+                "options": [
+                  "Five",
+                  "Four",
+                  "Six",
+                  "Eight"
+                ],
+                "answer": "Four",
+                "explanation": "A triangle has three sides, and a quadrilateral has four sides. The relationship is based on the number of sides in each geometric shape."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Fire is to burn as ice is to ______.",
+                "options": [
+                  "Freeze",
+                  "Melt",
+                  "Water",
+                  "Snow"
+                ],
+                "answer": "Melt",
+                "explanation": "Fire causes burning, and ice undergoes melting. The analogy reflects the transformative process associated with each substance."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If king is related to crown in the same way as judge is related to ______.",
+                "options": [
+                  "Robe",
+                  "Gavel",
+                  "Justice",
+                  "Verdict"
+                ],
+                "answer": "Gavel",
+                "explanation": "A king wears a crown, and a judge uses a gavel. The analogy is based on the distinctive item associated with each role."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If pen is related to write in the same way as scissors is related to ______.",
+                "options": [
+                  "Cut",
+                  "Sew",
+                  "Trim",
+                  "Paper"
+                ],
+                "answer": "Cut",
+                "explanation": "A pen is used for writing, and scissors are used for cutting. The analogy is based on the primary function or action associated with each tool."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Ocean is to depth as mountain is to ______.",
+                "options": [
+                  "Summit",
+                  "Peak",
+                  "Elevation",
+                  "Base"
+                ],
+                "answer": "Peak",
+                "explanation": "The depth is associated with the ocean, and the peak is associated with the mountain. The analogy reflects the extreme points or features of each natural element."
+              }
+            ]
+          },
+          {
+            "name": "Change of Speech",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Change the following direct speech into indirect speech: 'She said, 'I will visit the museum tomorrow.'",
+                "options": [
+                  "She said that she will visit the museum tomorrow.",
+                  "She said that she would visit the museum tomorrow.",
+                  "She says she will visit the museum tomorrow.",
+                  "She says she would visit the museum tomorrow."
+                ],
+                "answer": "She said that she would visit the museum tomorrow.",
+                "explanation": "In indirect speech, the verb tense changes. 'I will' becomes 'she would.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the following sentence using reported speech: 'The teacher exclaimed, 'What an outstanding performance!''",
+                "options": [
+                  "The teacher exclaimed that it was an outstanding performance.",
+                  "The teacher exclaimed that is an outstanding performance.",
+                  "The teacher exclaimed what an outstanding performance it is.",
+                  "The teacher exclaimed what an outstanding performance it was."
+                ],
+                "answer": "The teacher exclaimed what an outstanding performance it was.",
+                "explanation": "In reported speech, the pronoun 'it' is used, and the verb tense changes to 'was.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct indirect speech form: 'He said, 'I have never been to Paris before.'",
+                "options": [
+                  "He said that he had never been to Paris before.",
+                  "He says that he has never been to Paris before.",
+                  "He said that he has never been to Paris before.",
+                  "He says that he had never been to Paris before."
+                ],
+                "answer": "He said that he had never been to Paris before.",
+                "explanation": "In indirect speech, the past perfect tense is used, so 'have' becomes 'had.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Change the given imperative sentence into reported speech: 'The manager said, 'Submit the report by tomorrow.'",
+                "options": [
+                  "The manager said to submit the report by the next day.",
+                  "The manager said to submit the report by tomorrow.",
+                  "The manager ordered to submit the report by tomorrow.",
+                  "The manager requested to submit the report by the next day."
+                ],
+                "answer": "The manager ordered to submit the report by tomorrow.",
+                "explanation": "In reported speech, imperatives are often changed to 'ordered' or 'commanded' to maintain the tone."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Convert the following question into indirect speech: 'She asked, 'Are you coming to the party tonight?''",
+                "options": [
+                  "She asked if he was coming to the party that night.",
+                  "She asked if he is coming to the party tonight.",
+                  "She asked if he will come to the party tonight.",
+                  "She asked if he comes to the party that night."
+                ],
+                "answer": "She asked if he was coming to the party that night.",
+                "explanation": "In indirect speech, the verb 'are' changes to 'was' when reporting a past event."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the given sentence using reported speech: 'Tom said, 'I will never forget this moment.'",
+                "options": [
+                  "Tom said that he will never forget that moment.",
+                  "Tom said that he would never forget this moment.",
+                  "Tom said that he will never forget this moment.",
+                  "Tom said that he would never forget that moment."
+                ],
+                "answer": "Tom said that he would never forget this moment.",
+                "explanation": "In reported speech, the future tense 'will' changes to 'would.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Transform the imperative sentence into reported speech: 'The coach said, 'Run faster!''",
+                "options": [
+                  "The coach told to run faster.",
+                  "The coach asked to run faster.",
+                  "The coach ordered to run faster.",
+                  "The coach requested to run faster."
+                ],
+                "answer": "The coach ordered to run faster.",
+                "explanation": "Imperative sentences in reported speech are often expressed as 'ordered' or 'commanded' to convey the sense of a direct command."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Change the given direct speech into indirect speech: 'She said, 'I am working on an important project.'",
+                "options": [
+                  "She said that she is working on an important project.",
+                  "She says that she is working on an important project.",
+                  "She said that she was working on an important project.",
+                  "She says that she was working on an important project."
+                ],
+                "answer": "She said that she was working on an important project.",
+                "explanation": "In indirect speech, the present continuous tense 'am working' changes to 'was working.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct reported speech form: 'John exclaimed, 'What a beautiful painting!''",
+                "options": [
+                  "John exclaimed that it is a beautiful painting.",
+                  "John exclaimed what a beautiful painting it is.",
+                  "John exclaimed that it was a beautiful painting.",
+                  "John exclaimed what a beautiful painting it was."
+                ],
+                "answer": "John exclaimed what a beautiful painting it was.",
+                "explanation": "In reported speech, the pronoun 'it' is used, and the verb tense changes to 'was.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the given sentence using reported speech: 'She said, 'I have completed the assignment.'",
+                "options": [
+                  "She said that she completed the assignment.",
+                  "She said that she has completed the assignment.",
+                  "She said that she had completed the assignment.",
+                  "She said that she will complete the assignment."
+                ],
+                "answer": "She said that she had completed the assignment.",
+                "explanation": "In reported speech, the past perfect tense 'have completed' changes to 'had completed.'"
+              }
+            ]
+          },
+          {
+            "name": "Change of Voice",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct passive voice form: 'The chef cooked a delicious meal.'",
+                "options": [
+                  "A delicious meal is being cooked by the chef.",
+                  "A delicious meal is cooked by the chef.",
+                  "A delicious meal was cooked by the chef.",
+                  "A delicious meal will be cooked by the chef."
+                ],
+                "answer": "A delicious meal is cooked by the chef.",
+                "explanation": "In passive voice, the object of the active sentence becomes the subject, and the verb is changed to the appropriate form of 'to be' plus the past participle of the main verb."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the sentence in passive voice: 'They awarded him the prestigious trophy.'",
+                "options": [
+                  "He was awarded the prestigious trophy by them.",
+                  "He was being awarded the prestigious trophy by them.",
+                  "He has awarded the prestigious trophy by them.",
+                  "He had awarded the prestigious trophy by them."
+                ],
+                "answer": "He was awarded the prestigious trophy by them.",
+                "explanation": "In passive voice, the object 'him' becomes the subject, and the verb 'awarded' changes to 'was awarded.' The agent 'by them' is added."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Convert the active voice into passive voice: 'The teacher asked the students to submit their assignments.'",
+                "options": [
+                  "The students were asked by the teacher to submit their assignments.",
+                  "The students were asking by the teacher to submit their assignments.",
+                  "The students were asked to submit their assignments by the teacher.",
+                  "The students were asked by the teacher submitting their assignments."
+                ],
+                "answer": "The students were asked to submit their assignments by the teacher.",
+                "explanation": "In passive voice, the object 'the students' becomes the subject, and the verb 'asked' changes to 'were asked.' The agent 'by the teacher' is added."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Change the sentence into passive voice: 'The team should complete the project by next week.'",
+                "options": [
+                  "The project should be completed by the team by next week.",
+                  "The project should be completing by the team by next week.",
+                  "The project should complete by the team by next week.",
+                  "The project should have been completed by the team by next week."
+                ],
+                "answer": "The project should be completed by the team by next week.",
+                "explanation": "In passive voice, the modal 'should' remains, and the main verb 'complete' changes to 'should be completed.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct passive voice form: 'Someone stole my wallet.'",
+                "options": [
+                  "My wallet has been stolen by someone.",
+                  "My wallet is stolen by someone.",
+                  "My wallet was stolen by someone.",
+                  "My wallet will be stolen by someone."
+                ],
+                "answer": "My wallet was stolen by someone.",
+                "explanation": "In passive voice, the subject 'someone' becomes the agent, and the verb 'stole' changes to 'was stolen.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the sentence in passive voice: 'The company offered her a promotion.'",
+                "options": [
+                  "A promotion was offered to her by the company.",
+                  "A promotion is being offered to her by the company.",
+                  "A promotion has offered to her by the company.",
+                  "A promotion had been offered to her by the company."
+                ],
+                "answer": "A promotion was offered to her by the company.",
+                "explanation": "In passive voice, the object 'her' becomes the subject, and the verb 'offered' changes to 'was offered.' The agent 'by the company' is added."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Convert the active voice into passive voice: 'People believe that the company will launch a new product.'",
+                "options": [
+                  "It is believed by people that a new product will be launched by the company.",
+                  "People believe that a new product will be launched by the company.",
+                  "People believe that a new product will have launched by the company.",
+                  "People are believed that a new product will be launched by the company."
+                ],
+                "answer": "It is believed by people that a new product will be launched by the company.",
+                "explanation": "In passive voice, the subject 'people' becomes the agent, and the verb 'believe' changes to 'is believed.' The object 'a new product' becomes the subject, and 'will launch' remains unchanged."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Change the given sentence into passive voice: 'The audience gave the singer a standing ovation.'",
+                "options": [
+                  "A standing ovation was given to the singer by the audience.",
+                  "The singer was given a standing ovation by the audience.",
+                  "A standing ovation was given by the audience to the singer.",
+                  "The singer was given a standing ovation to by the audience."
+                ],
+                "answer": "The singer was given a standing ovation by the audience.",
+                "explanation": "In passive voice, the object 'the singer' becomes the subject, and the verb 'gave' changes to 'was given.' The agent 'by the audience' is added."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct passive voice form: 'The gardener is planting beautiful flowers.'",
+                "options": [
+                  "Beautiful flowers are being planted by the gardener.",
+                  "Beautiful flowers is planted by the gardener.",
+                  "Beautiful flowers are planted by the gardener.",
+                  "Beautiful flowers have been planted by the gardener."
+                ],
+                "answer": "Beautiful flowers are being planted by the gardener.",
+                "explanation": "In passive voice, the subject 'the gardener' becomes the agent, and the verb 'is planting' changes to 'are being planted.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Rewrite the sentence in passive voice: 'The committee has selected the best candidate for the job.'",
+                "options": [
+                  "The best candidate for the job has been selected by the committee.",
+                  "The best candidate for the job is selected by the committee.",
+                  "The best candidate for the job have selected by the committee.",
+                  "The best candidate for the job is been selected by the committee."
+                ],
+                "answer": "The best candidate for the job has been selected by the committee.",
+                "explanation": "In passive voice, the object 'the best candidate for the job' becomes the subject, and the verb 'has selected' changes to 'has been selected.' The agent 'by the committee' is added."
+              }
+            ]
+          },
+          {
+            "name": "Idioms and Phrases",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "What does the idiom 'kick the bucket' mean?",
+                "options": [
+                  "To start a new project",
+                  "To die",
+                  "To exercise vigorously",
+                  "To quit a job"
+                ],
+                "answer": "To die",
+                "explanation": "'Kick the bucket' is an idiom that means to die or to pass away."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct idiom: 'He has a sweet tooth, so he always has a __________ after dinner.'",
+                "options": [
+                  "cherry on top",
+                  "icing on the cake",
+                  "piece of cake",
+                  "bite the bullet"
+                ],
+                "answer": "cherry on top",
+                "explanation": "The correct idiom is 'cherry on top,' which means something additional that enhances the positive aspects of a situation."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What does the idiom 'burn the midnight oil' mean?",
+                "options": [
+                  "To work late into the night",
+                  "To waste time",
+                  "To stay active during the day",
+                  "To start a fire at night"
+                ],
+                "answer": "To work late into the night",
+                "explanation": "'Burn the midnight oil' is an idiom used to describe working late into the night or early morning hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In the phrase 'raining cats and dogs,' what does 'cats and dogs' represent?",
+                "options": [
+                  "A heavy rain",
+                  "Unusual weather",
+                  "Pets falling from the sky",
+                  "A stormy relationship"
+                ],
+                "answer": "A heavy rain",
+                "explanation": "The idiom 'raining cats and dogs' means a very heavy or intense rain."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the idiom: 'Bite off more than you can __________.'",
+                "options": [
+                  "chew",
+                  "swallow",
+                  "bite",
+                  "chop"
+                ],
+                "answer": "chew",
+                "explanation": "The complete idiom is 'Bite off more than you can chew,' meaning to take on a task that is way too big or beyond one's ability to handle."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What does the idiom 'hit the nail on the head' mean?",
+                "options": [
+                  "To miss the target",
+                  "To criticize someone",
+                  "To solve a problem accurately",
+                  "To cause harm intentionally"
+                ],
+                "answer": "To solve a problem accurately",
+                "explanation": "'Hit the nail on the head' means to describe precisely what is causing a situation or to solve a problem accurately."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Choose the correct idiom: 'She turned a blind eye to her friend's __________ behavior.'",
+                "options": [
+                  "elephant in the room",
+                  "wolf in sheep's clothing",
+                  "skeleton in the closet",
+                  "monkey on the back"
+                ],
+                "answer": "wolf in sheep's clothing",
+                "explanation": "The correct idiom is 'wolf in sheep's clothing,' referring to someone who hides malicious intent under a friendly guise."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What does the idiom 'throw in the towel' mean?",
+                "options": [
+                  "To start a fight",
+                  "To give up or surrender",
+                  "To win effortlessly",
+                  "To share a secret"
+                ],
+                "answer": "To give up or surrender",
+                "explanation": "'Throw in the towel' is an idiom used to express surrender or giving up in the face of challenges."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the idiom: 'Don't cry over spilled __________.'",
+                "options": [
+                  "milk",
+                  "water",
+                  "juice",
+                  "soda"
+                ],
+                "answer": "milk",
+                "explanation": "The complete idiom is 'Don't cry over spilled milk,' advising not to dwell on minor accidents or mistakes."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What does the idiom 'burn bridges' mean?",
+                "options": [
+                  "To repair relationships",
+                  "To make strategic connections",
+                  "To cut off all ties or destroy relationships",
+                  "To build strong foundations"
+                ],
+                "answer": "To cut off all ties or destroy relationships",
+                "explanation": "'Burn bridges' is an idiom that means to intentionally cut off all connections or destroy relationships, making it difficult to go back."
+              }
+            ]
+          },
+          {
+            "name": "One Word Substitutes",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "What is the term for a person who is skilled in many arts?",
+                "options": [
+                  "Polymath",
+                  "Prodigy",
+                  "Savant",
+                  "Virtuoso"
+                ],
+                "answer": "Polymath",
+                "explanation": "A polymath is someone who is knowledgeable in various subjects and skilled in many arts."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the word for the fear of long words?",
+                "options": [
+                  "Hippopotomonstrosesquippedaliophobia",
+                  "Sesquipedalophobia",
+                  "Logophobia",
+                  "Macroverborumphobia"
+                ],
+                "answer": "Hippopotomonstrosesquippedaliophobia",
+                "explanation": "This long and humorous word refers to the fear of long words itself, making it somewhat ironic."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the term for the use of many words where fewer would do, especially in a deliberate attempt to be vague or evasive?",
+                "options": [
+                  "Loquacious",
+                  "Verbose",
+                  "Circumlocution",
+                  "Garrulous"
+                ],
+                "answer": "Circumlocution",
+                "explanation": "Circumlocution is the use of unnecessarily long or indirect words, often to avoid being clear or straightforward."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the term for the quality of being open and honest in expression?",
+                "options": [
+                  "Veracity",
+                  "Candor",
+                  "Ingenuousness",
+                  "Sincerity"
+                ],
+                "answer": "Candor",
+                "explanation": "Candor is the quality of being open, honest, and sincere in expression or communication."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the word for the act of deceiving someone by concealing or misrepresenting the truth?",
+                "options": [
+                  "Subterfuge",
+                  "Deception",
+                  "Duplicitous",
+                  "Mendacity"
+                ],
+                "answer": "Subterfuge",
+                "explanation": "Subterfuge refers to deceitful or evasive actions intended to evade detection or to achieve one's goals."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the term for a person who is excessively preoccupied with their own importance?",
+                "options": [
+                  "Egocentric",
+                  "Narcissist",
+                  "Egomaniac",
+                  "Vain"
+                ],
+                "answer": "Egomaniac",
+                "explanation": "An egomaniac is someone who is excessively obsessed with their own importance, often to the detriment of others."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the term for a person who is excessively fond of or obsessed with their own voice?",
+                "options": [
+                  "Logomaniac",
+                  "Phonocentric",
+                  "Vocalophile",
+                  "Verborrhoea"
+                ],
+                "answer": "Logomaniac",
+                "explanation": "A logomaniac is someone who is excessively fond of or obsessed with their own voice, often talking excessively."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the word for the inability to be captured or detained?",
+                "options": [
+                  "Ephemeral",
+                  "Evasive",
+                  "Elusive",
+                  "Inscrutable"
+                ],
+                "answer": "Elusive",
+                "explanation": "Elusive describes something or someone that is difficult to capture, define, or pin down."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the term for the state of being unknown or unacknowledged?",
+                "options": [
+                  "Incognito",
+                  "Obscure",
+                  "Anonymous",
+                  "Inconspicuous"
+                ],
+                "answer": "Obscure",
+                "explanation": "Obscure refers to something or someone that is not well-known, hidden, or not easily understood or noticed."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the word for a sudden and violent overthrow of a government, often accompanied by mass destruction?",
+                "options": [
+                  "Coup d'etat",
+                  "Revolution",
+                  "Insurrection",
+                  "Anarchy"
+                ],
+                "answer": "Coup d'etat",
+                "explanation": "A coup d'etat is a sudden and violent overthrow of a government, typically carried out by a small group of individuals."
+              }
+            ]
+          },
+          {
+            "name": "Comprehension",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Read the following passage and answer the questions that follow:\n\nIn the heart of the dense forest, a hidden treasure awaited discovery. The ancient map, passed down through generations, led adventurous souls to a clearing where the prize lay buried. As the sun dipped below the horizon, the shadows cast by towering trees added an air of mystery to the quest.\n\nQuestion: What awaited discovery in the dense forest?",
+                "options": [
+                  "A hidden cave",
+                  "An ancient map",
+                  "A buried treasure",
+                  "A clearing"
+                ],
+                "answer": "A buried treasure",
+                "explanation": "The passage explicitly mentions 'a hidden treasure awaited discovery,' indicating that the answer is a buried treasure."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Which word best describes the atmosphere of the quest in the forest?",
+                "options": [
+                  "Joyful",
+                  "Mysterious",
+                  "Frightening",
+                  "Boring"
+                ],
+                "answer": "Mysterious",
+                "explanation": "The passage mentions the shadows and the air of mystery, creating a sense of suspense and intrigue, making 'Mysterious' the most appropriate choice."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the significance of the ancient map in the passage?",
+                "options": [
+                  "It reveals the location of the clearing.",
+                  "It guides adventurers through the forest.",
+                  "It has been passed down through generations.",
+                  "It is a modern invention."
+                ],
+                "answer": "It guides adventurers through the forest.",
+                "explanation": "The passage states that the ancient map led adventurous souls to a clearing, indicating its role in guiding individuals through the forest."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What effect did the setting sun have on the quest?",
+                "options": [
+                  "It made the shadows disappear.",
+                  "It added an air of mystery.",
+                  "It revealed the hidden treasure.",
+                  "It signaled the end of the quest."
+                ],
+                "answer": "It added an air of mystery.",
+                "explanation": "The passage mentions that as the sun dipped below the horizon, the shadows cast by towering trees added an air of mystery to the quest."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the main theme of the passage.",
+                "options": [
+                  "Exploration of ancient maps",
+                  "Quest for buried treasures",
+                  "Life in dense forests",
+                  "Passing down traditions"
+                ],
+                "answer": "Quest for buried treasures",
+                "explanation": "The main theme of the passage revolves around the quest for a buried treasure guided by an ancient map."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What inference can be drawn about the forest based on the passage?",
+                "options": [
+                  "It is a dangerous place.",
+                  "It is a place of joy and laughter.",
+                  "It is a modern city.",
+                  "It is filled with ancient artifacts."
+                ],
+                "answer": "It is a dangerous place.",
+                "explanation": "While the passage does not explicitly mention danger, the use of terms like 'dense forest' and the mysterious atmosphere implies potential hazards, making 'It is a dangerous place' a reasonable inference."
+              },
+              {
+                "difficulty": "hard",
+                "question": "How does the passage create a sense of anticipation?",
+                "options": [
+                  "By describing the ancient map in detail.",
+                  "Through the use of suspenseful language.",
+                  "By revealing the treasure location at the beginning.",
+                  "By focusing on the shadows cast by trees."
+                ],
+                "answer": "Through the use of suspenseful language.",
+                "explanation": "The passage uses phrases like 'awaited discovery,' 'hidden treasure,' and 'air of mystery' to build suspense and anticipation, making 'Through the use of suspenseful language' the correct choice."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What role does the sun play in the passage?",
+                "options": [
+                  "It guides adventurers.",
+                  "It reveals the ancient map.",
+                  "It adds mystery to the quest.",
+                  "It signals the end of the quest."
+                ],
+                "answer": "It adds mystery to the quest.",
+                "explanation": "The passage mentions that as the sun dipped below the horizon, the shadows added an air of mystery to the quest, indicating that the sun plays a role in enhancing the mysterious atmosphere."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What might be the consequence of not following the ancient map?",
+                "options": [
+                  "Discovering a different treasure.",
+                  "Getting lost in the forest.",
+                  "Finding the treasure easily.",
+                  "Meeting other adventurous souls."
+                ],
+                "answer": "Getting lost in the forest.",
+                "explanation": "Since the passage suggests that the ancient map guides adventurers through the forest, not following it might lead to individuals getting lost in the dense forest."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What emotions might adventurers feel during the quest?",
+                "options": [
+                  "Sadness and disappointment.",
+                  "Joy and excitement.",
+                  "Fear and anticipation.",
+                  "Boredom and frustration."
+                ],
+                "answer": "Fear and anticipation.",
+                "explanation": "The passage's mention of a dense forest, hidden treasure, and the air of mystery creates an emotional atmosphere of fear and anticipation, making it the most suitable choice."
+              }
+            ]
+          },
+          {
+            "name": "Closet Test",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In a closet test, a paragraph is provided with some words missing. Choose the correct option to fill in the blanks.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "answer": "B",
+                "explanation": "The context of the paragraph suggests that option B is the most suitable word to fill in the blanks, providing coherence and meaning to the passage."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the correct sequence of words to complete the given closet test paragraph.",
+                "options": [
+                  "P, Q, R",
+                  "R, S, P",
+                  "Q, P, R",
+                  "S, P, Q"
+                ],
+                "answer": "R, S, P",
+                "explanation": "The sequence R, S, P creates a logical flow in the paragraph, making it coherent and grammatically correct."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a closet test, if the first and last sentences of the paragraph are fixed, what is the most appropriate arrangement for the middle sentences?",
+                "options": [
+                  "ABCD",
+                  "BCDA",
+                  "DCBA",
+                  "CADB"
+                ],
+                "answer": "BCDA",
+                "explanation": "By arranging the middle sentences in the BCDA sequence, the paragraph maintains a logical and coherent structure, connecting the ideas effectively."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Select the option that maintains the tone and theme of the closet test paragraph.",
+                "options": [
+                  "Casual",
+                  "Formal",
+                  "Serious",
+                  "Humorous"
+                ],
+                "answer": "Serious",
+                "explanation": "Choosing the serious tone ensures consistency with the original paragraph, preserving the intended meaning and impact of the text."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Which word would best fit in the blank to ensure parallelism in the given closet test sentence?",
+                "options": [
+                  "Running",
+                  "To run",
+                  "Ran",
+                  "Runs"
+                ],
+                "answer": "To run",
+                "explanation": "Maintaining parallelism is crucial in closet test sentences. Choosing 'To run' ensures consistency in verb form, creating a grammatically correct sentence."
+              },
+              {
+                "difficulty": "medium",
+                "question": "In a closet test, identify the synonym for the blank that maintains the context of the paragraph.",
+                "options": [
+                  "Ephemeral",
+                  "Enduring",
+                  "Transient",
+                  "Fleeting"
+                ],
+                "answer": "Fleeting",
+                "explanation": "Selecting 'Fleeting' as the synonym ensures that the overall meaning and context of the paragraph remain consistent."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Choose the option that introduces a contrasting idea to the rest of the paragraph in a closet test.",
+                "options": [
+                  "Similarly",
+                  "Furthermore",
+                  "Nevertheless",
+                  "Moreover"
+                ],
+                "answer": "Nevertheless",
+                "explanation": "Using 'Nevertheless' introduces a contrasting idea, providing depth and complexity to the paragraph by presenting an opposing viewpoint."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Identify the option that enhances the coherence of the closet test paragraph by providing a logical transition between sentences.",
+                "options": [
+                  "Additionally",
+                  "In conclusion",
+                  "Meanwhile",
+                  "Therefore"
+                ],
+                "answer": "Additionally",
+                "explanation": "The use of 'Additionally' helps in creating a smooth transition between sentences, enhancing the overall coherence and flow of the paragraph."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Choose the correct tense for the verb to maintain grammatical accuracy in the given closet test sentence.",
+                "options": [
+                  "Is",
+                  "Was",
+                  "Will be",
+                  "Had been"
+                ],
+                "answer": "Is",
+                "explanation": "Selecting 'Is' ensures the correct present tense, maintaining grammatical accuracy in the context of the given closet test sentence."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Identify the option that provides the most concise and precise expression for the information presented in the closet test paragraph.",
+                "options": [
+                  "Due to the fact that",
+                  "Because",
+                  "Owing to the reason",
+                  "Since"
+                ],
+                "answer": "Because",
+                "explanation": "'Because' is a concise and precise expression, avoiding unnecessary verbosity and maintaining clarity in the closet test paragraph."
+              }
+            ]
+          },
+          {
+            "name": "Completing Statements",
+            "questions": [
+              {
+                "type": "verbal",
+                "difficulty": "medium",
+                "question": "Fill in the blank: The __________ of the novel left readers in suspense until the very end.",
+                "options": [
+                  "climax",
+                  "denouement",
+                  "prologue",
+                  "epilogue"
+                ],
+                "answer": "climax",
+                "explanation": "The climax is the most intense and crucial part of a story, often leaving readers in suspense."
+              },
+              {
+                "type": "non-verbal",
+                "difficulty": "medium",
+                "question": "Complete the pattern: 2, 5, 10, __, 26",
+                "options": [
+                  "12",
+                  "15",
+                  "18",
+                  "20"
+                ],
+                "answer": "20",
+                "explanation": "The pattern multiplies each number by the next prime number. 10 multiplied by 2 (next prime) is 20."
+              },
+              {
+                "type": "verbal",
+                "difficulty": "hard",
+                "question": "In the given argument, fill in the blank: The success of the project is contingent upon the team's ability to __________ innovate and adapt to unforeseen challenges.",
+                "options": [
+                  "consistently",
+                  "efficaciously",
+                  "exponentially",
+                  "exclusively"
+                ],
+                "answer": "efficaciously",
+                "explanation": "Efficaciously means effectively, and in this context, it emphasizes the team's need to adapt effectively for the project's success."
+              },
+              {
+                "type": "non-verbal",
+                "difficulty": "hard",
+                "question": "Complete the series: A, C, E, G, __",
+                "options": [
+                  "I",
+                  "H",
+                  "J",
+                  "K"
+                ],
+                "answer": "I",
+                "explanation": "The series follows the alphabetical order, skipping one letter each time. After G comes I."
+              },
+              {
+                "type": "verbal",
+                "difficulty": "medium",
+                "question": "The musician's ability to ___________ various musical genres is what sets them apart from others in the industry.",
+                "options": [
+                  "monotonize",
+                  "synthesize",
+                  "dissonate",
+                  "homogenize"
+                ],
+                "answer": "synthesize",
+                "explanation": "To synthesize means to combine different elements to create a unified whole, which fits the context of combining musical genres."
+              },
+              {
+                "type": "non-verbal",
+                "difficulty": "medium",
+                "question": "Complete the sequence: 3, 6, 12, 24, __",
+                "options": [
+                  "36",
+                  "48",
+                  "60",
+                  "72"
+                ],
+                "answer": "48",
+                "explanation": "Each number in the sequence is multiplied by 2. 24 multiplied by 2 is 48."
+              },
+              {
+                "type": "verbal",
+                "difficulty": "hard",
+                "question": "The political leader's decision to remain __________ in the midst of controversy surprised many constituents.",
+                "options": [
+                  "reticent",
+                  "loquacious",
+                  "garrulous",
+                  "voluble"
+                ],
+                "answer": "reticent",
+                "explanation": "Reticent means reserved or silent, and it fits the context of the leader's decision to remain quiet during controversy."
+              },
+              {
+                "type": "non-verbal",
+                "difficulty": "hard",
+                "question": "Complete the pattern: ▲, ■, ●, ▼, __",
+                "options": [
+                  "★",
+                  "☆",
+                  "♦",
+                  "◆"
+                ],
+                "answer": "★",
+                "explanation": "The pattern alternates between different geometric shapes. After ▼ (downward triangle), the next shape is ★ (star)."
+              },
+              {
+                "type": "verbal",
+                "difficulty": "medium",
+                "question": "The artist's painting technique is so intricate that it often reveals hidden __________ within the layers of color.",
+                "options": [
+                  "paradoxes",
+                  "metaphors",
+                  "anomalies",
+                  "nuances"
+                ],
+                "answer": "nuances",
+                "explanation": "Nuances refer to subtle and distinct variations, which aligns with the idea of hidden details within the layers of color."
+              },
+              {
+                "type": "non-verbal",
+                "difficulty": "medium",
+                "question": "Complete the series: 5, 10, 15, __, 25",
+                "options": [
+                  "17",
+                  "20",
+                  "22",
+                  "23"
+                ],
+                "answer": "20",
+                "explanation": "The series follows an increment of 5. Adding 5 to the last number, 15, gives 20."
+              }
+            ]
+          },
+          {
+            "name": "Ordering of Sentences",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Arrange the following sentences in a logical sequence:\n1. The sun began to set, casting a warm glow over the horizon.\n2. People gathered on the beach to witness the beautiful sunset.\n3. As the darkness enveloped the sky, the stars started to twinkle.\n4. The waves gently lapped against the shore.",
+                "options": [
+                  "1-2-3-4",
+                  "2-1-4-3",
+                  "4-2-1-3",
+                  "3-1-2-4"
+                ],
+                "answer": "2-1-4-3",
+                "explanation": "The logical sequence is: 2 (People gathered on the beach), 1 (The sun began to set), 4 (The waves gently lapped against the shore), 3 (As the darkness enveloped the sky)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Determine the correct order of the following sentences:\nA. The detective examined the crime scene for clues.\nB. The suspect was seen near the location of the incident.\nC. The forensic team analyzed the collected evidence.\nD. Witness statements were recorded by the police.",
+                "options": [
+                  "A-B-C-D",
+                  "B-D-A-C",
+                  "C-A-B-D",
+                  "D-B-A-C"
+                ],
+                "answer": "A-B-C-D",
+                "explanation": "The logical sequence is: A (The detective examined the crime scene for clues), B (The suspect was seen near the location of the incident), C (The forensic team analyzed the collected evidence), D (Witness statements were recorded by the police)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Reorder the following sentences to form a coherent paragraph:\n1. However, the unexpected turn of events left everyone in shock.\n2. The celebration was going smoothly until an unforeseen incident occurred.\n3. Despite the setback, the organizers quickly managed to regain control of the situation.\n4. The event had drawn a large crowd eager to participate in the festivities.",
+                "options": [
+                  "4-2-1-3",
+                  "2-4-1-3",
+                  "1-2-3-4",
+                  "3-1-2-4"
+                ],
+                "answer": "2-4-1-3",
+                "explanation": "The logical sequence is: 2 (The celebration was going smoothly until an unforeseen incident occurred), 4 (The event had drawn a large crowd eager to participate in the festivities), 1 (However, the unexpected turn of events left everyone in shock), 3 (Despite the setback, the organizers quickly managed to regain control of the situation)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Arrange the sentences to create a coherent paragraph:\nA. The ancient manuscript, covered in dust, held secrets of a bygone era.\nB. Carefully, the historian began to decipher the faded text, revealing a lost civilization's history.\nC. Fragile pages crinkled as the historian turned them, unveiling tales of forgotten kingdoms.\nD. Excitement filled the room as the once-obscure past came alive through the words on the parchment.",
+                "options": [
+                  "A-B-C-D",
+                  "D-A-B-C",
+                  "C-B-A-D",
+                  "B-D-C-A"
+                ],
+                "answer": "A-B-C-D",
+                "explanation": "The logical sequence is: A (The ancient manuscript, covered in dust, held secrets of a bygone era), B (Carefully, the historian began to decipher the faded text, revealing a lost civilization's history), C (Fragile pages crinkled as the historian turned them, unveiling tales of forgotten kingdoms), D (Excitement filled the room as the once-obscure past came alive through the words on the parchment)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Place the following sentences in the correct order to create a coherent paragraph:\n1. The chef skillfully prepared the ingredients for the exotic dish.\n2. Meanwhile, the aroma of spices filled the air in the bustling kitchen.\n3. As the timer beeped, indicating the dish was ready, the kitchen staff gathered for a taste test.\n4. The final presentation of the dish impressed both the customers and the restaurant critics.",
+                "options": [
+                  "2-1-3-4",
+                  "1-2-4-3",
+                  "3-2-1-4",
+                  "4-1-2-3"
+                ],
+                "answer": "1-2-4-3",
+                "explanation": "The logical sequence is: 1 (The chef skillfully prepared the ingredients for the exotic dish), 2 (Meanwhile, the aroma of spices filled the air in the bustling kitchen), 4 (The final presentation of the dish impressed both the customers and the restaurant critics), 3 (As the timer beeped, indicating the dish was ready, the kitchen staff gathered for a taste test)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Reorganize the following sentences to form a coherent passage:\nA. Surrounded by lush greenery, the ancient temple stood in silent grandeur.\nB. Pilgrims from far and wide gathered to seek blessings at this sacred site.\nC. The intricate carvings on the temple walls depicted tales of mythology and ancient rituals.\nD. Inside the temple, the air was filled with the scent of incense and the soft murmur of prayers.",
+                "options": [
+                  "A-C-B-D",
+                  "B-A-C-D",
+                  "D-B-A-C",
+                  "C-D-A-B"
+                ],
+                "answer": "B-A-C-D",
+                "explanation": "The logical sequence is: B (Pilgrims from far and wide gathered to seek blessings at this sacred site), A (Surrounded by lush greenery, the ancient temple stood in silent grandeur), C (The intricate carvings on the temple walls depicted tales of mythology and ancient rituals), D (Inside the temple, the air was filled with the scent of incense and the soft murmur of prayers)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Place the sentences in the correct order to create a well-structured paragraph:\n1. The scientist conducted rigorous experiments to test the hypothesis.\n2. The findings were groundbreaking and challenged existing scientific theories.\n3. The research paper, detailing the methodology and results, was published in a prestigious journal.\n4. Peers in the scientific community praised the study for its contribution to the field.",
+                "options": [
+                  "2-1-4-3",
+                  "1-3-2-4",
+                  "3-2-1-4",
+                  "4-1-2-3"
+                ],
+                "answer": "1-3-2-4",
+                "explanation": "The), 3 (Despite the setback, the organizers quickly managed to regain control of the situation)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Arrange the following sentences to create a coherent passage:\nA. This groundbreaking research has the potential to revolutionize the field.\nB. The team of scientists worked tirelessly to gather and analyze data.\nC. The initial findings were met with skepticism, but subsequent experiments confirmed the results.\nD. Several prominent journals have expressed interest in publishing the study.",
+                "options": [
+                  "B-A-C-D",
+                  "A-B-C-D",
+                  "C-B-A-D",
+                  "D-A-B-C"
+                ],
+                "answer": "B-A-C-D",
+                "explanation": "The logical sequence is: B (The team of scientists worked tirelessly to gather and analyze data), A (This groundbreaking research has the potential to revolutionize the field), C (The initial findings were met with skepticism, but subsequent experiments confirmed the results), D (Several prominent journals have expressed interest in publishing the study)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Organize the given sentences into a coherent paragraph:\n1. The architect presented the detailed plans for the new building.\n2. After months of construction, the impressive structure stood tall.\n3. Local residents eagerly anticipated the completion of the project.\n4. The city officials praised the innovative design.",
+                "options": [
+                  "1-4-2-3",
+                  "3-1-4-2",
+                  "2-3-1-4",
+                  "4-2-1-3"
+                ],
+                "answer": "3-1-4-2",
+                "explanation": "The logical sequence is: 3 (Local residents eagerly anticipated the completion of the project), 1 (The architect presented the detailed plans for the new building), 4 (The city officials praised the innovative design), 2 (After months of construction, the impressive structure stood tall)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Put the following sentences in the correct order to form a coherent passage:\nA. The historical artifacts discovered in the excavation shed light on ancient civilizations.\nB. The team of archaeologists meticulously documented each finding.\nC. After years of research, the archaeological site was identified.\nD. Scholars from around the world were invited to examine and interpret the findings.",
+                "options": [
+                  "A-B-C-D",
+                  "C-A-B-D",
+                  "B-D-A-C",
+                  "D-C-A-B"
+                ],
+                "answer": "C-A-B-D",
+                "explanation": "The logical sequence is: C (After years of research, the archaeological site was identified), A (The historical artifacts discovered in the excavation shed light on ancient civilizations), B (The team of archaeologists meticulously documented each finding), D (Scholars from around the world were invited to examine and interpret the findings)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Arrange the following sentences in a coherent manner:\n1. The chef carefully selected the finest ingredients for the special dish.\n2. Guests at the restaurant were eagerly anticipating the unique culinary creation.\n3. The aroma of the exquisite dish wafted through the air.\n4. The diners praised the chef's culinary skills after savoring the delightful meal.",
+                "options": [
+                  "2-1-3-4",
+                  "1-3-4-2",
+                  "3-4-2-1",
+                  "4-2-1-3"
+                ],
+                "answer": "1-3-4-2",
+                "explanation": "The logical sequence is: 1 (The chef carefully selected the finest ingredients for the special dish), 3 (The aroma of the exquisite dish wafted through the air), 4 (The diners praised the chef's culinary skills after savoring the delightful meal), 2 (Guests at the restaurant were eagerly anticipating the unique culinary creation)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Reorder the following sentences to create a cohesive paragraph:\nA. The author's compelling narrative captured the imagination of readers worldwide.\nB. Several literary critics hailed the work as a masterpiece.\nC. The novel's intricate plot and well-developed characters kept readers engaged from start to finish.\nD. Public demand led to multiple translations of the book, expanding its global reach.",
+                "options": [
+                  "A-B-C-D",
+                  "C-D-A-B",
+                  "B-C-A-D",
+                  "D-A-C-B"
+                ],
+                "answer": "A-B-C-D",
+                "explanation": "The logical sequence is: A (The author's compelling narrative captured the imagination of readers worldwide), B (Several literary critics hailed the work as a masterpiece), C (The novel's intricate plot and well-developed characters kept readers engaged from start to finish), D (Public demand led to multiple translations of the book, expanding its global reach)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Arrange the given sentences in a coherent order:\n1. The orchestra tuned their instruments before the concert began.\n2. The conductor, dressed in elegant attire, took the center stage.\n3. Applause erupted as the musicians delivered a breathtaking performance.\n4. The audience was captivated by the symphony's enchanting melodies.",
+                "options": [
+                  "1-2-3-4",
+                  "2-1-4-3",
+                  "3-4-2-1",
+                  "4-3-2-1"
+                ],
+                "answer": "1-2-3-4",
+                "explanation": "The logical sequence is: 1 (The orchestra tuned their instruments before the concert began), 2 (The conductor, dressed in elegant attire, took the center stage), 3 (Applause erupted as the musicians delivered a breathtaking performance), 4 (The audience was captivated by the symphony's enchanting melodies)."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Put the following sentences in a logical order to create a coherent passage:\nA. The research team published their findings in a prestigious scientific journal.\nB. Cutting-edge technology and innovative methodologies were employed during the experiments.\nC. The breakthrough discovery opened new avenues for scientific exploration.\nD. Several leading scientists collaborated on a groundbreaking study.",
+                "options": [
+                  "D-B-C-A",
+                  "B-A-D-C",
+                  "C-B-D-A",
+                  "A-C-D-B"
+                ],
+                "answer": "D-B-C-A",
+                "explanation": "The logical sequence is: D (Several leading scientists collaborated on a groundbreaking study), B (Cutting-edge technology and innovative methodologies were employed during the experiments), C (The breakthrough discovery opened new avenues for scientific exploration), A (The research team published their findings in a prestigious scientific journal)."
+              }
+            ]
+          }
+
+    ]
+}

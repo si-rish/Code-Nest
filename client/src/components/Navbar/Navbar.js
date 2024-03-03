@@ -39,9 +39,11 @@ const Navbar = () => {
         <div className="submenu">
           <Link to="/practice">Practice&nbsp;<img src={drop} className='cn-drop'/></Link>
           <div className="dropdown-content">
-            <Link to="/quizzes">Quizzes</Link><hr/>
+            <Link to="/aptitude">Aptitude</Link><hr/>
+            <Link to="/reasoning">Logical Reasoning</Link><hr/>
+            <Link to="/verbal">Verbal Ability</Link><hr/>
             <Link to="/interview-questions">Interview Questions</Link><hr/>
-            <Link to="/problems">Problems</Link>
+            <Link to="/problems">Coding Problems</Link>
           </div>
         </div>
         <Link to="/community">Community</Link>

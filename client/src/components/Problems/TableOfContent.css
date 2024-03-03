@@ -1,0 +1,61 @@
+.table-of-contents {
+    background-color: #080F11;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 250px; /* Set a fixed width */
+    position: fixed; /* Keep it fixed in the viewport */
+    top: 110px; /* Adjust the top position based on your layout */
+    left: 100px; /* Adjust the left position based on your layout */
+    max-height: 80vh; /* Set a maximum height for scrollability */
+    overflow-y: auto; /* Add vertical scroll when content exceeds the height */
+  }
+  .table-of-contents h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: -15px;
+  }
+  
+  .table-of-contents ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .table-of-contents li {
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #e2e2e2;
+    color: #000;
+    border-radius: 8px;
+  }
+
+  /* Style the scrollbar */
+.table-of-contents::-webkit-scrollbar {
+    width: 4px;
+    
+  }
+  
+  .table-of-contents::-webkit-scrollbar-thumb {
+    background-color: #525252;
+    border-radius: 10px;
+  }
+  
+  .table-of-contents::-webkit-scrollbar-track {
+    background-color: #080F11;
+  }
+  
+
+  /* Media query for smaller screens */
+@media (max-width: 768px) {
+    .table-of-contents {
+      width: 15vw;
+      top: 50;
+      left: 0;
+      max-height: none;
+      
+      
+    }
+    
+    
+  }

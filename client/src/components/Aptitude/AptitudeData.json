@@ -1,0 +1,978 @@
+{
+    "topics": [
+        {
+            "name": "Number",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Find the sum of the first 50 prime numbers.",
+                "options": ["1225", "1275", "1325", "1375"],
+                "answer": "1275",
+                "explanation": "To find the sum of the first 50 prime numbers, perform the addition of prime numbers up to 50. The result is 1275."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the 15th term in the Fibonacci sequence?",
+                "options": ["1597", "987", "4181", "6765"],
+                "answer": "987",
+                "explanation": "The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ... The 15th term is 987."
+              },
+              {
+                "difficulty": "medium",
+                "question": "How many trailing zeros are in the factorial of 100?",
+                "options": ["22", "23", "24", "25"],
+                "answer": "24",
+                "explanation": "The factorial of 100 has 24 trailing zeros. This can be determined by counting the number of times 10 is a factor in the multiplication."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the 101st prime number?",
+                "options": ["499", "503", "509", "521"],
+                "answer": "521",
+                "explanation": "The 101st prime number is 521. It is the 26th prime number, and to find it, you need to iterate through prime numbers until reaching the desired position."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the product of the first 20 odd numbers.",
+                "options": ["104857600", "2432902008176640000", "185921272044924160", "20922789888000"],
+                "answer": "2432902008176640000",
+                "explanation": "The product of the first 20 odd numbers is 2432902008176640000. Multiply the odd numbers from 1 to 39 to get this result."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the smallest perfect number greater than 10?",
+                "options": ["28", "30", "32", "36"],
+                "answer": "28",
+                "explanation": "The smallest perfect number greater than 10 is 28. A perfect number is one whose divisors (excluding itself) sum up to the number itself."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the square root of the product of the first 15 prime numbers.",
+                "options": ["1836311903", "1220167465", "1355101489", "14930352"],
+                "answer": "1836311903",
+                "explanation": "The square root of the product of the first 15 prime numbers is 1836311903. Multiply the prime numbers and then find the square root of the result."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the largest palindromic prime number less than 1000?",
+                "options": ["929", "919", "909", "899"],
+                "answer": "929",
+                "explanation": "The largest palindromic prime number less than 1000 is 929. It reads the same backward as forward and is a prime number."
+              }
+            ]
+          },
+          {
+            "name": "Percentage",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "If a shirt is priced at $40 and is on sale for 20% off, what is the discounted price?",
+                "options": ["$30", "$32", "$36", "$38"],
+                "answer": "$32",
+                "explanation": "The discounted price is found by subtracting 20% of $40 from the original price. Therefore, the discounted price is $32."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If an item originally costs $80 and is discounted by 25%, what is the final price?",
+                "options": ["$60", "$65", "$70", "$75"],
+                "answer": "$60",
+                "explanation": "To find the final price after a 25% discount, subtract 25% of $80 from the original price. The final price is $60."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the population of a city increased from 800,000 to 960,000, what is the percentage increase?",
+                "options": ["15%", "20%", "25%", "30%"],
+                "answer": "20%",
+                "explanation": "The percentage increase is calculated by taking the difference between the new and old values, dividing it by the old value, and then multiplying by 100. In this case, the percentage increase is 20%."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a company's profits increased from $500,000 to $750,000, what is the percentage increase?",
+                "options": ["35%", "40%", "45%", "50%"],
+                "answer": "50%",
+                "explanation": "The percentage increase is calculated by taking the difference between the new and old values, dividing it by the old value, and then multiplying by 100. In this case, the percentage increase is 50%."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a test has 150 questions and a student answered 120 correctly, what is the percentage score?",
+                "options": ["70%", "75%", "80%", "85%"],
+                "answer": "80%",
+                "explanation": "The percentage score is calculated by taking the number of correct answers (120) divided by the total number of questions (150) and then multiplying by 100. In this case, the percentage score is 80%."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the price of a stock increased from $50 to $75, what is the percentage increase?",
+                "options": ["30%", "40%", "50%", "60%"],
+                "answer": "50%",
+                "explanation": "The percentage increase is calculated by taking the difference between the new and old values, dividing it by the old value, and then multiplying by 100. In this case, the percentage increase is 50%."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a class has 50 students, and 20% of them are absent, how many students are present?",
+                "options": ["35", "38", "40", "42"],
+                "answer": "40",
+                "explanation": "To find the number of students present, subtract 20% of 50 from the total. The result is 40 students present."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the original price of a smartphone is $800 and it is discounted by 15%, what is the discounted price?",
+                "options": ["$680", "$700", "$720", "$750"],
+                "answer": "$680",
+                "explanation": "The discounted price is found by subtracting 15% of $800 from the original price. Therefore, the discounted price is $680."
+              }
+            ]
+          },
+          {
+            "name": "Average",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "The average of five numbers is 24. If one number is excluded, the average becomes 20. What is the excluded number?",
+                "options": ["15", "18", "20", "25"],
+                "answer": "25",
+                "explanation": "If the average of five numbers is 24 and one number is excluded, resulting in an average of 20, the excluded number is 25. Calculate using the formula for average."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The average of eight numbers is 16. If two numbers, 20 and 25, are removed, what is the new average?",
+                "options": ["14", "15", "16", "17"],
+                "answer": "14",
+                "explanation": "If the average of eight numbers is 16 and two numbers (20 and 25) are removed, the new average is 14. Recalculate the average using the remaining numbers."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The average salary of 10 employees in a company is $50,000. If the manager's salary is included, making it 11 employees, what is the new average?",
+                "options": ["$45,000", "$48,000", "$50,000", "$55,000"],
+                "answer": "$55,000",
+                "explanation": "If the average salary of 10 employees is $50,000 and the manager's salary is included, making it 11 employees, the new average is $55,000. Use the formula for average."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average of three numbers is 40. If the first number is 30 and the second number is 50, what is the third number?",
+                "options": ["40", "50", "60", "70"],
+                "answer": "60",
+                "explanation": "If the average of three numbers is 40 and the first two numbers are 30 and 50, the third number is 60. Use the formula for average to calculate."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average age of a family of four is 25 years. If the father's age is added, making it five family members, the new average becomes 28 years. What is the father's age?",
+                "options": ["40", "45", "50", "55"],
+                "answer": "50",
+                "explanation": "If the average age of a family of four is 25 years and the father's age is added, making it five family members with a new average of 28 years, the father's age is 50. Calculate using the formula for average."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average of six numbers is 35. If two numbers, 30 and 40, are added, what is the new average?",
+                "options": ["35", "36", "37", "38"],
+                "answer": "37",
+                "explanation": "If the average of six numbers is 35 and two numbers (30 and 40) are added, the new average is 37. Recalculate the average using the additional numbers."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average height of a group of five friends is 160 cm. If one friend with a height of 180 cm joins the group, what is the new average height?",
+                "options": ["162 cm", "164 cm", "166 cm", "168 cm"],
+                "answer": "166 cm",
+                "explanation": "If the average height of a group of five friends is 160 cm and one friend with a height of 180 cm joins, the new average height is 166 cm. Use the formula for average."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average score of a student in eight exams is 75. If the student's score in the ninth exam is 90, what is the new average?",
+                "options": ["76", "77", "78", "79"],
+                "answer": "76",
+                "explanation": "If the average score of a student in eight exams is 75 and the student scores 90 in the ninth exam, the new average is 76. Use the formula for average."
+              }
+            ]
+          },{
+            "name": "Compound Interest",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Find the compound interest on $5000 at 8% per annum for 2 years, compounded annually.",
+                "options": ["$825", "$850", "$875", "$900"],
+                "answer": "$850",
+                "explanation": "The compound interest on $5000 at 8% per annum for 2 years, compounded annually, is $850. Use the formula for compound interest."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the compound interest on an amount for 2 years at 10% per annum is $440, what is the principal amount?",
+                "options": ["$2000", "$2200", "$2400", "$2600"],
+                "answer": "$2200",
+                "explanation": "The principal amount, when the compound interest for 2 years at 10% is $440, is $2200. Use the formula for compound interest to find the principal."
+              },
+              {
+                "difficulty": "medium",
+                "question": "At what rate of interest will $3000 amount to $3630 in 2 years, compounded annually?",
+                "options": ["6%", "8%", "10%", "12%"],
+                "answer": "10%",
+                "explanation": "To find the rate of interest, use the formula for compound interest with the given values: principal = $3000, amount = $3630, and time = 2 years."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the compound interest on $8000 at 12% per annum for 3 years, compounded quarterly.",
+                "options": ["$3594", "$3840", "$4096", "$4352"],
+                "answer": "$4096",
+                "explanation": "The compound interest on $8000 at 12% per annum for 3 years, compounded quarterly, is $4096. Use the formula for compound interest with quarterly compounding."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the compound interest on an amount for 3 years at 15% per annum is $705, what is the principal amount?",
+                "options": ["$2800", "$3000", "$3200", "$3400"],
+                "answer": "$3200",
+                "explanation": "The principal amount, when the compound interest for 3 years at 15% is $705, is $3200. Use the formula for compound interest to find the principal."
+              },
+              {
+                "difficulty": "hard",
+                "question": "At what rate of interest will $4000 amount to $4810 in 3 years, compounded semi-annually?",
+                "options": ["8%", "10%", "12%", "14%"],
+                "answer": "10%",
+                "explanation": "To find the rate of interest, use the formula for compound interest with the given values: principal = $4000, amount = $4810, and time = 3 years. Compounding is semi-annually."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the compound interest on $6000 at 14% per annum for 4 years, compounded monthly.",
+                "options": ["$2810", "$3050", "$3290", "$3530"],
+                "answer": "$3290",
+                "explanation": "The compound interest on $6000 at 14% per annum for 4 years, compounded monthly, is $3290. Use the formula for compound interest with monthly compounding."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the compound interest on an amount for 4 years at 18% per annum is $864, what is the principal amount?",
+                "options": ["$3200", "$3400", "$3600", "$3800"],
+                "answer": "$3600",
+                "explanation": "The principal amount, when the compound interest for 4 years at 18% is $864, is $3600. Use the formula for compound interest to find the principal."
+              }
+            ]
+          },
+          {
+            "name": "Profit and Loss",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A shopkeeper sells a shirt for $45, incurring a loss of 10%. Find the cost price of the shirt.",
+                "options": ["$50", "$55", "$60", "$65"],
+                "answer": "$50",
+                "explanation": "If the selling price is $45 and there is a loss of 10%, the cost price is $50. Use the formula for calculating cost price when a loss percentage is given."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A bookshop sold 120 books at a profit of $4 each. If the total profit was $480, find the cost price of each book.",
+                "options": ["$10", "$12", "$14", "$16"],
+                "answer": "$12",
+                "explanation": "If the total profit on 120 books is $480 and each book has a profit of $4, the cost price of each book is $12. Use the formula for calculating cost price when a profit is given."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A bicycle is sold for $2200, resulting in a loss of 20%. Find the loss incurred.",
+                "options": ["$400", "$440", "$480", "$520"],
+                "answer": "$480",
+                "explanation": "If the selling price is $2200 and there is a loss of 20%, the loss incurred is $480. Use the formula for calculating loss when a loss percentage is given."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A trader marks his goods 40% above the cost price and gives a discount of 25%. If the selling price is $1200, find the cost price.",
+                "options": ["$720", "$750", "$780", "$800"],
+                "answer": "$800",
+                "explanation": "If the goods are marked 40% above the cost price and a discount of 25% is given, and the selling price is $1200, the cost price is $800. Use the formula for calculating cost price after discount."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A person sells two items, one at a loss of 15% and the other at a profit of 25%, with a net profit of $90. If the total cost price is $600, find the selling price of each item.",
+                "options": ["$300, $330", "$310, $340", "$320, $350", "$330, $360"],
+                "answer": "$310, $340",
+                "explanation": "If one item is sold at a loss of 15% and the other at a profit of 25%, with a net profit of $90, the selling prices of the items are $310 and $340. Use the formula for calculating selling prices when net profit is given."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A trader sells an article for $1800, incurring a loss of 25%. If the cost price is $2400, find the percentage profit or loss if the article is sold for $2400.",
+                "options": ["20% profit", "15% profit", "10% loss", "5% loss"],
+                "answer": "20% profit",
+                "explanation": "If the cost price is $2400 and the article is sold for $2400, there is a 20% profit. Use the formula for calculating percentage profit or loss."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A person buys an article for $800 and spends $50 on repairs. If he sells the article for $1000, find the profit percentage.",
+                "options": ["20%", "25%", "30%", "35%"],
+                "answer": "25%",
+                "explanation": "If the cost price is $800, additional expenses are $50, and the selling price is $1000, the profit percentage is 25%. Use the formula for calculating profit percentage."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A shopkeeper sells an item for $1200 at a loss of 10%. If the loss is $80, find the cost price of the item.",
+                "options": ["$1000", "$1100", "$1200", "$1300"],
+                "answer": "$1000",
+                "explanation": "If the item is sold for $1200 with a loss of 10% and the loss is $80, the cost price is $1000. Use the formula for calculating cost price when loss and loss percentage are given."
+              }
+            ]
+          },{
+            "name": "Ratio and Proportion",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In a bag of candies, the ratio of red to green candies is 3:5. If there are 120 candies in total, how many are green?",
+                "options": ["40", "50", "60", "80"],
+                "answer": "50",
+                "explanation": "The ratio of red to green candies is 3:5. This means the total ratio parts are 3 + 5 = 8. To find the number of green candies, calculate (5/8) * 120 = 75."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The ages of A, B, and C are in the ratio 4:5:6. If the sum of their ages is 90, what is C's age?",
+                "options": ["24", "30", "36", "42"],
+                "answer": "36",
+                "explanation": "The sum of the ratio parts is 4 + 5 + 6 = 15. To find C's age, calculate (6/15) * 90 = 36. The age of C is 36."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The ratio of the speeds of two cars is 2:3. If the first car travels 120 km in a certain time, how far will the second car travel in the same time?",
+                "options": ["120 km", "150 km", "180 km", "210 km"],
+                "answer": "180 km",
+                "explanation": "The ratio of speeds is 2:3. To find the distance traveled by the second car, calculate (3/2) * 120 = 180 km in the same time."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ratio of the volumes of two similar cylinders is 8:27. If the radius of the smaller cylinder is 2 cm, what is the radius of the larger cylinder?",
+                "options": ["6 cm", "8 cm", "10 cm", "12 cm"],
+                "answer": "6 cm",
+                "explanation": "The ratio of volumes is 8:27. Since volume is proportional to the cube of the radius, (radius of larger cylinder) / (radius of smaller cylinder) = (27/8)^(1/3). Calculate to find the radius of the larger cylinder."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ratio of the present ages of Alex and Bob is 3:4. If the sum of their ages is 56, what will be the sum of their ages after 4 years?",
+                "options": ["64", "68", "72", "76"],
+                "answer": "68",
+                "explanation": "The present ages have a ratio of 3:4, and the sum is 56. Calculate the present ages (3/7) * 56 for Alex and (4/7) * 56 for Bob. After 4 years, the sum will be (3 + 4) * 4 = 28. Add the ages to find the sum after 4 years."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ratio of the number of boys to girls in a school is 5:7. If the number of girls is 84, what is the total number of students in the school?",
+                "options": ["144", "168", "192", "216"],
+                "answer": "192",
+                "explanation": "The ratio of boys to girls is 5:7. Calculate the number of boys (5/7) * 84 and then find the total number of students by adding boys and girls."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ratio of the present ages of Alice, Bob, and Carol is 5:7:9. If the sum of their ages is 126, what is the product of their ages?",
+                "options": ["945", "1050", "1125", "1200"],
+                "answer": "945",
+                "explanation": "The present ages have a ratio of 5:7:9, and the sum is 126. Calculate the present ages (5/21) * 126 for Alice, (7/21) * 126 for Bob, and (9/21) * 126 for Carol. Multiply the ages to find the product."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a mixture, the ratio of milk to water is 4:3. If 15 liters of water are added to the mixture, the ratio becomes 4:5. What is the initial quantity of the mixture?",
+                "options": ["36 liters", "45 liters", "54 liters", "63 liters"],
+                "answer": "54 liters",
+                "explanation": "The initial ratio is 4:3. After adding 15 liters of water, the new ratio is 4:5. Calculate the initial quantity of the mixture using the common multiple of 3 and 5 (initial quantity = 4 * 5 = 20 parts)."
+              }
+            ]
+          },{
+            "name": "Mixture and Allegation",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A vessel contains 20 liters of milk. If 4 liters of water are added, what is the new concentration of milk if the initial concentration is 80%?",
+                "options": ["60%", "70%", "75%", "80%"],
+                "answer": "75%",
+                "explanation": "If 4 liters of water are added to 20 liters of milk with an initial concentration of 80%, the new concentration of milk is 75%. Calculate the weighted average."
+              },
+              {
+                "difficulty": "medium",
+                "question": "In a mixture of alcohol and water, the ratio is 5:3. If 4 liters of water are added to the mixture, the ratio becomes 5:4. What is the quantity of the original mixture?",
+                "options": ["36 liters", "40 liters", "45 liters", "48 liters"],
+                "answer": "40 liters",
+                "explanation": "If 4 liters of water are added to the mixture, changing the ratio from 5:3 to 5:4, the original quantity of the mixture is 40 liters. Use the concept of allegations."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A container has a mixture of two liquids in the ratio 2:3. If 5 liters of the mixture is taken out and replaced with 5 liters of the second liquid, the ratio becomes 3:2. What is the quantity of the container?",
+                "options": ["15 liters", "20 liters", "25 liters", "30 liters"],
+                "answer": "20 liters",
+                "explanation": "If 5 liters of the mixture are replaced with 5 liters of the second liquid, changing the ratio from 2:3 to 3:2, the quantity of the container is 20 liters. Use the concept of successive removals and additions."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a mixture of two liquids A and B, the ratio is 4:5. If 3 liters of liquid A are replaced with 3 liters of liquid B, the ratio becomes 5:4. What is the quantity of liquid A in the mixture?",
+                "options": ["15 liters", "18 liters", "21 liters", "24 liters"],
+                "answer": "18 liters",
+                "explanation": "If 3 liters of liquid A are replaced with 3 liters of liquid B, changing the ratio from 4:5 to 5:4, the quantity of liquid A in the mixture is 18 liters. Use the concept of allegations."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A container has a mixture of two liquids X and Y in the ratio 3:2. If 6 liters of liquid X are taken out and replaced with 6 liters of liquid Y, the ratio becomes 2:3. What is the quantity of the container?",
+                "options": ["36 liters", "48 liters", "60 liters", "72 liters"],
+                "answer": "48 liters",
+                "explanation": "If 6 liters of liquid X are replaced with 6 liters of liquid Y, changing the ratio from 3:2 to 2:3, the quantity of the container is 48 liters. Use the concept of successive removals and additions."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A mixture contains milk and water in the ratio 5:3. If 4 liters of water are added, the ratio becomes 5:4. What is the quantity of the original mixture?",
+                "options": ["24 liters", "30 liters", "36 liters", "40 liters"],
+                "answer": "30 liters",
+                "explanation": "If 4 liters of water are added to the mixture, changing the ratio from 5:3 to 5:4, the original quantity of the mixture is 30 liters. Use the concept of allegations."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A solution has 20% alcohol. If 2 liters of the solution are replaced with 2 liters of pure alcohol, the concentration becomes 30%. What is the quantity of the original solution?",
+                "options": ["6 liters", "8 liters", "10 liters", "12 liters"],
+                "answer": "8 liters",
+                "explanation": "If 2 liters of the solution are replaced with 2 liters of pure alcohol, changing the concentration from 20% to 30%, the quantity of the original solution is 8 liters. Use the concept of successive removals and additions."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A container contains a mixture of milk and water in the ratio 7:5. If 6 liters of the mixture are taken out and replaced with 6 liters of water, the ratio becomes 7:9. What is the quantity of the container?",
+                "options": ["42 liters", "48 liters", "54 liters", "60 liters"],
+                "answer": "54 liters",
+                "explanation": "If 6 liters of the mixture are replaced with 6 liters of water, changing the ratio from 7:5 to 7:9, the quantity of the container is 54 liters. Use the concept of successive removals and additions."
+              }
+            ]
+          },{
+            "name": "Time and Work",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A can complete a task in 8 days, and B can complete the same task in 12 days. How many days will it take for both A and B to complete the task working together?",
+                "options": ["3", "4", "5", "6"],
+                "answer": "3",
+                "explanation": "A can complete 1/8 of the task in one day, and B can complete 1/12 of the task in one day. Working together, they can complete 5/24 of the task in one day. Therefore, it will take them 3 days to complete the entire task."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A and B can complete a task in 10 days and 15 days, respectively. If they work on alternate days starting with A, how many days will it take to complete the task?",
+                "options": ["8", "10", "12", "15"],
+                "answer": "12",
+                "explanation": "A can complete 1/10 of the task in one day, and B can complete 1/15 of the task in one day. Working on alternate days, they can complete 1/10 + 1/15 = 1/6 of the task in one day. Therefore, it will take them 6 days to complete 1 cycle, and 2 cycles will take 12 days."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A and B together can complete a task in 4 days. If A alone can complete the task in 12 days, how long will it take for B to complete the task alone?",
+                "options": ["6", "8", "10", "16"],
+                "answer": "8",
+                "explanation": "A and B together can complete 1/4 of the task in one day. Since A alone can complete the entire task in 12 days, B alone can complete 1/12 - 1/4 = 1/6 of the task in one day. Therefore, it will take B alone 6 days to complete the entire task."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A, B, and C can complete a task in 6 days, 8 days, and 12 days, respectively. If they work together for 2 days and then A leaves, how many more days will it take for B and C to complete the remaining task?",
+                "options": ["2", "3", "4", "5"],
+                "answer": "3",
+                "explanation": "In 2 days, A, B, and C together can complete 1/6 + 1/8 + 1/12 = 1/4 of the task. After A leaves, B and C together can complete 1/8 + 1/12 = 5/24 of the task in one day. Therefore, it will take them 24/5 = 4.8 days to complete the remaining task. Since they cannot work for a fraction of a day, it will take them 5 days to complete the remaining task."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A and B together can complete a task in 9 days, and B and C together can complete the same task in 12 days. If A, B, and C work together, how many days will it take to complete the task?",
+                "options": ["4", "5", "6", "7"],
+                "answer": "5",
+                "explanation": "Let the total work be W. A and B together can complete W in 9 days, and B and C together can complete W in 12 days. Solve the equations to find the individual rates of A, B, and C. Once you have the rates, find the time it takes for A, B, and C together to complete the task."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A, B, and C can complete a task in 8 days, 12 days, and 16 days, respectively. If they start working together but A leaves after 2 days and B leaves after 4 more days, how many days will it take for C to complete the remaining task?",
+                "options": ["6", "8", "10", "12"],
+                "answer": "8",
+                "explanation": "In the first 2 days, A, B, and C together can complete 1/8 + 1/12 + 1/16 = 5/16 of the task. After A leaves, B and C together can complete 1/12 + 1/16 = 7/48 of the task in one day. Determine the remaining work and calculate how many more days it will take for C alone to complete it."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A can complete a task in 15 days, B in 20 days, and C in 25 days. They start working together but A leaves after 5 days and B leaves after 10 more days. How many more days will it take for C to complete the remaining task?",
+                "options": ["5", "7", "10", "12"],
+                "answer": "10",
+                "explanation": "In the first 5 days, A, B, and C together can complete 1/15 + 1/20 + 1/25 = 11/60 of the task. After A leaves, B and C together can complete 1/20 + 1/25 = 9/100 of the task in one day. Determine the remaining work and calculate how many more days it will take for C alone to complete it."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A can complete a task in 18 days, B in 24 days, and C in 30 days. They start working together, but A leaves after 6 days and B leaves after 12 more days. How many more days will it take for C to complete the remaining task?",
+                "options": ["12", "15", "18", "20"],
+                "answer": "18",
+                "explanation": "In the first 6 days, A, B, and C together can complete 1/18 + 1/24 + 1/30 = 11/72 of the task. After A leaves, B and C together can complete 1/24 + 1/30 = 1/40 of the task in one day. Determine the remaining work and calculate how many more days it will take for C alone to complete it."
+              }
+            ]
+          },{
+            "name": "Speed and Distance",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A car travels a distance of 240 km at a speed of 60 km/h. How long does it take to cover the distance?",
+                "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+                "answer": "4 hours",
+                "explanation": "To find the time taken, use the formula: time = distance / speed. In this case, 240 km / 60 km/h = 4 hours."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If a train travels 150 km at a speed of 50 km/h and then 200 km at a speed of 80 km/h, what is the average speed for the entire journey?",
+                "options": ["55 km/h", "60 km/h", "65 km/h", "70 km/h"],
+                "answer": "60 km/h",
+                "explanation": "To find the average speed, use the formula: average speed = total distance / total time. Calculate the time for each segment, find the total time, and then use it to calculate the average speed."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A cyclist covers a distance of 120 km in 5 hours. If the speed is decreased by 10 km/h, how long will it take to cover the same distance?",
+                "options": ["6 hours", "7 hours", "8 hours", "9 hours"],
+                "answer": "8 hours",
+                "explanation": "To find the time taken with a decreased speed, use the formula: time = distance / speed. Calculate the original time and then use the decreased speed to find the new time."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A boat travels 80 km upstream in 8 hours. If the speed of the stream is 5 km/h, what is the speed of the boat in still water?",
+                "options": ["10 km/h", "12 km/h", "15 km/h", "18 km/h"],
+                "answer": "15 km/h",
+                "explanation": "To find the speed of the boat in still water, use the formula: speed of boat = (speed upstream + speed downstream) / 2. Calculate the speed upstream using the given values."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Two cars start from the same point. One travels east at 60 km/h, and the other travels north at 45 km/h. After 3 hours, how far apart are the two cars?",
+                "options": ["90 km", "105 km", "120 km", "135 km"],
+                "answer": "135 km",
+                "explanation": "To find the distance between the two cars after 3 hours, use the Pythagorean theorem: distance = sqrt((distance east)^2 + (distance north)^2). Calculate the distances using the speeds and time."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A train covers a distance of 480 km at a certain speed. If the speed is increased by 20 km/h, the journey would take 1 hour less. What is the original speed of the train?",
+                "options": ["60 km/h", "70 km/h", "80 km/h", "90 km/h"],
+                "answer": "70 km/h",
+                "explanation": "To find the original speed, use the formula: original speed = total distance / total time. Set up equations for the original and increased speeds and solve for the original speed."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A man covers a certain distance at a speed of 4 km/h. If he covers the same distance at 5 km/h, he reduces the time taken by 3 hours. Find the distance.",
+                "options": ["12 km", "15 km", "20 km", "25 km"],
+                "answer": "20 km",
+                "explanation": "To find the distance, set up an equation using the formula: distance = speed * time. Set up equations for the two speeds and the given time difference, and solve for the distance."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A motorcyclist travels from point A to point B at a speed of 45 km/h and returns at a speed of 60 km/h. If the total time taken is 7 hours, find the distance between the two points.",
+                "options": ["180 km", "210 km", "240 km", "270 km"],
+                "answer": "210 km",
+                "explanation": "To find the distance, set up an equation using the formula: distance = speed * time. Set up equations for the two speeds and the total time, and solve for the distance."
+              }
+            ]
+          },{
+            "name": "Pipes and Cisterns",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Pipe A can fill a cistern in 10 hours, and pipe B can fill it in 15 hours. If both pipes are opened together, how long will it take to fill the cistern?",
+                "options": ["4 hours", "5 hours", "6 hours", "8 hours"],
+                "answer": "6 hours",
+                "explanation": "The combined rate of filling when both pipes A and B are open is 1/10 + 1/15 = 3/30 + 2/30 = 5/30. The time taken to fill the cistern together is 30/5 = 6 hours."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Pipe X can fill a tank in 6 hours, and pipe Y can empty it in 8 hours. If both pipes are opened together, how long will it take to fill the tank?",
+                "options": ["12 hours", "14 hours", "16 hours", "18 hours"],
+                "answer": "24 hours",
+                "explanation": "The combined rate of filling when pipe X is filling and pipe Y is emptying is 1/6 - 1/8 = 2/24 - 3/24 = -1/24. The time taken to fill the tank together is 24 hours."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Pipe P can fill a cistern in 12 hours, and pipe Q can fill it in 18 hours. If both pipes are opened together for the first 2 hours and then pipe Q is closed, how long will it take for pipe P to fill the remaining cistern?",
+                "options": ["4 hours", "6 hours", "8 hours", "10 hours"],
+                "answer": "8 hours",
+                "explanation": "In the first 2 hours, the combined rate of filling is 1/12 + 1/18 = 5/36. In these 2 hours, 5/36 * 2 = 5/18 of the cistern is filled. The remaining 13/18 of the cistern is filled by pipe P alone in 13/5 * 2 = 8 hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Pipe M can fill a tank in 20 hours, and pipe N can empty it in 30 hours. If both pipes are opened together for the first 2 hours and then pipe N is closed, how long will it take for pipe M to fill the remaining tank?",
+                "options": ["10 hours", "12 hours", "14 hours", "16 hours"],
+                "answer": "10 hours",
+                "explanation": "In the first 2 hours, the combined rate of filling is 1/20 - 1/30 = 1/60. In these 2 hours, 1/60 * 2 = 1/30 of the tank is filled. The remaining 29/30 of the tank is filled by pipe M alone in 29/1 * 2 = 10 hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Pipe R can fill a cistern in 15 hours, and pipe S can empty it in 10 hours. If both pipes are opened together for the first 3 hours and then pipe S is closed, how long will it take for pipe R to fill the remaining cistern?",
+                "options": ["6 hours", "7.5 hours", "9 hours", "10.5 hours"],
+                "answer": "9 hours",
+                "explanation": "In the first 3 hours, the combined rate of filling is 1/15 - 1/10 = -1/30. In these 3 hours, 1/30 * 3 = 1/10 of the cistern is emptied. The remaining 9/10 of the cistern is filled by pipe R alone in 10/9 * 3 = 9 hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Pipe U can fill a tank in 25 hours, and pipe V can empty it in 35 hours. If both pipes are opened together for the first 5 hours and then pipe V is closed, how long will it take for pipe U to fill the remaining tank?",
+                "options": ["7 hours", "9 hours", "11 hours", "13 hours"],
+                "answer": "11 hours",
+                "explanation": "In the first 5 hours, the combined rate of filling is 1/25 - 1/35 = 2/175. In these 5 hours, 2/175 * 5 = 2/35 of the tank is filled. The remaining 33/35 of the tank is filled by pipe U alone in 35/33 * 5 = 11 hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Pipe W can fill a cistern in 18 hours, and pipe X can empty it in 15 hours. If both pipes are opened together for the first 4 hours and then pipe X is closed, how long will it take for pipe W to fill the remaining cistern?",
+                "options": ["9 hours", "12 hours", "15 hours", "18 hours"],
+                "answer": "9 hours",
+                "explanation": "In the first 4 hours, the combined rate of filling is 1/18 - 1/15 = -1/90. In these 4 hours, 1/90 * 4 = 4/90 of the cistern is emptied. The remaining 86/90 of the cistern is filled by pipe W alone in 90/86 * 4 = 9 hours."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Pipe Y can fill a tank in 24 hours, and pipe Z can empty it in 20 hours. If both pipes are opened together for the first 6 hours and then pipe Z is closed, how long will it take for pipe Y to fill the remaining tank?",
+                "options": ["8 hours", "10 hours", "12 hours", "14 hours"],
+                "answer": "10 hours",
+                "explanation": "In the first 6 hours, the combined rate of filling is 1/24 - 1/20 = -1/120. In these 6 hours, 1/120 * 6 = 1/20 of the tank is emptied. The remaining 19/20 of the tank is filled by pipe Y alone in 20/19 * 6 = 10 hours."
+              }
+            ]
+          },{
+            "name": "Algebra",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Solve the equation: 3x - 7 = 11",
+                "options": ["x = 6", "x = 5", "x = 4", "x = 3"],
+                "answer": "x = 6",
+                "explanation": "To solve the equation 3x - 7 = 11, add 7 to both sides and then divide by 3. The solution is x = 6."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Factorize the quadratic expression: x^2 + 5x + 6",
+                "options": ["(x + 2)(x + 3)", "(x + 1)(x + 6)", "(x + 3)(x + 2)", "(x + 6)(x + 1)"],
+                "answer": "(x + 2)(x + 3)",
+                "explanation": "To factorize the quadratic expression x^2 + 5x + 6, find two numbers whose sum is 5 and product is 6. The factorization is (x + 2)(x + 3)."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Solve the system of equations: 2x + y = 5, x - y = 1",
+                "options": ["x = 2, y = 1", "x = 1, y = 2", "x = 3, y = 2", "x = 2, y = 3"],
+                "answer": "x = 2, y = 1",
+                "explanation": "To solve the system of equations 2x + y = 5 and x - y = 1, eliminate one variable and find the values of x and y. The solution is x = 2, y = 1."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the value of x in the equation: 4^x = 64",
+                "options": ["x = 2", "x = 3", "x = 4", "x = 5"],
+                "answer": "x = 3",
+                "explanation": "To find the value of x in the equation 4^x = 64, recognize that 4^3 = 64. Therefore, the solution is x = 3."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Simplify the expression: (2x^2 - 5x + 3) / (x - 1)",
+                "options": ["2x - 3", "2x + 3", "x - 2", "x + 2"],
+                "answer": "2x - 3",
+                "explanation": "To simplify the expression (2x^2 - 5x + 3) / (x - 1), factorize the numerator and cancel common factors. The simplified form is 2x - 3."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Solve the quadratic inequality: x^2 - 4x > 5",
+                "options": ["x < 1 or x > 5", "x < 1 or x > 3", "x < -1 or x > 5", "x < -1 or x > 3"],
+                "answer": "x < -1 or x > 5",
+                "explanation": "To solve the quadratic inequality x^2 - 4x > 5, factorize the expression and determine the solution set. The solution is x < -1 or x > 5."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the value of x in the equation: log₂(x + 1) = 2",
+                "options": ["x = 2", "x = 3", "x = 4", "x = 5"],
+                "answer": "x = 3",
+                "explanation": "To find the value of x in the equation log₂(x + 1) = 2, rewrite the equation in exponential form and solve. The solution is x = 3."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Simplify the expression: √(x² - 9)",
+                "options": ["x + 3", "x - 3", "|x + 3|", "|x - 3|"],
+                "answer": "|x - 3|",
+                "explanation": "To simplify the expression √(x² - 9), factorize the expression under the square root and simplify. The simplified form is |x - 3|."
+              }
+            ]
+          },{
+            "name": "Trigonometry",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In a right-angled triangle, if one acute angle is 30 degrees, what is the measure of the other acute angle?",
+                "options": ["30 degrees", "45 degrees", "60 degrees", "75 degrees"],
+                "answer": "60 degrees",
+                "explanation": "In a right-angled triangle, the sum of the measures of the acute angles is 90 degrees. If one angle is 30 degrees, the other is 60 degrees."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If sinθ = 0.8, what is the value of cosθ?",
+                "options": ["0.2", "0.4", "0.6", "0.8"],
+                "answer": "0.6",
+                "explanation": "If sinθ = 0.8, then cosθ = √(1 - sin^2θ) = √(1 - 0.64) = 0.6."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Find the value of tan 45 degrees.",
+                "options": ["0", "1", "√2", "2"],
+                "answer": "1",
+                "explanation": "In a right-angled triangle with a 45-degree angle, the sides opposite and adjacent to the angle are equal. Therefore, tan 45 degrees = 1."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If cosα = 0.6, find the value of secα.",
+                "options": ["1.67", "1.25", "1.10", "1.67"],
+                "answer": "1.67",
+                "explanation": "If cosα = 0.6, then secα = 1/cosα = 1/0.6 = 1.67."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If sinβ = 0.5, find the value of cosecβ.",
+                "options": ["1", "2", "1.5", "2.5"],
+                "answer": "2",
+                "explanation": "If sinβ = 0.5, then cosecβ = 1/sinβ = 1/0.5 = 2."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a right-angled triangle, if the hypotenuse is 10 cm and one acute angle is 30 degrees, find the length of the opposite side.",
+                "options": ["5 cm", "√3 cm", "5√3 cm", "10√3 cm"],
+                "answer": "5√3 cm",
+                "explanation": "In a right-angled triangle, the length of the opposite side is given by the formula opposite side = hypotenuse * sin(angle). Therefore, the length is 10 * sin(30 degrees) = 5√3 cm."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If tanγ = 0.75, find the value of cotγ.",
+                "options": ["0.75", "1.33", "1.5", "1.25"],
+                "answer": "1.33",
+                "explanation": "If tanγ = 0.75, then cotγ = 1/tanγ = 1/0.75 = 1.33."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a triangle ABC, if angle A is 50 degrees and angle B is 60 degrees, find the measure of angle C.",
+                "options": ["70 degrees", "80 degrees", "90 degrees", "100 degrees"],
+                "answer": "70 degrees",
+                "explanation": "The sum of angles in a triangle is always 180 degrees. Therefore, angle C = 180 - (angle A + angle B) = 180 - (50 + 60) = 70 degrees."
+              }
+            ]
+          },{
+            "name": "Geometry",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "What is the area of a rectangle with length 10 units and width 8 units?",
+                "options": ["60 square units", "80 square units", "90 square units", "100 square units"],
+                "answer": "80 square units",
+                "explanation": "The area of a rectangle is calculated by multiplying its length and width. In this case, the area is 10 units * 8 units = 80 square units."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A right-angled triangle has legs of length 6 units and 8 units. What is the length of the hypotenuse?",
+                "options": ["9 units", "10 units", "11 units", "12 units"],
+                "answer": "10 units",
+                "explanation": "In a right-angled triangle, the length of the hypotenuse can be found using the Pythagorean theorem. The hypotenuse is √(6^2 + 8^2) = 10 units."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The radius of a circle is 5 units. What is the circumference of the circle?",
+                "options": ["10π units", "15π units", "20π units", "25π units"],
+                "answer": "10π units",
+                "explanation": "The circumference of a circle is calculated using the formula C = 2πr, where r is the radius. In this case, the circumference is 2π * 5 = 10π units."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A parallelogram has a base of length 12 units and a height of 8 units. What is the area of the parallelogram?",
+                "options": ["64 square units", "80 square units", "96 square units", "120 square units"],
+                "answer": "96 square units",
+                "explanation": "The area of a parallelogram is calculated by multiplying the length of the base by the height. In this case, the area is 12 units * 8 units = 96 square units."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The volume of a rectangular prism is 120 cubic units. If the length is 5 units and the width is 4 units, what is the height?",
+                "options": ["3 units", "4 units", "5 units", "6 units"],
+                "answer": "6 units",
+                "explanation": "The volume of a rectangular prism is calculated using the formula V = lwh, where l is the length, w is the width, and h is the height. In this case, 120 = 5 * 4 * h, so the height is 6 units."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a regular hexagon, each interior angle measures 120 degrees. What is the sum of all interior angles in the hexagon?",
+                "options": ["540 degrees", "720 degrees", "900 degrees", "1080 degrees"],
+                "answer": "720 degrees",
+                "explanation": "The sum of interior angles in a polygon can be found using the formula (n - 2) * 180 degrees, where n is the number of sides. In this case, a hexagon has 6 sides, so the sum is (6 - 2) * 180 = 720 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A cone has a radius of 6 units and a slant height of 10 units. What is the lateral surface area of the cone?",
+                "options": ["30π square units", "36π square units", "40π square units", "45π square units"],
+                "answer": "36π square units",
+                "explanation": "The lateral surface area of a cone is calculated using the formula A = πrℓ, where r is the radius and ℓ is the slant height. In this case, the area is π * 6 * 10 = 36π square units."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A regular octahedron has 8 faces. How many vertices does it have?",
+                "options": ["4 vertices", "6 vertices", "8 vertices", "12 vertices"],
+                "answer": "6 vertices",
+                "explanation": "A regular octahedron has 8 equilateral triangle faces. The number of vertices in a polyhedron can be calculated using the formula V = F + 2 - E, where V is vertices, F is faces, and E is edges. In this case, V = 8 + 2 - 12 = 6 vertices."
+              }
+            ]
+          },{
+            "name": "Probability",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A standard deck of playing cards is shuffled. What is the probability of drawing a red card?",
+                "options": ["1/4", "1/2", "3/4", "1/3"],
+                "answer": "1/2",
+                "explanation": "In a standard deck, half the cards are red and half are black. Therefore, the probability of drawing a red card is 1/2."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Two six-sided dice are rolled. What is the probability that the sum of the numbers is 7?",
+                "options": ["1/6", "1/8", "1/12", "1/9"],
+                "answer": "1/6",
+                "explanation": "There are 6 ways to get a sum of 7 on two six-sided dice (1+6, 2+5, 3+4, 4+3, 5+2, 6+1). There are a total of 6 x 6 = 36 possible outcomes, so the probability is 1/6."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A bag contains 3 red balls and 5 green balls. If one ball is drawn at random, what is the probability of drawing a red ball?",
+                "options": ["3/5", "5/8", "2/5", "4/7"],
+                "answer": "3/8",
+                "explanation": "There are 3 red balls out of a total of 8 balls. Therefore, the probability of drawing a red ball is 3/8."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a group of 10 people, what is the probability that at least two people have the same birthday?",
+                "options": ["1/365", "1/183", "1/87", "1/23"],
+                "answer": "1/23",
+                "explanation": "This is an application of the birthday paradox. The probability that at least two people share a birthday in a group of 10 is approximately 1/23."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A bag contains 5 red balls, 3 green balls, and 2 blue balls. If two balls are drawn at random, what is the probability of getting one red ball and one blue ball?",
+                "options": ["2/9", "3/10", "1/5", "4/11"],
+                "answer": "2/9",
+                "explanation": "There are 5 ways to choose a red ball and 2 ways to choose a blue ball. The total number of ways to choose two balls from 10 is 10 choose 2, which is 45. Therefore, the probability is 5/45, which simplifies to 2/9."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?",
+                "options": ["1/16", "5/16", "10/32", "10/16"],
+                "answer": "10/32",
+                "explanation": "The number of ways to get exactly 3 heads in 5 coin tosses is 10 (5 choose 3). The total number of outcomes is 2^5 = 32. Therefore, the probability is 10/32."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A box contains 10 red balls, 5 green balls, and 7 blue balls. If three balls are drawn at random, what is the probability of drawing one ball of each color?",
+                "options": ["1/7", "1/11", "5/77", "7/77"],
+                "answer": "5/77",
+                "explanation": "The probability of drawing one ball of each color is calculated by multiplying the probabilities for each color. (10/22) * (5/21) * (7/20) = 5/77."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A deck of playing cards is shuffled. What is the probability of drawing a spade or a face card?",
+                "options": ["1/4", "3/13", "1/2", "11/26"],
+                "answer": "11/26",
+                "explanation": "There are 13 spades and 12 face cards in a deck. However, 3 of the face cards are also spades. Therefore, the probability is (13 + 12 - 3) / 52 = 11/26."
+              }
+            ]
+          },
+          {
+            "name": "Permutation & Combination",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In how many ways can 4 books be arranged on a shelf?",
+                "options": ["12", "16", "20", "24"],
+                "answer": "24",
+                "explanation": "There are 4 books, and the number of ways to arrange them on a shelf is 4 factorial (4!). This equals 24."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A committee of 5 members is to be formed from a group of 10 people. In how many ways can the committee be formed?",
+                "options": ["50", "100", "200", "252"],
+                "answer": "252",
+                "explanation": "To form a committee of 5 members from a group of 10 people, the number of ways is given by the combination formula: C(10, 5) = 252."
+              },
+              {
+                "difficulty": "medium",
+                "question": "How many different 3-digit numbers can be formed using the digits 1, 2, 3, and 4 without repetition?",
+                "options": ["12", "24", "36", "48"],
+                "answer": "24",
+                "explanation": "For a 3-digit number without repetition, there are 4 choices for the hundreds digit, 3 choices for the tens digit, and 2 choices for the units digit. The total is 4 * 3 * 2 = 24."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A group of 7 people is to be seated in a row. In how many ways can they be seated if two specific people refuse to sit next to each other?",
+                "options": ["720", "5040", "4320", "3600"],
+                "answer": "3600",
+                "explanation": "Consider the two specific people as one unit. Now, there are 6 units in total. Arrange them in 6! ways. Within each unit, the two people can be arranged in 2! ways. So, the total number of arrangements is 6! * 2! = 3600."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A deck of playing cards has 52 cards. In how many ways can 5 cards be drawn from the deck?",
+                "options": ["259,860", "312,455", "376,996", "512,600"],
+                "answer": "259,860",
+                "explanation": "The number of ways to draw 5 cards from a deck of 52 cards is given by the combination formula: C(52, 5) = 259,860."
+              },
+              {
+                "difficulty": "hard",
+                "question": "How many different 7-letter arrangements can be formed using the letters of the word 'SUCCESS'?",
+                "options": ["1,260", "5,040", "10,080", "20,160"],
+                "answer": "10,080",
+                "explanation": "The word 'SUCCESS' has 7 letters with repeated letters. The number of arrangements is 7 factorial divided by the factorial of the repetitions: 7! / (3! * 2!) = 10,080."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In how many ways can the letters of the word 'INNOVATE' be arranged such that all vowels are together?",
+                "options": ["5,040", "7,200", "10,080", "15,120"],
+                "answer": "7,200",
+                "explanation": "Consider the vowels (I, O, E) as one unit. Now, there are 5 units in total. Arrange them in 5! ways. Within the vowel unit, the vowels can be arranged in 3! ways. So, the total number of arrangements is 5! * 3! = 7,200."
+              },
+              {
+                "difficulty": "hard",
+                "question": "How many ways are there to distribute 10 identical books among 4 students if each student can receive any number of books?",
+                "options": ["715", "816", "924", "1001"],
+                "answer": "715",
+                "explanation": "This problem is an example of distributing identical items into distinct boxes. The number of ways is given by the formula: C(10 + 4 - 1, 4 - 1) = C(13, 3) = 715."
+              }
+            ]
+          },{
+            "name": "Age",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "The sum of the ages of a father and his son is 45 years. If 5 years ago, the father was 4 times as old as his son, what are their current ages?",
+                "options": ["Father: 35, Son: 10", "Father: 40, Son: 5", "Father: 30, Son: 15", "Father: 45, Son: 0"],
+                "answer": "Father: 40, Son: 5",
+                "explanation": "Let the current age of the son be x. The father's current age is (45 - x). Five years ago, the father's age was (45 - x - 5) and 4 times the son's age. Solve for x to find the current ages."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The present ages of A, B, and C are in the ratio 4:7:9. If the sum of their ages is 100 years, what are their present ages?",
+                "options": ["A: 16, B: 28, C: 36", "A: 20, B: 35, C: 45", "A: 25, B: 42, C: 33", "A: 18, B: 35, C: 47"],
+                "answer": "A: 16, B: 28, C: 36",
+                "explanation": "Let the common ratio be x. The ages are 4x, 7x, and 9x. The sum is 20x, and when it equals 100, find x. Then calculate the ages of A, B, and C."
+              },
+              {
+                "difficulty": "medium",
+                "question": "The age of John is three times the age of his son. If the difference in their ages is 20 years, find their ages.",
+                "options": ["John: 30, Son: 10", "John: 40, Son: 15", "John: 45, Son: 15", "John: 50, Son: 20"],
+                "answer": "John: 45, Son: 15",
+                "explanation": "Let the age of the son be x. The age of John is 3x. The difference is 3x - x = 20. Solve for x and calculate the ages of John and his son."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Five years ago, the average age of a family of 4 members was 24 years. If the present average age of the family is 28 years, what is the present age of the youngest member?",
+                "options": ["6 years", "8 years", "10 years", "12 years"],
+                "answer": "8 years",
+                "explanation": "Five years ago, the sum of ages was (4 * 24) - (4 * 5). Now, the sum is (4 * 28). Find the change in total age and distribute it among the family members to find the present age of the youngest member."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The average age of a group of 8 friends is 30 years. If one friend, aged 40 years, leaves the group and a new friend joins, the average age becomes 29 years. What is the age of the new friend?",
+                "options": ["25 years", "26 years", "27 years", "28 years"],
+                "answer": "27 years",
+                "explanation": "Find the total age of the group before and after the changes. The difference in total age is the age of the friend who left. Adjust the total age with the new friend's age to find the answer."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ratio of the present ages of A and B is 5:7. If the age of B is 14 years more than the age of A, find the present age of A.",
+                "options": ["20 years", "22 years", "24 years", "26 years"],
+                "answer": "20 years",
+                "explanation": "Let the common ratio be x. The present ages are 5x and 7x. The difference is 14 years. Solve for x and calculate the present age of A."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The sum of the present ages of a father and his son is 55 years. Five years ago, the father was 7 times as old as his son. What are their present ages?",
+                "options": ["Father: 40, Son: 15", "Father: 45, Son: 10", "Father: 50, Son: 5", "Father: 35, Son: 20"],
+                "answer": "Father: 40, Son: 15",
+                "explanation": "Let the current age of the son be x. The father's current age is (55 - x). Five years ago, the father's age was (55 - x - 5) and 7 times the son's age. Solve for x to find the current ages."
+              },
+              {
+                "difficulty": "hard",
+                "question": "The ages of A, B, and C are in the ratio 3:5:8. If the sum of their ages is 72 years, what are their ages?",
+                "options": ["A: 9, B: 15, C: 24", "A: 12, B: 20, C: 40", "A: 15, B: 25, C: 32", "A: 18, B: 30, C: 48"],
+                "answer": "A: 9, B: 15, C: 24",
+                "explanation": "Let the common ratio be x. The ages are 3x, 5x, and 8x. The sum is 16x, and when it equals 72, find x. Then calculate the ages of A, B, and C."
+              }
+            ]
+          }
+          
+          
+          
+          
+          
+          
+    
+      
+    ]
+  }
+  

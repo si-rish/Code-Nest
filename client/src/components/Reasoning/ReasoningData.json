@@ -1,0 +1,1831 @@
+{
+    "topics": [
+        {
+            "name": "Alphanumeric Series",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "What comes next in the series: A, C, E, G, __?",
+                "options": ["I", "H", "J", "F"],
+                "answer": "I",
+                "explanation": "The series follows an alphabetical order with a step of 2. Therefore, the next letter is 'I'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If in a certain code language, 'MARCH' is written as '317814', how is 'JUNE' written in that code?",
+                "options": ["25145", "51147", "18492", "59184"],
+                "answer": "51147",
+                "explanation": "Each letter in 'MARCH' is replaced by its position in the English alphabet. Therefore, 'JUNE' becomes '51147'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the missing term in the series: 2, 6, 12, 20, __, 42.",
+                "options": ["28", "32", "30", "36"],
+                "answer": "30",
+                "explanation": "The series follows the pattern of adding consecutive even numbers. Therefore, the missing term is 30."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If 'APPLE' is coded as '951622271', how is 'ORANGE' coded?",
+                "options": ["1591479225", "15121915725", "15918151525", "9514221925"],
+                "answer": "1591479225",
+                "explanation": "Each letter in 'APPLE' is coded by its position in the English alphabet. Therefore, 'ORANGE' is coded as '1591479225'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the next number in the series: 3, 7, 15, 31, __?",
+                "options": ["55", "63", "62", "65"],
+                "answer": "63",
+                "explanation": "The series follows the pattern of doubling and adding 1. Therefore, the next number is 63."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the missing term in the series: X, W, U, R, __, L.",
+                "options": ["M", "K", "O", "Q"],
+                "answer": "O",
+                "explanation": "The series follows the pattern of moving backward three letters in the English alphabet. Therefore, the missing term is 'O'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If 'BROKEN' is coded as '621182', how is 'SILENT' coded?",
+                "options": ["192591214", "195121294", "1925112414", "1925121419"],
+                "answer": "1925112414",
+                "explanation": "Each letter in 'BROKEN' is coded by its position in the English alphabet. Therefore, 'SILENT' is coded as '1925112414'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What comes next in the series: 4, 9, 16, 25, __?",
+                "options": ["30", "35", "40", "45"],
+                "answer": "36",
+                "explanation": "The series represents the square of consecutive natural numbers. Therefore, the next number is 36."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Find the missing term in the series: Z, X, V, __, R, P.",
+                "options": ["T", "U", "S", "W"],
+                "answer": "S",
+                "explanation": "The series follows the pattern of moving backward two letters in the English alphabet. Therefore, the missing term is 'S'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the next letter in the series: D, G, K, P, __?",
+                "options": ["V", "Q", "S", "T"],
+                "answer": "S",
+                "explanation": "The series follows the pattern of adding consecutive letters in the English alphabet. Therefore, the next letter is 'S'."
+              }
+            ]
+          },
+          {
+            "name": "Reasoning Analogies",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Cat is to Meow as Dog is to __.",
+                "options": ["Moo", "Woof", "Hiss", "Neigh"],
+                "answer": "Woof",
+                "explanation": "The sound that a cat makes is 'Meow,' and the sound that a dog makes is 'Woof.' Therefore, the correct answer is 'Woof.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Circle is to Round as Square is to __.",
+                "options": ["Sharp", "Flat", "Pointy", "Square"],
+                "answer": "Square",
+                "explanation": "A circle is a shape that is 'Round,' and a square is a shape that is 'Square.' Therefore, the correct answer is 'Square.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Doctor is to Stethoscope as Chef is to __.",
+                "options": ["Spatula", "Oven", "Apron", "Menu"],
+                "answer": "Apron",
+                "explanation": "A doctor uses a stethoscope, and a chef wears an apron. Therefore, the correct answer is 'Apron.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Pen is to Write as Scissors is to __.",
+                "options": ["Cut", "Sew", "Paint", "Fold"],
+                "answer": "Cut",
+                "explanation": "A pen is used for writing, and scissors are used for cutting. Therefore, the correct answer is 'Cut.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Fire is to Burn as Ice is to __.",
+                "options": ["Freeze", "Melt", "Evaporate", "Flow"],
+                "answer": "Melt",
+                "explanation": "Fire causes something to burn, and ice causes something to melt. Therefore, the correct answer is 'Melt.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Piano is to Music as Brush is to __.",
+                "options": ["Art", "Paint", "Canvas", "Easel"],
+                "answer": "Paint",
+                "explanation": "A piano produces music, and a brush is used to produce art by applying paint. Therefore, the correct answer is 'Paint.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Marathon is to Race as Novel is to __.",
+                "options": ["Read", "Write", "Publish", "Book"],
+                "answer": "Book",
+                "explanation": "A marathon is a type of race, and a novel is a type of book. Therefore, the correct answer is 'Book.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Seed is to Plant as Egg is to __.",
+                "options": ["Chick", "Nest", "Feather", "Fly"],
+                "answer": "Chick",
+                "explanation": "A seed grows into a plant, and an egg hatches into a chick. Therefore, the correct answer is 'Chick.'"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Complete the analogy: Telescope is to Stars as Microscope is to __.",
+                "options": ["Germs", "Cells", "Bacteria", "Virus"],
+                "answer": "Cells",
+                "explanation": "A telescope is used to observe stars, and a microscope is used to observe cells. Therefore, the correct answer is 'Cells.'"
+              },
+              {
+                "difficulty": "medium",
+                "question": "Complete the analogy: Sunrise is to East as Sunset is to __.",
+                "options": ["South", "North", "West", "Up"],
+                "answer": "West",
+                "explanation": "The sun rises in the east and sets in the west. Therefore, the correct answer is 'West.'"
+              }
+            ]
+          },
+          {
+            "name": "Blood Relations",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A is the brother of B. B is the sister of C. How is C related to A?",
+                "options": ["Sister", "Brother", "Cousin", "Aunt"],
+                "answer": "Sister",
+                "explanation": "A and B are siblings, and B and C are siblings. Therefore, C is the sister of A."
+              },
+              {
+                "difficulty": "medium",
+                "question": "X is the father of Y. Y is the sister of Z. How is Z related to X?",
+                "options": ["Daughter", "Son", "Niece", "Nephew"],
+                "answer": "Niece",
+                "explanation": "X is the father of Y, and Y is the sister of Z. Therefore, Z is the niece of X."
+              },
+              {
+                "difficulty": "hard",
+                "question": "P is the maternal uncle of Q. Q is the brother of R. How is R related to P?",
+                "options": ["Niece", "Nephew", "Cousin", "Sister"],
+                "answer": "Niece",
+                "explanation": "P is the maternal uncle of Q, and Q is the brother of R. Therefore, R is the niece of P."
+              },
+              {
+                "difficulty": "hard",
+                "question": "D is the daughter of E. E is married to F. G is the son of F. How is D related to G?",
+                "options": ["Sister", "Cousin", "Aunt", "Nephew"],
+                "answer": "Cousin",
+                "explanation": "D and G are children of siblings E and F. Therefore, D and G are cousins."
+              },
+              {
+                "difficulty": "medium",
+                "question": "H is the wife of I. J is the son of H. How is J related to I?",
+                "options": ["Son", "Daughter", "Nephew", "Niece"],
+                "answer": "Son",
+                "explanation": "J is the son of H, and H is the wife of I. Therefore, J is the son of I."
+              },
+              {
+                "difficulty": "hard",
+                "question": "K is the paternal aunt of L. L is the sister of M. How is M related to K?",
+                "options": ["Nephew", "Niece", "Cousin", "Brother"],
+                "answer": "Nephew",
+                "explanation": "K is the paternal aunt of L, and L is the sister of M. Therefore, M is the nephew of K."
+              },
+              {
+                "difficulty": "medium",
+                "question": "N is the grandfather of O. O is the sister of P. How is P related to N?",
+                "options": ["Granddaughter", "Grandson", "Niece", "Nephew"],
+                "answer": "Granddaughter",
+                "explanation": "N is the grandfather of O, and O is the sister of P. Therefore, P is the granddaughter of N."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Q is the brother of R. R is the husband of S. T is the daughter of S. How is Q related to T?",
+                "options": ["Uncle", "Father", "Brother", "Cousin"],
+                "answer": "Uncle",
+                "explanation": "Q is the brother of R, and R is the husband of S. T is the daughter of S. Therefore, Q is the uncle of T."
+              },
+              {
+                "difficulty": "hard",
+                "question": "U is the wife of V. W is the son of U. X is the brother of V. How is W related to X?",
+                "options": ["Nephew", "Cousin", "Brother", "Son"],
+                "answer": "Cousin",
+                "explanation": "W and X are children of siblings U and V. Therefore, W and X are cousins."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Y is the daughter of Z. Z is the maternal uncle of X. How is X related to Y?",
+                "options": ["Nephew", "Cousin", "Brother", "Son"],
+                "answer": "Nephew",
+                "explanation": "Y is the daughter of Z, and Z is the maternal uncle of X. Therefore, X is the nephew of Y."
+              }
+            ]
+          },
+          {
+            "name": "Calendars",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "How many odd days are there in 100 years?",
+                "options": ["24", "25", "26", "27"],
+                "answer": "25",
+                "explanation": "In 100 years, there are 5 leap years and 95 non-leap years. Each non-leap year has 1 odd day, and each leap year has 2 odd days. Therefore, the total odd days are 95 + (5 * 2) = 105, which is equivalent to 25 odd days."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If January 1, 2023, is a Sunday, what day of the week will be on January 1, 2024?",
+                "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+                "answer": "Tuesday",
+                "explanation": "There are 365 days in a non-leap year. From January 1, 2023, to January 1, 2024, there are 365 days. Since 365 is not divisible by 7, the day of the week will move forward by one day. Therefore, January 1, 2024, will be a Tuesday."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What day of the week was July 4, 1776, the day the United States declared independence?",
+                "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+                "answer": "Thursday",
+                "explanation": "July 4, 1776, was a Thursday. This historical date is known as Independence Day in the United States."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the first day of a leap year is a Sunday, what day of the week will be on December 31 of that year?",
+                "options": ["Friday", "Saturday", "Sunday", "Monday"],
+                "answer": "Sunday",
+                "explanation": "A leap year has 366 days. Since 366 is divisible by 7, the day of the week remains the same after adding 366 days. Therefore, December 31 of that leap year will also be a Sunday."
+              },
+              {
+                "difficulty": "medium",
+                "question": "How many times will the 13th of the month fall on a Friday in the year 2022?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2",
+                "explanation": "In a non-leap year, each month has one Friday the 13th, except for February. In the year 2022, February has a Friday the 13th, and one additional month will have a Friday the 13th. Therefore, there will be two occurrences of the 13th falling on a Friday in 2022."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the day of the week on August 15, 1947, the day India gained independence?",
+                "options": ["Friday", "Saturday", "Sunday", "Monday"],
+                "answer": "Friday",
+                "explanation": "August 15, 1947, was a Friday. This historic date marks India's independence from British rule."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If April 1, 2025, is a Tuesday, what day of the week will be on April 1, 2026?",
+                "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+                "answer": "Wednesday",
+                "explanation": "There are 365 days in a non-leap year. From April 1, 2025, to April 1, 2026, there are 365 days. Since 365 is not divisible by 7, the day of the week will move forward by one day. Therefore, April 1, 2026, will be a Wednesday."
+              },
+              {
+                "difficulty": "medium",
+                "question": "How many days are there between May 15 and August 10 in a non-leap year?",
+                "options": ["86", "87", "88", "89"],
+                "answer": "87",
+                "explanation": "From May 15 to June 15 is 31 days, from June 15 to July 15 is another 31 days, and from July 15 to August 10 is 26 days. Therefore, the total number of days between May 15 and August 10 is 31 + 31 + 26 = 87."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If October 5, 2030, is a Saturday, what day of the week will be on October 5, 2035?",
+                "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+                "answer": "Thursday",
+                "explanation": "There are 5 years between 2030 and 2035. Each non-leap year has 1 odd day. Therefore, the day of the week will move forward by 5 days. Since October 5, 2030, is a Saturday, October 5, 2035, will be a Thursday."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the day of the week on December 25, 2022?",
+                "options": ["Friday", "Saturday", "Sunday", "Monday"],
+                "answer": "Sunday",
+                "explanation": "December 25, 2022, is a Sunday. This date is widely celebrated as Christmas Day."
+              }
+            ]
+          },{
+            "name": "Clocks",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "At what time between 3:00 and 4:00 do the hour and minute hands of the clock coincide?",
+                "options": ["3:05", "3:15", "3:30", "3:45"],
+                "answer": "3:15",
+                "explanation": "The hour and minute hands of the clock coincide at 3:15. At this time, the minute hand is on the 3, and the hour hand is on the 3 as well."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the time is 6:15, what will be the angle between the hour and minute hands of the clock?",
+                "options": ["45 degrees", "75 degrees", "90 degrees", "97.5 degrees"],
+                "answer": "97.5 degrees",
+                "explanation": "The angle between the hour and minute hands at 6:15 can be calculated using the formula: |(30*H - (11/2)*M)|. Here, H is the hour and M is the minute. So, the angle is |(30*6 - (11/2)*15)| = 97.5 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the time is 9:20, what is the acute angle between the hour and minute hands of the clock?",
+                "options": ["56 degrees", "60 degrees", "66 degrees", "72 degrees"],
+                "answer": "66 degrees",
+                "explanation": "To find the acute angle between the hands at 9:20, use the formula: |(30*H - (11/2)*M)|. Here, H is the hour and M is the minute. So, the angle is |(30*9 - (11/2)*20)| = 66 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the clock shows 2:45, find the angle between the hour and minute hands.",
+                "options": ["70.5 degrees", "75 degrees", "80.5 degrees", "82.5 degrees"],
+                "answer": "82.5 degrees",
+                "explanation": "The angle between the hour and minute hands at 2:45 can be calculated using the formula: |(30*H - (11/2)*M)|. Here, H is the hour and M is the minute. So, the angle is |(30*2 - (11/2)*45)| = 82.5 degrees."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If a clock shows 8:20, what is the reflex angle between the hour and minute hands?",
+                "options": ["160 degrees", "155 degrees", "147.5 degrees", "140 degrees"],
+                "answer": "155 degrees",
+                "explanation": "The reflex angle between the hour and minute hands at 8:20 can be calculated using the formula: |360 - |(30*H - (11/2)*M)||. Here, H is the hour and M is the minute. So, the angle is |360 - |(30*8 - (11/2)*20)|| = 155 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "At what time between 4:00 and 5:00 do the hour and minute hands form a right angle?",
+                "options": ["4:08", "4:20", "4:30", "4:45"],
+                "answer": "4:30",
+                "explanation": "The hour and minute hands form a right angle twice an hour. The first time is between 4:00 and 5:00. So, at 4:30, the hands form a right angle."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If a clock shows 12:45, what is the angle between the hour and minute hands?",
+                "options": ["135 degrees", "142.5 degrees", "150 degrees", "157.5 degrees"],
+                "answer": "157.5 degrees",
+                "explanation": "The angle between the hour and minute hands at 12:45 can be calculated using the formula: |(30*H - (11/2)*M)|. Here, H is the hour and M is the minute. So, the angle is |(30*12 - (11/2)*45)| = 157.5 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the clock shows 5:15, find the obtuse angle between the hour and minute hands.",
+                "options": ["58 degrees", "62 degrees", "66.5 degrees", "70 degrees"],
+                "answer": "70 degrees",
+                "explanation": "To find the obtuse angle between the hands at 5:15, use the formula: |360 - |(30*H - (11/2)*M)||. Here, H is the hour and M is the minute. So, the angle is |360 - |(30*5 - (11/2)*15)|| = 70 degrees."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If a clock shows 7:30, find the angle between the hour and minute hands.",
+                "options": ["105 degrees", "120 degrees", "135 degrees", "150 degrees"],
+                "answer": "105 degrees",
+                "explanation": "The angle between the hour and minute hands at 7:30 can be calculated using the formula: |(30*H - (11/2)*M)|. Here, H is the hour and M is the minute. So, the angle is |(30*7 - (11/2)*30)| = 105 degrees."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a clock shows 10:10, find the sum of the angles between the hour and minute hands.",
+                "options": ["140 degrees", "145 degrees", "150 degrees", "155 degrees"],
+                "answer": "145 degrees",
+                "explanation": "To find the sum of the angles between the hands at 10:10, use the formula: |(11/2 * M - 30 * H)|. Here, H is the hour and M is the minute. So, the sum is |(11/2 * 10 - 30 * 10)| = 145 degrees."
+              }
+            ]
+          },
+          {
+            "name": "Coding-Decoding",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "If 'APPLE' is coded as '5#2@2!', how is 'ORANGE' coded?",
+                "options": ["9#1@7!2@", "15#12@19!4@", "11#14@5!22@", "14#18@12!5@"],
+                "answer": "15#12@19!4@",
+                "explanation": "In the coding, each letter in the word is replaced by its position in the English alphabet. The symbol # represents the length of the word, @ represents vowels, and ! represents consonants. Therefore, 'ORANGE' is coded as '15#12@19!4@'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If '12345' is coded as 'ZAYXW', how is '67890' coded?",
+                "options": ["VUTSR", "VUTSRQ", "VUTSRQP", "UVTSRQP"],
+                "answer": "VUTSRQP",
+                "explanation": "In the coding, each digit is replaced by the corresponding letter from the end of the English alphabet. Therefore, '67890' is coded as 'VUTSRQP'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If 'CAT' is coded as '312045', how is 'DOG' coded?",
+                "options": ["491517", "714915", "915741", "571914"],
+                "answer": "571914",
+                "explanation": "In the coding, each letter in the word is coded by its position in the English alphabet. Therefore, 'DOG' is coded as '571914'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If 'EFGHI' is coded as '54321', how is 'JKLMN' coded?",
+                "options": ["12345", "54321", "98765", "56789"],
+                "answer": "56789",
+                "explanation": "In the coding, each letter is assigned a digit based on its position in the word. Therefore, 'JKLMN' is coded as '56789'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If 'XYZ' is coded as 'BCD', how is 'WXY' coded?",
+                "options": ["VZA", "YZA", "YZB", "VZB"],
+                "answer": "VZA",
+                "explanation": "In the coding, each letter is shifted two positions to the right. Therefore, 'WXY' is coded as 'VZA'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If 'RAT' is coded as 'TAR', how is 'MOUSE' coded?",
+                "options": ["EUSOM", "EUMOS", "SEUMO", "EOMUS"],
+                "answer": "EUSOM",
+                "explanation": "In the coding, each three-letter segment is reversed. Therefore, 'MOUSE' is coded as 'EUSOM'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If 'SUN' is coded as '94%21', how is 'MOON' coded?",
+                "options": ["49%21", "42%21", "59%21", "54%21"],
+                "answer": "54%21",
+                "explanation": "In the coding, each letter in the word is coded by its position in the English alphabet, and % represents the length of the word. Therefore, 'MOON' is coded as '54%21'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If 'FLOWER' is coded as 'ELWFOR', how is 'RIVER' coded?",
+                "options": ["RREIV", "RVEIR", "RIVRE", "RIVER"],
+                "answer": "RVEIR",
+                "explanation": "In the coding, each letter in the word is reversed. Therefore, 'RIVER' is coded as 'RVEIR'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If 'HOUSE' is coded as 'UEHOS', how is 'GARDEN' coded?",
+                "options": ["DANGER", "DRAENG", "DEGNAR", "DNEAGR"],
+                "answer": "DEGNAR",
+                "explanation": "In the coding, each letter in the word is rearranged in reverse order. Therefore, 'GARDEN' is coded as 'DEGNAR'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If '123' is coded as 'ABC', how is '456' coded?",
+                "options": ["XYZ", "DEF", "VWX", "JKL"],
+                "answer": "DEF",
+                "explanation": "In the coding, each digit is replaced by the corresponding letter in the English alphabet. Therefore, '456' is coded as 'DEF'."
+              }
+            ]
+          },
+          {
+            "name": "Data Sufficiency",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Is the given statement sufficient to answer the question?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Both statements together are sufficient.",
+                "explanation": "Statement 1: The number is divisible by 2. \nStatement 2: The number is divisible by 3. Combining both statements, we can conclude the number is divisible by 6. If a number is divisible by both 2 and 3, it is also divisible by their least common multiple, which is 6. Therefore, both statements together are sufficient to answer the question."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If x and y are integers, is x^2 - y^2 divisible by 8?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Both statements together are sufficient.",
+                "explanation": "Statement 1: x is an even integer. \nStatement 2: y is an odd integer. Combining both statements, we can deduce that one of the integers (either x or y) is even, and the other is odd. The difference of the squares of an even and an odd integer is always divisible by 8. Therefore, both statements together are sufficient to answer the question."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the area of the rectangle greater than its perimeter?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Neither statement alone is sufficient.",
+                "explanation": "Statement 1: The length of the rectangle is 10 units. \nStatement 2: The width of the rectangle is 5 units. The area (length * width) can be calculated using both statements, but the perimeter (2 * length + 2 * width) cannot be determined without knowing both the length and width. Therefore, neither statement alone is sufficient to answer the question."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Is the sum of three consecutive odd integers divisible by 3?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Both statements together are sufficient.",
+                "explanation": "Statement 1: The first odd integer is a multiple of 3. \nStatement 2: The second odd integer is also a multiple of 3. Combining both statements, we can infer that the sum of the first three consecutive odd integers is a multiple of 3, making it divisible by 3. Therefore, both statements together are sufficient to answer the question."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the volume of the cube greater than its surface area?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Neither statement alone is sufficient.",
+                "explanation": "Statement 1: The side length of the cube is 3 units. \nStatement 2: The cube has 54 square units of surface area. While both statements provide information about the cube, the relationship between volume and surface area cannot be determined without knowing both the side length and the specific dimensions. Therefore, neither statement alone is sufficient to answer the question."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a and b are positive integers, is a^2 - b^2 divisible by 15?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Both statements together are sufficient.",
+                "explanation": "Statement 1: a is divisible by 3. \nStatement 2: b is divisible by 5. Combining both statements, we can determine that both a and b are divisible by their respective prime factors. Therefore, a^2 - b^2 is divisible by the product of these prime factors, which is 3 * 5 = 15. Hence, both statements together are sufficient."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the product of two consecutive integers even?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Statement 1 alone is sufficient.",
+                "explanation": "Statement 1: One of the consecutive integers is even. The product of any even number with any other integer is always even. Therefore, Statement 1 alone is sufficient to answer the question."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If m and n are positive integers, is m^n an odd number?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Both statements together are sufficient.",
+                "explanation": "Statement 1: m is an odd integer. \nStatement 2: n is a positive even integer. The product of odd and even integers is always odd. Therefore, m^n is odd when an odd base (Statement 1) is raised to a positive even exponent (Statement 2). Hence, both statements together are sufficient."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the sum of two consecutive prime numbers greater than 50?",
+                "options": [
+                  "Statement 1 alone is sufficient.",
+                  "Statement 2 alone is sufficient.",
+                  "Both statements together are sufficient.",
+                  "Neither statement alone is sufficient."
+                ],
+                "answer": "Neither statement alone is sufficient.",
+                "explanation": "Statement 1: One of the consecutive prime numbers is 23. \nStatement 2: The other consecutive prime number is 29. The sum of these two prime numbers is 52, which is greater than 50. However, without both statements, we cannot determine if the sum is always greater than 50. Therefore, neither statement alone is sufficient."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If a number is divisible by both 5 and 7, is it also divisible by 35?",
+                "options": ["Yes", "No", "Depends on the number"],
+                "answer": "Yes",
+                "explanation": "Since 35 is the product of 5 and 7, any number divisible by both 5 and 7 is also divisible by 35."
+              }
+            ]
+          },
+          {
+            "name": "Decision Making",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "You are the manager of a project team. A team member suggests a new approach that could significantly improve the project's outcome. What factors would you consider before deciding whether to implement the new approach?",
+                "options": [
+                  "Cost implications",
+                  "Time constraints",
+                  "Team expertise",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "When making a decision about implementing a new approach in a project, it's crucial to consider various factors. Cost implications are important to ensure the change is within budget. Time constraints should be evaluated to determine if the new approach can be implemented without jeopardizing project deadlines. Team expertise is essential to assess if the team can effectively execute the new approach. Therefore, all the factors mentioned (cost implications, time constraints, and team expertise) should be considered before making a decision."
+              },
+              {
+                "difficulty": "hard",
+                "question": "You are a CEO facing a tough financial situation. One option is to lay off employees to cut costs, and the other is to reduce salaries across the board. What ethical considerations would influence your decision, and how would you weigh them?",
+                "options": [
+                  "Impact on employees' livelihoods",
+                  "Maintaining company reputation",
+                  "Legal obligations",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "In a decision-making scenario involving layoffs or salary reductions, ethical considerations play a crucial role. The impact on employees' livelihoods is a primary concern, as these decisions can have profound effects on individuals and their families. Maintaining the company's reputation is essential for long-term success, and ethical decisions contribute to a positive image. Legal obligations, such as adhering to labor laws, must also be considered to avoid legal consequences. Therefore, all the ethical considerations mentioned (impact on employees' livelihoods, maintaining company reputation, and legal obligations) should be weighed when making such a decision."
+              },
+              {
+                "difficulty": "medium",
+                "question": "As a government official, you must decide whether to allocate funds for building a new school or improving existing healthcare facilities. What factors would you consider, and how would you prioritize them in your decision-making process?",
+                "options": [
+                  "Education needs",
+                  "Healthcare needs",
+                  "Budget constraints",
+                  "Public opinion"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding between allocating funds for a new school or improving healthcare facilities requires careful consideration of multiple factors. Education needs and healthcare needs are both critical considerations based on the current state of public services. Budget constraints are essential to ensure financial responsibility, and public opinion can influence the decision's acceptance and support. Therefore, all the factors mentioned (education needs, healthcare needs, budget constraints, and public opinion) should be considered and prioritized in the decision-making process."
+              },
+              {
+                "difficulty": "hard",
+                "question": "You are a project manager dealing with a team conflict. One team member accuses another of taking credit for their work. How would you approach this situation, and what steps would you take to resolve the conflict?",
+                "options": [
+                  "Conduct a private meeting with each team member",
+                  "Gather evidence and witnesses",
+                  "Facilitate a team discussion",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Resolving a team conflict requires a comprehensive approach. Conducting private meetings with each team member allows them to express their concerns openly. Gathering evidence and identifying witnesses helps in understanding the context and assessing the validity of the accusations. Facilitating a team discussion promotes open communication and finding a resolution collectively. Therefore, all the steps mentioned (conducting private meetings, gathering evidence and witnesses, and facilitating a team discussion) should be taken to effectively resolve the conflict."
+              },
+              {
+                "difficulty": "medium",
+                "question": "You are a business owner deciding whether to invest in expanding your product line or improving the quality of existing products. What criteria would you use to make this decision, and how would you prioritize them?",
+                "options": [
+                  "Market demand for new products",
+                  "Customer satisfaction with existing products",
+                  "Competitor analysis",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding between expanding the product line and improving existing products involves analyzing various criteria. Market demand for new products ensures there is a market for the expansion. Customer satisfaction with existing products is crucial for retaining current customers. Competitor analysis helps in understanding the competitive landscape. Therefore, all the criteria mentioned (market demand for new products, customer satisfaction with existing products, and competitor analysis) should be considered and prioritized in the decision-making process."
+              },
+              {
+                "difficulty": "hard",
+                "question": "As a government leader, you must decide whether to implement a controversial policy that aligns with your party's ideology but may face strong opposition. What considerations would guide your decision, and how would you navigate potential challenges?",
+                "options": [
+                  "Adherence to party ideology",
+                  "Public opinion",
+                  "Potential long-term benefits",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding on a controversial policy involves weighing various considerations. Adherence to party ideology is essential for political alignment. Public opinion is crucial for maintaining support and avoiding backlash. Assessing potential long-term benefits ensures the policy's viability in the future. Therefore, all the considerations mentioned (adherence to party ideology, public opinion, and potential long-term benefits) should guide the decision-making process, and strategies should be developed to navigate potential challenges."
+              },
+              {
+                "difficulty": "medium",
+                "question": "As a project leader, you have to choose between outsourcing a critical project component or keeping it in-house. What factors would influence your decision, and how would you prioritize them?",
+                "options": [
+                  "Cost of outsourcing",
+                  "Quality control",
+                  "Timeline considerations",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding between outsourcing and keeping a project component in-house requires careful consideration of multiple factors. The cost of outsourcing is crucial for financial planning. Quality control is essential to ensure the desired standards are met. Timeline considerations are vital for project deadlines. Therefore, all the factors mentioned (cost of outsourcing, quality control, and timeline considerations) should be considered and prioritized in the decision-making process."
+              },
+              {
+                "difficulty": "hard",
+                "question": "You are a company executive considering a merger with a competitor. What ethical considerations would guide your decision, and how would you address potential ethical challenges?",
+                "options": [
+                  "Impact on employees",
+                  "Market competition",
+                  "Legal and regulatory compliance",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Mergers involve ethical considerations that impact various stakeholders. The impact on employees is crucial to ensure their well-being during the transition. Market competition should be evaluated to avoid monopolistic practices. Legal and regulatory compliance is essential to avoid legal consequences. Therefore, all the ethical considerations mentioned (impact on employees, market competition, and legal and regulatory compliance) should guide the decision-making process, and strategies should be developed to address potential ethical challenges."
+              },
+              {
+                "difficulty": "medium",
+                "question": "As a school administrator, you have to decide whether to implement a new technology-based learning program. What factors would you consider, and how would you assess the potential benefits and risks?",
+                "options": [
+                  "Cost of implementation",
+                  "Teacher training",
+                  "Student engagement",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding on a new technology-based learning program involves assessing multiple factors. The cost of implementation is crucial for budgeting and financial planning. Teacher training ensures effective utilization of the technology. Student engagement is vital for the success of the program. Therefore, all the factors mentioned (cost of implementation, teacher training, and student engagement) should be considered and assessed for potential benefits and risks in the decision-making process."
+              },
+              {
+                "difficulty": "hard",
+                "question": "You are a city planner deciding on the allocation of resources between developing public parks and improving public transportation. What criteria would you use to make this decision, and how would you balance competing interests?",
+                "options": [
+                  "Environmental sustainability",
+                  "Community well-being",
+                  "Traffic congestion",
+                  "All of the above"
+                ],
+                "answer": "All of the above",
+                "explanation": "Deciding between developing public parks and improving public transportation requires careful consideration of various criteria. Environmental sustainability is crucial for long-term ecological balance. Community well-being ensures residents' quality of life. Traffic congestion is vital for addressing urban mobility challenges. Therefore, all the criteria mentioned (environmental sustainability, community well-being, and traffic congestion) should be considered and balanced in the decision-making process to meet the diverse needs of the community."
+              }
+            ]
+          },
+          {
+            "name": "Dices",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Two six-sided dice are rolled. What is the probability of getting a sum greater than 8?",
+                "options": [
+                  "1/6",
+                  "1/4",
+                  "1/3",
+                  "1/12"
+                ],
+                "answer": "1/4",
+                "explanation": "There are a total of 6 * 6 = 36 possible outcomes when rolling two six-sided dice. To find the probability of getting a sum greater than 8, we can list the favorable outcomes: (3, 6), (4, 5), (4, 6), (5, 4), (5, 5), (5, 6), (6, 3), (6, 4), (6, 5), (6, 6). There are 10 favorable outcomes. Therefore, the probability is 10/36, which simplifies to 5/18. This is equivalent to 1/4 when simplified."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A 12-sided die is rolled. What is the probability of getting a prime number or a multiple of 3?",
+                "options": [
+                  "1/2",
+                  "1/3",
+                  "2/3",
+                  "5/12"
+                ],
+                "answer": "5/12",
+                "explanation": "A 12-sided die has the numbers 1 to 12. The prime numbers on the die are 2, 3, 5, 7, 11. The multiples of 3 are 3, 6, 9, 12. To find the probability of getting a prime number or a multiple of 3, we count the favorable outcomes: 2, 3, 5, 6, 7, 9, 11, 12. There are 8 favorable outcomes out of 12 possible outcomes. Therefore, the probability is 8/12, which simplifies to 2/3. This is equivalent to 5/12 when simplified."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Three six-sided dice are rolled. What is the probability of getting a sum of 15?",
+                "options": [
+                  "1/216",
+                  "1/72",
+                  "1/36",
+                  "1/144"
+                ],
+                "answer": "1/216",
+                "explanation": "There are a total of 6 * 6 * 6 = 216 possible outcomes when rolling three six-sided dice. To find the probability of getting a sum of 15, we need to count the favorable outcomes. The only combination that adds up to 15 is (5, 5, 5). Therefore, there is 1 favorable outcome. The probability is 1/216."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Two eight-sided dice are rolled. What is the probability of getting a product greater than 40?",
+                "options": [
+                  "1/8",
+                  "1/4",
+                  "1/6",
+                  "1/5"
+                ],
+                "answer": "1/6",
+                "explanation": "Each eight-sided die has numbers from 1 to 8. To find the probability of getting a product greater than 40, we can list the favorable outcomes: (6, 7), (6, 8), (7, 6), (7, 7), (7, 8), (8, 6), (8, 7), (8, 8). There are 8 favorable outcomes out of 64 possible outcomes (8 * 8). Therefore, the probability is 8/64, which simplifies to 1/8. This is equivalent to 1/6 when considering that the order of the dice matters (e.g., (6, 7) is different from (7, 6))."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A tetrahedral die (four-sided) is rolled. What is the probability of getting an odd number?",
+                "options": [
+                  "1/4",
+                  "1/2",
+                  "3/4",
+                  "1/3"
+                ],
+                "answer": "1/2",
+                "explanation": "A tetrahedral die has the numbers 1 to 4. To find the probability of getting an odd number, we count the favorable outcomes: 1, 3. There are 2 favorable outcomes out of 4 possible outcomes. Therefore, the probability is 2/4, which simplifies to 1/2."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Four ten-sided dice are rolled. What is the probability of getting a sum greater than 35?",
+                "options": [
+                  "1/1000",
+                  "1/500",
+                  "1/200",
+                  "1/400"
+                ],
+                "answer": "1/500",
+                "explanation": "Each ten-sided die has numbers from 1 to 10. To find the probability of getting a sum greater than 35, we need to count the favorable outcomes. The possible combinations that add up to 35 or less are numerous, so it's easier to count the combinations that add up to 36 or more. These are (9, 9, 9, 10), (9, 9, 10, 8), ..., (10, 10, 10, 7), (10, 10, 10, 8), (10, 10, 10, 9), (10, 10, 10, 10). There are 136 favorable outcomes out of 10^4 possible outcomes. Therefore, the probability is 136/10000, which simplifies to 17/1250. This is equivalent to 1/500 when further simplified."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A twelve-sided die is rolled. What is the probability of getting a multiple of 4 or a prime number?",
+                "options": [
+                  "1/3",
+                  "1/4",
+                  "1/2",
+                  "2/3"
+                ],
+                "answer": "2/3",
+                "explanation": "A twelve-sided die has the numbers 1 to 12. The multiples of 4 are 4, 8, 12. The prime numbers are 2, 3, 5, 7, 11. To find the probability of getting a multiple of 4 or a prime number, we count the favorable outcomes: 2, 3, 4, 5, 7, 8, 11, 12. There are 8 favorable outcomes out of 12 possible outcomes. Therefore, the probability is 8/12, which simplifies to 2/3."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Five six-sided dice are rolled. What is the probability of getting all even numbers?",
+                "options": [
+                  "1/32",
+                  "1/64",
+                  "1/128",
+                  "1/256"
+                ],
+                "answer": "1/64",
+                "explanation": "Each six-sided die has even numbers 2, 4, 6. To find the probability of getting all even numbers, we count the favorable outcome, which is (2, 2, 2, 2, 2). There is 1 favorable outcome out of 6^5 possible outcomes. Therefore, the probability is 1/6^4, which simplifies to 1/64."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Two twenty-sided dice are rolled. What is the probability of getting a sum greater than 25?",
+                "options": [
+                  "1/100",
+                  "1/50",
+                  "1/75",
+                  "1/25"
+                ],
+                "answer": "1/50",
+                "explanation": "Each twenty-sided die has numbers from 1 to 20. To find the probability of getting a sum greater than 25, we need to count the favorable outcomes. The possible combinations that add up to 25 or less are numerous, so it's easier to count the combinations that add up to 26 or more. There are 175 favorable outcomes out of 20^2 possible outcomes. Therefore, the probability is 175/400, which simplifies to 7/16. This is equivalent to 1/50 when further simplified."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A sixteen-sided die is rolled twice. What is the probability of getting the same number on both rolls?",
+                "options": [
+                  "1/16",
+                  "1/256",
+                  "1/64",
+                  "1/128"
+                ],
+                "answer": "1/256",
+                "explanation": "A sixteen-sided die has numbers from 1 to 16. To find the probability of getting the same number on both rolls, each number on the first roll has a 1/16 chance of matching the same number on the second roll. Therefore, the probability is (1/16) * (1/16), which simplifies to 1/256."
+              }
+            ]
+          },
+          {
+            "name": "Directions",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A person walks 20 meters North, then 30 meters East, and finally 15 meters South. In which direction is the person from the starting point?",
+                "options": [
+                  "North",
+                  "East",
+                  "West",
+                  "South"
+                ],
+                "answer": "East",
+                "explanation": "The person's net movement in the North-South direction is 20 - 15 = 5 meters North. In the East-West direction, it is 30 meters East. Therefore, the person is 5 meters North and 30 meters East from the starting point. This position is in the East direction."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A car travels 40 kilometers in the North direction, then 60 kilometers in the West direction, followed by 80 kilometers in the South direction. What is the straight-line distance from the initial point to the final point?",
+                "options": [
+                  "20 km",
+                  "60 km",
+                  "100 km",
+                  "120 km"
+                ],
+                "answer": "100 km",
+                "explanation": "To find the straight-line distance, we can treat the North-South and East-West movements as components of a right-angled triangle. The North-South displacement is 40 - 80 = -40 kilometers (negative because it's South). The East-West displacement is 60 kilometers. Using the Pythagorean theorem, the straight-line distance is √((-40)^2 + 60^2) = √(1600 + 3600) = √5200 ≈ 72.11 km. Therefore, the straight-line distance from the initial point to the final point is approximately 72.11 km."
+              },
+              {
+                "difficulty": "medium",
+                "question": "John faces North, turns 90 degrees clockwise, then turns 135 degrees counterclockwise. In which direction is John facing now?",
+                "options": [
+                  "North",
+                  "East",
+                  "West",
+                  "South"
+                ],
+                "answer": "West",
+                "explanation": "John's initial direction is North. A 90-degree clockwise turn brings him to the East. Then, a 135-degree counterclockwise turn brings him to the West. Therefore, John is facing West now."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A person walks 40 meters in the North-West direction, followed by 30 meters in the South-East direction. What is the shortest distance from the starting point?",
+                "options": [
+                  "10 meters",
+                  "50 meters",
+                  "70 meters",
+                  "100 meters"
+                ],
+                "answer": "50 meters",
+                "explanation": "The person's net movement in the North-South direction is 40 - 30 = 10 meters North. In the East-West direction, it is 40 - 30 = 10 meters West. To find the shortest distance, we can treat these movements as components of a right-angled triangle. Using the Pythagorean theorem, the shortest distance is √(10^2 + 10^2) = √200 ≈ 14.14 meters. Therefore, the shortest distance from the starting point is approximately 14.14 meters."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If you start facing East and make a 270-degree clockwise turn, in which direction are you facing now?",
+                "options": [
+                  "North",
+                  "East",
+                  "West",
+                  "South"
+                ],
+                "answer": "South",
+                "explanation": "Starting facing East, a 270-degree clockwise turn corresponds to three right-angle turns. Therefore, you are facing South now."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A ship travels 120 kilometers due North, then 160 kilometers due West, and finally 200 kilometers in the South-East direction. What is the straight-line distance from the starting point?",
+                "options": [
+                  "40 km",
+                  "80 km",
+                  "100 km",
+                  "200 km"
+                ],
+                "answer": "80 km",
+                "explanation": "To find the straight-line distance, we treat the North-South and East-West movements as components of a right-angled triangle. The North-South displacement is 120 - 200 = -80 kilometers (negative because it's South). The East-West displacement is -160 kilometers (negative because it's West). Using the Pythagorean theorem, the straight-line distance is √((-80)^2 + (-160)^2) = √(6400 + 25600) = √32000 ≈ 178.89 km. Therefore, the straight-line distance from the starting point is approximately 178.89 km."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If you start facing West and make a 180-degree turn clockwise, in which direction are you facing now?",
+                "options": [
+                  "North",
+                  "East",
+                  "West",
+                  "South"
+                ],
+                "answer": "East",
+                "explanation": "Starting facing West, a 180-degree clockwise turn corresponds to two right-angle turns. Therefore, you are facing East now."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Catherine walks 15 km towards the North, turns 45 degrees to her right, and walks another 10 km. How far and in which direction is Catherine from her starting point?",
+                "options": [
+                  "15 km North-East",
+                  "5 km North",
+                  "15 km North-West",
+                  "25 km North"
+                ],
+                "answer": "15 km North-East",
+                "explanation": "After walking 15 km towards the North, Catherine turns 45 degrees to her right. This means she is now facing North-East. She then walks 10 km in that direction. To find the distance and direction from her starting point, we form a right-angled triangle with the North and East displacements. Using the Pythagorean theorem, the distance is sqrt(15^2 + 10^2) = 18.0278 km. Since she is facing North-East, the direction is 45 degrees from North. Therefore, Catherine is 18.0278 km away from her starting point in the North-East direction."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Jack starts walking towards the North from his house. After walking 5 km, he turns 90 degrees to his right and walks 8 km. How far and in which direction is Jack from his starting point?",
+                "options": [
+                  "8 km East",
+                  "13 km North",
+                  "13 km West",
+                  "13 km South"
+                ],
+                "answer": "13 km West",
+                "explanation": "After walking 5 km towards the North, Jack turns 90 degrees to his right. This means he is now facing East. He then walks 8 km towards the East. Now, to find the distance and direction from his starting point, we form a right-angled triangle with the North and East displacements. Using the Pythagorean theorem, the distance is sqrt(5^2 + 8^2) = 13 km. Since he is facing East, the direction is West."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Lisa starts at point A and walks 10 km towards the South. She then turns 135 degrees to her left and walks 15 km. In which direction is Lisa from point A, and how far is she?",
+                "options": [
+                  "15 km North",
+                  "15 km South-East",
+                  "5 km South",
+                  "20 km South-West"
+                ],
+                "answer": "20 km South-West",
+                "explanation": "After walking 10 km towards the South, Lisa turns 135 degrees to her left. This means she is now facing South-West. She then walks 15 km in that direction. To find the distance and direction from point A, we can treat the North as positive and East as negative. The South-West direction can be represented as a vector (-15, -10). The magnitude of this vector is sqrt((-15)^2 + (-10)^2) = 18.0278 km. Therefore, Lisa is 18.0278 km away from point A in the South-West direction."
+              }
+          
+            ]
+        },
+        {
+            "name": "Input-Output",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "If the input is 'APPLE', how will the output look like following the given rule?",
+                "options": [
+                  "EPLPA",
+                  "ALPPE",
+                  "ELPPA",
+                  "APPEL"
+                ],
+                "answer": "ELPPA",
+                "explanation": "The rule is to reverse the order of the letters in the input. Therefore, 'APPLE' becomes 'ELPPA'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the input is '736492', what will be the output according to the rule?",
+                "options": [
+                  "249367",
+                  "294763",
+                  "436792",
+                  "973624"
+                ],
+                "answer": "294763",
+                "explanation": "The rule is to rearrange the digits in descending order, so '736492' becomes '294763'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Following a specific pattern, if the input is 'CAT', what will be the output?",
+                "options": [
+                  "TAC",
+                  "ACT",
+                  "CTA",
+                  "ATC"
+                ],
+                "answer": "TAC",
+                "explanation": "The pattern is to arrange the letters in reverse order. Therefore, 'CAT' becomes 'TAC'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Given the input 'XYWZP', apply the rule to determine the output.",
+                "options": [
+                  "PZWYX",
+                  "PWZXY",
+                  "WZPXY",
+                  "PZYXW"
+                ],
+                "answer": "PZWYX",
+                "explanation": "The rule is to reverse the order of the letters and append them to the end. Hence, 'XYWZP' becomes 'PZWYX'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the input is '987654', what is the output based on the rule?",
+                "options": [
+                  "456789",
+                  "987654",
+                  "654987",
+                  "546789"
+                ],
+                "answer": "456789",
+                "explanation": "The rule is to rearrange the digits in ascending order. So, '987654' becomes '456789'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "What is the output if the input is 'ABCDE' according to the specified rule?",
+                "options": [
+                  "EDCBA",
+                  "EADBC",
+                  "CDEAB",
+                  "BCDEA"
+                ],
+                "answer": "EDCBA",
+                "explanation": "The rule is to reverse the order of the letters. Thus, 'ABCDE' transforms to 'EDCBA'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the input is 'RACECAR', what is the output following the given rule?",
+                "options": [
+                  "RACECAR",
+                  "RCAERAC",
+                  "RCAAECR",
+                  "RECRCAA"
+                ],
+                "answer": "RECRCAA",
+                "explanation": "The rule is to reverse the order of the letters and repeat them. Hence, 'RACECAR' becomes 'RECRCAA'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Given the input '246135', apply the rule to find the output.",
+                "options": [
+                  "135642",
+                  "642513",
+                  "513246",
+                  "246351"
+                ],
+                "answer": "135642",
+                "explanation": "The rule is to arrange the digits alternatively in ascending and descending order. Thus, '246135' becomes '135642'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "What is the output if the input is 'PENCIL' following a specific pattern?",
+                "options": [
+                  "LECNIP",
+                  "LPICNE",
+                  "ECILPN",
+                  "NICELP"
+                ],
+                "answer": "LECNIP",
+                "explanation": "The pattern is to reverse the order of the letters. Therefore, 'PENCIL' transforms to 'LECNIP'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the input is 'ZYXWVU', what is the output according to the rule?",
+                "options": [
+                  "UWVXYZ",
+                  "UVWYXZ",
+                  "ZXYWUV",
+                  "XWVUZY"
+                ],
+                "answer": "UWVXYZ",
+                "explanation": "The rule is to reverse the order of the letters and append them to the end. Hence, 'ZYXWVU' becomes 'UWVXYZ'."
+              }
+            ]
+          },
+          {
+            "name": "Puzzles",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "A group of 10 friends are sitting in a circle. If every alternate person shakes hands with each other, how many handshakes will take place?",
+                "options": [
+                  "18",
+                  "20",
+                  "25",
+                  "28"
+                ],
+                "answer": "18",
+                "explanation": "In a circle of n people, the number of handshakes is given by n * (n-1) / 2. In this case, 10 * 9 / 2 = 45. However, since every handshake is counted twice, we divide by 2 to get the actual number of handshakes, which is 45 / 2 = 18."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Five friends - Alice, Bob, Cindy, David, and Emily - are wearing different colored shirts. If Alice is not wearing a red shirt and Cindy is wearing a green shirt, what color is Emily's shirt?",
+                "options": [
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Yellow"
+                ],
+                "answer": "Blue",
+                "explanation": "Since Alice is not wearing a red shirt and Cindy is wearing a green shirt, Emily's shirt cannot be red or green. The remaining options are blue and yellow. Without further information, we cannot determine Emily's exact shirt color, so the answer is 'Blue'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a town, there are three barber shops. Every barber in the town either shaves those who do not shave themselves, or they don't shave anyone at all. Can there be a barber who shaves only those who shave themselves?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Depends on the number of barbers"
+                ],
+                "answer": "No",
+                "explanation": "Assume there is a barber who shaves only those who shave themselves. If he shaves himself, according to the rule, he should not shave himself. If he doesn't shave himself, then according to the rule, he should shave himself. This creates a paradox, so it is not possible for a barber to shave only those who shave themselves."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Four people need to cross a bridge at night. They have only one flashlight, and the bridge can only hold two people at a time. The four people walk at different speeds: 1 min, 2 mins, 5 mins, and 10 mins. What is the fastest time in which they can all cross?",
+                "options": [
+                  "10 minutes",
+                  "12 minutes",
+                  "15 minutes",
+                  "17 minutes"
+                ],
+                "answer": "17 minutes",
+                "explanation": "First, the two fastest people (1 min and 2 mins) cross together, taking 2 mins. Then, the fastest person (1 min) goes back with the flashlight, taking 1 min. The two slowest people (5 mins and 10 mins) cross together, taking 10 mins. Finally, the second-fastest person (2 mins) goes back with the flashlight, taking 2 mins. The total time is 2 + 1 + 10 + 2 = 17 minutes."
+              },
+              {
+                "difficulty": "hard",
+                "question": "You are given 12 identical-looking balls. One of them is slightly heavier than the rest, but you don't know whether it is heavier or lighter. You are also given a two-pan balance. How can you determine the odd ball using the balance only three times?",
+                "options": [
+                  "Weigh 4 balls against 4 balls, then against 4 balls. If either side is heavier, weigh two of those balls. If one is heavier, it's the odd ball.",
+                  "Weigh 3 balls against 3 balls, then against 3 balls. If either side is heavier, weigh two of those balls. If one is heavier, it's the odd ball.",
+                  "Weigh 5 balls against 5 balls, then against 2 balls. If either side is heavier, weigh two of those balls. If one is heavier, it's the odd ball.",
+                  "It is not possible to determine the odd ball with only three weighings."
+                ],
+                "answer": "Weigh 4 balls against 4 balls, then against 4 balls. If either side is heavier, weigh two of those balls. If one is heavier, it's the odd ball.",
+                "explanation": "Divide the 12 balls into three groups of 4 balls each. Weigh two of the groups against each other. If one side is heavier, you've narrowed it down to 4 balls. Weigh two balls from the heavier side. If one is heavier, it's the odd ball. If the sides are balanced, the odd ball is in the remaining unweighed group."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A man is looking at a portrait. His friend asks, 'Who is it that you are looking at?' The man replies, 'Brothers and sisters, I have none. But the father of that person in the portrait is my father's son.' Who is in the portrait?",
+                "options": [
+                  "His son",
+                  "His brother",
+                  "His nephew",
+                  "His cousin"
+                ],
+                "answer": "His son",
+                "explanation": "The person in the portrait is the man's son. The statement 'the father of that person in the portrait is my father's son' refers to the man's own son, as 'my father's son' is the man himself."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Five friends - Alex, Ben, Chris, David, and Ethan - each own a different type of pet: cat, dog, fish, rabbit, and turtle. Each friend has a different favorite color: blue, green, red, yellow, and purple. Can you match each friend with their pet and favorite color using the following clues?",
+                "options": [
+                  "Alex: Rabbit, Blue; Ben: Cat, Green; Chris: Dog, Red; David: Fish, Yellow; Ethan: Turtle, Purple",
+                  "Alex: Turtle, Purple; Ben: Cat, Green; Chris: Dog, Red; David: Fish, Yellow; Ethan: Rabbit, Blue",
+                  "Alex: Fish, Yellow; Ben: Turtle, Purple; Chris: Rabbit, Blue; David: Dog, Red; Ethan: Cat, Green",
+                  "Alex: Cat, Green; Ben: Dog, Red; Chris: Fish, Yellow; David: Rabbit, Blue; Ethan: Turtle, Purple"
+                ],
+                "answer": "Alex: Rabbit, Blue; Ben: Cat, Green; Chris: Dog, Red; David: Fish, Yellow; Ethan: Turtle, Purple",
+                "explanation": "1. Alex does not have a turtle, fish, or cat. Alex has the rabbit, so he has the blue favorite color. 2. Ben does not have people take different amounts of time to cross the bridge: 1 min, 2 mins, 5 mins, and 10 mins. What is the minimum time required for all of them to cross?"
+              },
+              {
+                "difficulty": "hard",
+                "question": "Three people check into a hotel room that costs $30. They each contribute $10, handing $30 to the hotel clerk. Later, the hotel clerk realizes there was a mistake, and the room only costs $25. The hotel clerk gives $5 to the bellboy and asks him to return it to the guests. On the way to the guests' room, the bellboy decides to keep $2 for himself and gives back $1 to each guest. Now, each guest has paid $9 (totaling $27) and the bellboy kept $2, making it $29. Where is the missing dollar?",
+                "options": [
+                  "The hotel clerk pocketed it",
+                  "Mathematical error",
+                  "Bellboy kept an extra dollar",
+                  "No missing dollar"
+                ],
+                "answer": "No missing dollar",
+                "explanation": "The error in thinking arises from adding the bellboy's $2 to the guests' $27. In reality, the $2 should be subtracted from the guests' $27, not added, as the bellboy's $2 are already part of the guests' $27. Therefore, the correct calculation is $27 - $2 = $25, which is the actual cost of the room."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A man is looking at a photograph of someone. His friend asks, 'Who is it that you are looking at?' The man replies, 'Brothers and sisters, I have none. But that man's father is my father's son.' Who is the person in the photograph?",
+                "options": [
+                  "His son",
+                  "His nephew",
+                  "His father",
+                  "His brother"
+                ],
+                "answer": "His son",
+                "explanation": "The man's father's son is himself. So, when he says, 'that man's father is my father's son,' he is referring to himself. Therefore, the person in the photograph is his son."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A group of people are standing in a circle. The first person has a sword and kills the second person, passes the sword to the third person, who kills the fourth person, and so on. If there are 100 people in total, and the killing continues until only one person remains, who will be the last survivor?",
+                "options": [
+                  "Person 50",
+                  "Person 51",
+                  "Person 100",
+                  "Cannot be determined"
+                ],
+                "answer": "Person 51",
+                "explanation": "In this scenario, every second person is killed. Since there are 100 people, after the first round, 50 people will be eliminated. The killing continues, and in the second round, every second remaining person is killed. This means after the second round, only 25 people will be left. The pattern continues, and after the 6th round, there will be only two people left, Person 51 and Person 52. In the 7th round, Person 52 will be killed, and Person 51 will be the last survivor."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Five friends - Alex, Blake, Chris, Dylan, and Evan - participated in a race. Each friend finished at a different position. Blake finished before Evan but after Chris. Who finished in the third position?",
+                "options": [
+                  "Chris",
+                  "Dylan",
+                  "Alex",
+                  "Evan"
+                ],
+                "answer": "Alex",
+                "explanation": "Since Blake finished before Evan but after Chris, the order must be Chris, Blake, Evan. Alex must have finished before them, and Dylan is left, so the final order is Alex, Chris, Blake, Evan, and Dylan."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A king wants to find the wisest person in his kingdom. He sets up a challenge where the wisest person will be determined by their ability to answer a riddle. The riddle is: 'I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?' Only one person answers correctly. Who is declared the wisest?",
+                "options": [
+                  "The court jester",
+                  "The queen",
+                  "The royal advisor",
+                  "The silent monk"
+                ],
+                "answer": "The silent monk",
+                "explanation": "The correct answer to the riddle is 'an echo.' The only person who truly fits the description of someone who speaks without a mouth, hears without ears, and has no body but comes alive with the wind is the silent monk."
+              }
+            ]
+          },
+          {
+            "name": "Order & Ranking",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In a row of students, John is 7th from the left and Maria is 9th from the right. If they interchange their positions, John becomes 15th from the left. How many students are there in the row?",
+                "options": [
+                  "12",
+                  "14",
+                  "16",
+                  "18"
+                ],
+                "answer": "16",
+                "explanation": "When John and Maria interchange positions, John becomes 15th from the left. This means Maria's original position was 15 - (7 - 1) = 9th from the right. So, the total number of students in the row is 15 + 9 - 1 = 23. However, since both John and Maria are included, the actual count is 23 - 2 = 21. Therefore, there are 21 students in the row."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Five friends – Alice, Bob, Carol, Dave, and Emily – are sitting in a row. If Alice is to the right of Bob and Carol is to the left of Dave, who is sitting in the middle?",
+                "options": [
+                  "Bob",
+                  "Carol",
+                  "Dave",
+                  "Emily"
+                ],
+                "answer": "Dave",
+                "explanation": "The arrangement is: Carol, Dave, Emily, Alice, Bob. Dave is sitting in the middle."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If every alternate letter in the word 'CONNECTION' is written in reverse order, what will be the 7th letter from the right?",
+                "options": [
+                  "O",
+                  "T",
+                  "C",
+                  "N"
+                ],
+                "answer": "T",
+                "explanation": "The alternate letters in reverse order are: N, E, T, C, N. The 7th letter from the right is 'T'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "In a queue of 50 people, John is 15th from the front. When 10 people leave the queue, John moves to the 10th position from the front. How many people were there initially in the queue before the 10 people left?",
+                "options": [
+                  "60",
+                  "70",
+                  "80",
+                  "90"
+                ],
+                "answer": "90",
+                "explanation": "After 10 people leave the queue, John is at the 10th position from the front, meaning there are 9 people in front of him. Initially, there were 15 + 9 = 24 people in front of John. Therefore, the total number of people in the queue before 10 people left is 24 + 10 + 16 = 50. So, the initial number of people in the queue was 50 + 40 = 90."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If the positions of the first ten letters of the English alphabet are written in reverse order, which letter will be fifth from the right?",
+                "options": [
+                  "F",
+                  "E",
+                  "D",
+                  "C"
+                ],
+                "answer": "C",
+                "explanation": "The reversed order of the first ten letters is: J, I, H, G, F, E, D, C, B, A. The fifth letter from the right is 'C'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "A group of students is standing in a queue. If Alex, who is 7th from the front, exchanges his position with George, who is 9th from the back, where will Alex be in the new arrangement?",
+                "options": [
+                  "9th from the front",
+                  "10th from the front",
+                  "8th from the back",
+                  "10th from the back"
+                ],
+                "answer": "9th from the front",
+                "explanation": "After the exchange, Alex becomes 9th from the back. Since the total number of students is the same, and Alex was originally 7th from the front, he will now be 9th from the front in the new arrangement."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If every alternate letter in the word 'EXAMINATION' is written in reverse order, what will be the 6th letter from the left?",
+                "options": [
+                  "X",
+                  "N",
+                  "A",
+                  "M"
+                ],
+                "answer": "M",
+                "explanation": "The alternate letters in reverse order are: N, M, T, I, X, A, E. The 6th letter from the left is 'M'."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Five friends – Peter, Olivia, Quinn, Rachel, and Sam – are sitting in a row. If Peter is 4th from the left and Olivia is 3rd from the right, who is sitting exactly in the middle?",
+                "options": [
+                  "Quinn",
+                  "Rachel",
+                  "Sam",
+                  "Olivia"
+                ],
+                "answer": "Rachel",
+                "explanation": "The arrangement is: Sam, Quinn, Rachel, Peter, Olivia. Rachel is sitting exactly in the middle."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If the positions of the first five letters of the English alphabet are written in reverse order, which letter will be third from the left?",
+                "options": [
+                  "E",
+                  "D",
+                  "C",
+                  "B"
+                ],
+                "answer": "C",
+                "explanation": "The reversed order of the first five letters is: E, D, C, B, A. The third letter from the left is 'C'."
+              },
+              {
+                "difficulty": "hard",
+                "question": "A group of friends is standing in a queue. If Allen, who is 12th from the front, exchanges his position with Brian, who is 8th from the back, where will Allen be in the new arrangement?",
+                "options": [
+                  "8th from the front",
+                  "9th from the front",
+                  "7th from the back",
+                  "9th from the back"
+                ],
+                "answer": "9th from the front",
+                "explanation": "After the exchange, Allen becomes 8th from the back. Since the total number of friends is the same, and Allen was originally 12th from the front, he will now be 9th from the front in the new arrangement."
+              }
+            ]
+          },
+          {
+            "name": "Seating Arrangements",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "In a row of 12 seats, if A and B must sit together, how many different ways can they be arranged?",
+                "options": [
+                  "24",
+                  "36",
+                  "48",
+                  "60"
+                ],
+                "answer": "48",
+                "explanation": "Consider A and B as a single entity. Now, we have 11 entities to arrange (10 individual seats + AB). This can be done in 11! ways. However, within the AB entity, A and B can be arranged in 2! ways. So, the total arrangements are 11! * 2!, which is 48."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If there are 5 seats in a row, and P and Q refuse to sit next to each other, how many arrangements are possible?",
+                "options": [
+                  "72",
+                  "48",
+                  "60",
+                  "36"
+                ],
+                "answer": "72",
+                "explanation": "Consider the seating arrangement as _ _ _ _ _. P and Q cannot sit together, so let's place P in any of the 5 seats. The remaining 4 seats can be filled in 4! ways. Within P's seat, Q can be placed in 3 different positions. So, the total arrangements are 5! * 3!, which is 72."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If there are 8 people sitting in a circle, how many different seating arrangements are possible?",
+                "options": [
+                  "5040",
+                  "40320",
+                  "40321",
+                  "362880"
+                ],
+                "answer": "40320",
+                "explanation": "In a circular arrangement, the number of ways to arrange n distinct items is (n-1)! To arrange 8 people in a circle, it would be 7!. Therefore, the number of seating arrangements is 7! which is equal to 40320."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If there are 6 people, A, B, C, D, E, and F, how many arrangements are possible in a row if A and B must always sit together?",
+                "options": [
+                  "120",
+                  "240",
+                  "360",
+                  "480"
+                ],
+                "answer": "240",
+                "explanation": "Consider AB as a single entity. Now, we have 5 entities (ABCDE + AB) to arrange. This can be done in 5! ways. Within the AB entity, A and B can be arranged in 2! ways. So, the total arrangements are 5! * 2!, which is 240."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If there are 10 seats in a row and X always sits to the left of Y, how many different seating arrangements are possible?",
+                "options": [
+                  "3628800",
+                  "1814400",
+                  "7257600",
+                  "907200"
+                ],
+                "answer": "3628800",
+                "explanation": "As X always sits to the left of Y, consider XY as a single entity. Now, we have 9 entities (8 individual seats + XY) to arrange. This can be done in 9! ways. Within the XY entity, X and Y can be arranged in 2! ways. So, the total arrangements are 9! * 2!, which is 3628800."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If there are 7 people to be seated in a row, and P and Q cannot sit together, how many arrangements are possible?",
+                "options": [
+                  "4320",
+                  "5040",
+                  "5760",
+                  "6480"
+                ],
+                "answer": "5760",
+                "explanation": "Calculate the total arrangements for 7 people in a row, which is 7!. Now, consider PQ as a single entity. There are 6! ways to arrange the remaining entities. However, within the PQ entity, P and Q can be arranged in 2! ways. So, the total arrangements are 7! - (6! * 2!), which is 5760."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If there are 8 seats in a row and M and N refuse to sit together, how many different seating arrangements are possible?",
+                "options": [
+                  "40320",
+                  "36288",
+                  "50400",
+                  "72576"
+                ],
+                "answer": "72576",
+                "explanation": "Calculate the total arrangements for 8 people in a row, which is 8!. Now, consider MN as a single entity. There are 7! ways to arrange the remaining entities. However, within the MN entity, M and N can be arranged in 2! ways. So, the total arrangements are 8! - (7! * 2!), which is 72576."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If there are 12 people to be seated in a circle, how many different circular seating arrangements are possible?",
+                "options": [
+                  "479001600",
+                  "239500800",
+                  "958003200",
+                  "1916006400"
+                ],
+                "answer": "479001600",
+                "explanation": "In a circular arrangement, the number of ways to arrange n distinct items is (n-1)! To arrange 12 people in a circle, it would be 11!. Therefore, the number of circular seating arrangements is 11! which is equal to 479001600."
+              },
+              {
+                "difficulty": "medium",
+                "question": "If there are 9 seats in a row and S always sits between T and U, how many different seating arrangements are possible?",
+                "options": [
+                  "72576",
+                  "36288",
+                  "108864",
+                  "181440"
+                ],
+                "answer": "181440",
+                "explanation": "As S always sits between T and U, consider the trio STU as a single entity. Now, we have 8 entities (7 individual seats + STU) to arrange. This can be done in 8! ways. Within the STU entity, T, U, and S can be arranged in 3! ways. So, the total arrangements are 8! * 3!, which is 181440."
+              },
+              {
+                "difficulty": "hard",
+                "question": "If there are 10 people to be seated in a circle, how many different circular seating arrangements are possible if A and B must always sit together?",
+                "options": [
+                  "3628800",
+                  "36288000",
+                  "18144000",
+                  "181440000"
+                ],
+                "answer": "18144000",
+                "explanation": "Consider AB as a single entity. Now, we have 9 entities (8 individual seats + AB) to arrange in a circle. This can be done in 8! ways. Within the AB entity, A and B can be arranged in 2! ways. So, the total circular arrangements are (8! * 2!) / 8, which is 18144000."
+              }
+            ]
+          },
+          {
+            "name": "Statement and Assumptions",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "Is the given assumption valid based on the statement?",
+                "options": [
+                  "The assumption is valid.",
+                  "The assumption is invalid.",
+                  "It cannot be determined based on the given information."
+                ],
+                "answer": "It cannot be determined based on the given information.",
+                "explanation": "Without knowing the specific content of the statement and assumption, it is impossible to determine the validity of the assumption."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the assumption necessary for the conclusion drawn from the statement?",
+                "options": [
+                  "Yes, the assumption is necessary.",
+                  "No, the assumption is not necessary.",
+                  "It depends on the context."
+                ],
+                "answer": "Yes, the assumption is necessary.",
+                "explanation": "If the assumption is not true, the conclusion drawn from the statement may fall apart. Therefore, the assumption is necessary for the conclusion to be valid."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Does the statement provide sufficient evidence to support the assumption?",
+                "options": [
+                  "Yes, sufficient evidence is provided.",
+                  "No, insufficient evidence is provided.",
+                  "Evidence is irrelevant to the assumption."
+                ],
+                "answer": "No, insufficient evidence is provided.",
+                "explanation": "Even if the statement hints at the assumption, it may not provide enough evidence to fully support it. Additional information might be required to validate the assumption."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Is the assumption reasonable given the context of the statement?",
+                "options": [
+                  "Yes, the assumption is reasonable.",
+                  "No, the assumption is unreasonable.",
+                  "It depends on the perspective."
+                ],
+                "answer": "It depends on the perspective.",
+                "explanation": "Assumptions may seem reasonable from one perspective but not from another. Without knowing the context and perspective, it's challenging to determine the reasonableness of the assumption."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Can the statement be true even if the assumption is false?",
+                "options": [
+                  "Yes, the statement can still be true.",
+                  "No, the statement cannot be true.",
+                  "It depends on the specific statement."
+                ],
+                "answer": "Yes, the statement can still be true.",
+                "explanation": "A statement can be true even if the assumption is false, as the truth of the statement does not necessarily rely on the validity of the assumption."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the assumption implicit or explicit in the given statement?",
+                "options": [
+                  "The assumption is implicit.",
+                  "The assumption is explicit.",
+                  "It is unclear from the information provided."
+                ],
+                "answer": "It is unclear from the information provided.",
+                "explanation": "Without knowing the content and structure of the statement, it's difficult to determine whether the assumption is explicitly stated or implied."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Does the statement contradict the assumption?",
+                "options": [
+                  "Yes, the statement contradicts the assumption.",
+                  "No, the statement does not contradict the assumption.",
+                  "It depends on the interpretation."
+                ],
+                "answer": "It depends on the interpretation.",
+                "explanation": "Statements and assumptions may be open to interpretation. In some cases, they may appear contradictory, while in others, they may align depending on how they are understood."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Can multiple assumptions be drawn from the same statement?",
+                "options": [
+                  "Yes, multiple assumptions can be drawn.",
+                  "No, only one assumption is possible.",
+                  "It depends on the complexity of the statement."
+                ],
+                "answer": "Yes, multiple assumptions can be drawn.",
+                "explanation": "Complex statements may allow for multiple interpretations and assumptions. It's crucial to consider various perspectives and potential implications when analyzing statements."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Is the assumption consistent with common logic?",
+                "options": [
+                  "Yes, the assumption is consistent with common logic.",
+                  "No, the assumption is inconsistent with common logic.",
+                  "Common logic does not apply in this case."
+                ],
+                "answer": "It depends on the specific assumption.",
+                "explanation": "Assumptions may or may not align with common logic, depending on the context. It's essential to evaluate each assumption individually to determine its consistency with common reasoning."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Does the assumption rely on external information not provided in the statement?",
+                "options": [
+                  "Yes, external information is necessary for the assumption.",
+                  "No, the assumption relies solely on the given statement.",
+                  "It depends on the complexity of the assumption."
+                ],
+                "answer": "It depends on the complexity of the assumption.",
+                "explanation": "Some assumptions may require external information for validation, while others may be based solely on the content of the given statement. The complexity of the assumption determines the need for additional information."
+              }
+            ]
+          },
+          {
+            "name": "Statement and Conclusions",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "If all cats can climb trees, and Felix is a cat, what is the conclusion?",
+                "options": [
+                  "Felix can climb trees.",
+                  "Felix cannot climb trees.",
+                  "Not enough information to conclude."
+                ],
+                "answer": "Felix can climb trees.",
+                "explanation": "The statement 'All cats can climb trees' includes Felix, so the conclusion is that Felix can climb trees."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Statement 1: All musicians can read sheet music. Statement 2: Sarah is a musician. What is the conclusion?",
+                "options": [
+                  "Sarah can read sheet music.",
+                  "Sarah cannot read sheet music.",
+                  "Insufficient information."
+                ],
+                "answer": "Sarah can read sheet music.",
+                "explanation": "As per statement 1, all musicians can read sheet music. Since Sarah is a musician (Statement 2), the conclusion is that Sarah can read sheet music."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Statement 1: If it is raining, then the streets are wet. Statement 2: The streets are wet. What is the conclusion?",
+                "options": [
+                  "It is raining.",
+                  "It is not raining.",
+                  "Cannot be determined."
+                ],
+                "answer": "It is raining.",
+                "explanation": "The conditional statement in statement 1 implies that if it's raining, then the streets are wet. Since the streets are wet (Statement 2), the conclusion is that it is raining."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Statement 1: All philosophers are deep thinkers. Statement 2: Rebecca is a deep thinker. What is the conclusion?",
+                "options": [
+                  "Rebecca is a philosopher.",
+                  "Rebecca is not a philosopher.",
+                  "Insufficient information."
+                ],
+                "answer": "Rebecca is a philosopher.",
+                "explanation": "Statement 1 asserts that all philosophers are deep thinkers. Since Rebecca is a deep thinker (Statement 2), the conclusion is that Rebecca is a philosopher."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Statement 1: If it is a weekday, then John goes to work. Statement 2: John is at work. What is the conclusion?",
+                "options": [
+                  "It is a weekday.",
+                  "It is not a weekday.",
+                  "Cannot be determined."
+                ],
+                "answer": "It is a weekday.",
+                "explanation": "According to statement 1, if it is a weekday, then John goes to work. Since John is at work (Statement 2), the conclusion is that it is a weekday."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Statement 1: All flowers in the garden are red. Statement 2: This flower is blue. What is the conclusion?",
+                "options": [
+                  "This flower is not in the garden.",
+                  "This flower is in the garden.",
+                  "Insufficient information."
+                ],
+                "answer": "This flower is not in the garden.",
+                "explanation": "Since all flowers in the garden are red (Statement 1), and this flower is blue (Statement 2), the conclusion is that this flower is not in the garden."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Statement 1: If the train is delayed, then Jenny will miss her appointment. Statement 2: Jenny missed her appointment. What is the conclusion?",
+                "options": [
+                  "The train was not delayed.",
+                  "The train was delayed.",
+                  "Cannot be determined."
+                ],
+                "answer": "The train was delayed.",
+                "explanation": "According to statement 1, if the train is delayed, Jenny will miss her appointment. Since Jenny missed her appointment (Statement 2), the conclusion is that the train was delayed."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Statement 1: All successful entrepreneurs are risk-takers. Statement 2: Mark is a successful entrepreneur. What is the conclusion?",
+                "options": [
+                  "Mark is a risk-taker.",
+                  "Mark is not a risk-taker.",
+                  "Insufficient information."
+                ],
+                "answer": "Mark is a risk-taker.",
+                "explanation": "Statement 1 asserts that all successful entrepreneurs are risk-takers. Since Mark is a successful entrepreneur (Statement 2), the conclusion is that Mark is a risk-taker."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Statement 1: If it is sunny, then the beach will be crowded. Statement 2: The beach is crowded. What is the conclusion?",
+                "options": [
+                  "It is sunny.",
+                  "It is not sunny.",
+                  "Cannot be determined."
+                ],
+                "answer": "It is sunny.",
+                "explanation": "As per statement 1, if it is sunny, the beach will be crowded. Since the beach is crowded (Statement 2), the conclusion is that it is sunny."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Statement 1: All students who studied for the exam passed. Statement 2: Lisa passed the exam. What is the conclusion?",
+                "options": [
+                  "Lisa studied for the exam.",
+                  "Lisa did not study for the exam.",
+                  "Insufficient information."
+                ],
+                "answer": "Lisa studied for the exam.",
+                "explanation": "Statement 1 states that all students who studied for the exam passed. Since Lisa passed the exam (Statement 2), the conclusion is that Lisa studied for the exam."
+              }
+            ]
+          },
+          {
+            "name": "Syllogism",
+            "questions": [
+              {
+                "difficulty": "medium",
+                "question": "All humans are mortal. Some philosophers are humans. Can we conclude that some philosophers are mortal?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If all humans are mortal, and some philosophers are humans, then it logically follows that some philosophers are mortal."
+              },
+              {
+                "difficulty": "medium",
+                "question": "No cats can fly. Some birds can fly. Can we conclude that some birds are not cats?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If no cats can fly, and some birds can fly, then it logically follows that some birds are not cats."
+              },
+              {
+                "difficulty": "medium",
+                "question": "All elephants are mammals. Some mammals are not birds. Can we conclude that some elephants are not birds?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If all elephants are mammals, and some mammals are not birds, then it logically follows that some elephants are not birds."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Some politicians are liars. All liars are untrustworthy. Can we conclude that some politicians are untrustworthy?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If some politicians are liars, and all liars are untrustworthy, then it logically follows that some politicians are untrustworthy."
+              },
+              {
+                "difficulty": "hard",
+                "question": "No students failed the exam. All students who passed are happy. Can we conclude that some happy individuals did not fail the exam?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If no students failed the exam, and all students who passed are happy, then it logically follows that some happy individuals did not fail the exam."
+              },
+              {
+                "difficulty": "medium",
+                "question": "Some artists are creative. All creative people are dreamers. Can we conclude that some artists are dreamers?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If some artists are creative, and all creative people are dreamers, then it logically follows that some artists are dreamers."
+              },
+              {
+                "difficulty": "hard",
+                "question": "All mathematicians are logical thinkers. Some logical thinkers are not emotional. Can we conclude that some mathematicians are not emotional?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If all mathematicians are logical thinkers, and some logical thinkers are not emotional, then it logically follows that some mathematicians are not emotional."
+              },
+              {
+                "difficulty": "medium",
+                "question": "No athletes are musicians. Some musicians are dedicated. Can we conclude that some dedicated individuals are not athletes?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If no athletes are musicians, and some musicians are dedicated, then it logically follows that some dedicated individuals are not athletes."
+              },
+              {
+                "difficulty": "hard",
+                "question": "Some scholars are researchers. All researchers are critical thinkers. Can we conclude that some scholars are critical thinkers?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If some scholars are researchers, and all researchers are critical thinkers, then it logically follows that some scholars are critical thinkers."
+              },
+              {
+                "difficulty": "medium",
+                "question": "All dogs are animals. Some animals are not reptiles. Can we conclude that some dogs are not reptiles?",
+                "options": [
+                  "Yes",
+                  "No",
+                  "Cannot be determined",
+                  "Either yes or no"
+                ],
+                "answer": "Yes",
+                "explanation": "The conclusion follows logically from the given premises. If all dogs are animals, and some animals are not reptiles, then it logically follows that some dogs are not reptiles."
+              }
+            ]
+          }
+             
+      
+    ]
+  }
+  

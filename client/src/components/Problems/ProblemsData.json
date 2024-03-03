@@ -1,0 +1,774 @@
+{
+    "topics": [
+        {
+            "name": "Working with Numbers",
+            "questions": [
+                {
+                    "category": "Easy",
+                    "question": "Find the reverse of a number 567.",
+                    "output": "Reverse of the number: 765",
+                    "logic": "#include <iostream>\nint main() {\n  int number = 567;\n  int reversedNumber = 0;\n  while (number > 0) {\n    reversedNumber = reversedNumber * 10 + number % 10;\n    number /= 10;\n  }\n  std::cout << \"Reverse of the number: \" << reversedNumber << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Easy",
+                    "question": "Check if an integer (12) is even or odd.",
+                    "output": "The number is even.",
+                    "logic": "#include <iostream>\nint main() {\n  int number = 12;\n  if (number % 2 == 0)\n    std::cout << \"The number is even.\" << std::endl;\n  else\n    std::cout << \"The number is odd.\" << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Easy",
+                    "question": "Calculate the sum of digits in a given number (465).",
+                    "output": "Sum of digits: 15",
+                    "logic": "#include <iostream>\nint main() {\n  int number = 456;\n  int sum = 0;\n  while (number > 0) {\n    sum += number % 10;\n    number /= 10;\n  }\n  std::cout << \"Sum of digits: \" << sum << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Medium",
+                    "question": "Generate the Fibonacci series up to the nth term (for eg: n= 8).",
+                    "output": "Fibonacci series up to 8 terms: 0 1 1 2 3 5 8 13",
+                    "logic": "#include <iostream>\nint main() {\n  int n = 8;\n  int a = 0, b = 1, nextTerm;\n  std::cout << \"Fibonacci series up to \" << n << \" terms: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << a << \" \";\n    nextTerm = a + b;\n    a = b;\n    b = nextTerm;\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Medium",
+                    "question": "Check if a number (n= 1221) is a palindrome.",
+                    "output": "The number is a palindrome.",
+                    "logic": "#include <iostream>\nint main() {\n  int number = 1221;\n  int originalNumber = number;\n  int reversedNumber = 0;\n  while (number > 0) {\n    reversedNumber = reversedNumber * 10 + number % 10;\n    number /= 10;\n  }\n  if (originalNumber == reversedNumber)\n    std::cout << \"The number is a palindrome.\" << std::endl;\n  else\n    std::cout << \"The number is not a palindrome.\" << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Medium",
+                    "question": "Find the factorial of a number (n= 5).",
+                    "output": "Factorial of 5: 120",
+                    "logic": "#include <iostream>\nint main() {\n  int n = 5;\n  int factorial = 1;\n  for (int i = 1; i <= n; i++) {\n    factorial *= i;\n  }\n  std::cout << \"Factorial of \" << n << \": \" << factorial << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Hard",
+                    "question": "Implement the binary search algorithm (int arr[] = {1, 3, 5, 7, 9} (tagert= 7)).",
+                    "output": "Element found at index 3.",
+                    "logic": "// Assuming array is sorted\n#include <iostream>\nint main() {\n  int arr[] = {1, 3, 5, 7, 9};\n  int target = 7;\n  int left = 0, right = 4, mid;\n  while (left <= right) {\n    mid = left + (right - left) / 2;\n    if (arr[mid] == target) {\n      std::cout << \"Element found at index \" << mid << \".\" << std::endl;\n      return 0;\n    }\n    else if (arr[mid] < target)\n      left = mid + 1;\n    else\n      right = mid - 1;\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Hard",
+                    "question": "Calculate the square root of a number (n=25).",
+                    "output": "Square root of 25: 5.0",
+                    "logic": "#include <iostream>\nint main() {\n  double number = 25;\n  double guess = number / 2;\n  double epsilon = 0.0001;\n  while (abs(guess * guess - number) > epsilon) {\n    guess = (guess + number / guess) / 2;\n  }\n  std::cout << \"Square root of \" << number << \": \" << guess << std::endl;\n  return 0;\n}"
+                },
+                {
+                    "category": "Hard",
+                    "question": "Implement the Sieve of Eratosthenes for prime numbers up to a given limit (n=30).",
+                    "output": "Prime numbers up to 30: 2 3 5 7 11 13 17 19 23 29",
+                    "logic": "#include <iostream>\n#include <vector>\nint main() {\n  int limit = 30;\n  std::vector<bool> isPrime(limit + 1, true);\n  for (int i = 2; i * i <= limit; i++) {\n    if (isPrime[i]) {\n      for (int j = i * i; j <= limit; j += i) {\n        isPrime[j] = false;\n      }\n    }\n  }\n  std::cout << \"Prime numbers up to \" << limit << \": \";\n  for (int i = 2; i <= limit; i++) {\n    if (isPrime[i])\n      std::cout << i << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+                }
+            ]
+        },
+        {
+            "name": "Codes for Recursion",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Calculate the factorial of a number using recursion.",
+                "output": "Factorial of 5: 120",
+                "logic": "#include <iostream>\nint factorial(int n) {\n  if (n == 0 || n == 1)\n    return 1;\n  return n * factorial(n - 1);\n}\n\nint main() {\n  int n = 5;\n  std::cout << \"Factorial of \" << n << \": \" << factorial(n) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Calculate the nth Fibonacci number using recursion.",
+                "output": "Fibonacci number at position 6: 8",
+                "logic": "#include <iostream>\nint fibonacci(int n) {\n  if (n <= 1)\n    return n;\n  return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nint main() {\n  int position = 6;\n  std::cout << \"Fibonacci number at position \" << position << \": \" << fibonacci(position) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Calculate the sum of digits of a number using recursion.",
+                "output": "Sum of digits in 456: 15",
+                "logic": "#include <iostream>\nint sumOfDigits(int n) {\n  if (n == 0)\n    return 0;\n  return n % 10 + sumOfDigits(n / 10);\n}\n\nint main() {\n  int number = 456;\n  std::cout << \"Sum of digits in \" << number << \": \" << sumOfDigits(number) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement the Tower of Hanoi problem using recursion.",
+                "output": "Move disk 1 from rod A to rod C",
+                "logic": "#include <iostream>\nvoid towerOfHanoi(int n, char source, char auxiliary, char destination) {\n  if (n == 1) {\n    std::cout << \"Move disk 1 from rod \" << source << \" to rod \" << destination << std::endl;\n    return;\n  }\n  towerOfHanoi(n - 1, source, destination, auxiliary);\n  std::cout << \"Move disk \" << n << \" from rod \" << source << \" to rod \" << destination << std::endl;\n  towerOfHanoi(n - 1, auxiliary, source, destination);\n}\n\nint main() {\n  int numDisks = 3;\n  towerOfHanoi(numDisks, 'A', 'B', 'C');\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Reverse a string using recursion.",
+                "output": "Reversed string: olleH",
+                "logic": "#include <iostream>\n#include <string>\nvoid reverseString(std::string& str, int start, int end) {\n  if (start >= end)\n    return;\n  std::swap(str[start], str[end]);\n  reverseString(str, start + 1, end - 1);\n}\n\nint main() {\n  std::string text = \"Hello\";\n  reverseString(text, 0, text.length() - 1);\n  std::cout << \"Reversed string: \" << text << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Count the number of digits in a given number using recursion.",
+                "output": "Number of digits in 7894: 4",
+                "logic": "#include <iostream>\nint countDigits(int n) {\n  if (n == 0)\n    return 0;\n  return 1 + countDigits(n / 10);\n}\n\nint main() {\n  int number = 7894;\n  std::cout << \"Number of digits in \" << number << \": \" << countDigits(number) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Generate all permutations of a string using recursion.",
+                "output": "Permutations of 'ABC': ABC ACB BAC BCA CAB CBA",
+                "logic": "#include <iostream>\n#include <algorithm>\nvoid generatePermutations(std::string str, int start, int end) {\n  if (start == end)\n    std::cout << str << \" \";\n  else {\n    for (int i = start; i <= end; i++) {\n      std::swap(str[start], str[i]);\n      generatePermutations(str, start + 1, end);\n      std::swap(str[start], str[i]);\n    }\n  }\n}\n\nint main() {\n  std::string input = \"ABC\";\n  generatePermutations(input, 0, input.length() - 1);\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the GCD (Greatest Common Divisor) of two numbers using recursion.",
+                "output": "GCD of 48 and 18: 6",
+                "logic": "#include <iostream>\nint gcd(int a, int b) {\n  if (b == 0)\n    return a;\n  return gcd(b, a % b);\n}\n\nint main() {\n  int num1 = 48, num2 = 18;\n  std::cout << \"GCD of \" << num1 << \" and \" << num2 << \": \" << gcd(num1, num2) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement the Merge Sort algorithm using recursion.",
+                "output": "Sorted array: 2 4 6 8 10 12 14 16 18 20",
+                "logic": "#include <iostream>\n#include <vector>\nvoid merge(std::vector<int>& arr, int left, int middle, int right) {\n  int n1 = middle - left + 1;\n  int n2 = right - middle;\n  std::vector<int> leftArray(n1), rightArray(n2);\n  for (int i = 0; i < n1; i++)\n    leftArray[i] = arr[left + i];\n  for (int j = 0; j < n2; j++)\n    rightArray[j] = arr[middle + 1 + j];\n  int i = 0, j = 0, k = left;\n  while (i < n1 && j < n2) {\n    if (leftArray[i] <= rightArray[j]) {\n      arr[k] = leftArray[i];\n      i++;\n    } else {\n      arr[k] = rightArray[j];\n      j++;\n    }\n    k++;\n  }\n  while (i < n1) {\n    arr[k] = leftArray[i];\n    i++;\n    k++;\n  }\n  while (j < n2) {\n    arr[k] = rightArray[j];\n    j++;\n    k++;\n  }\n}\n\nvoid mergeSort(std::vector<int>& arr, int left, int right) {\n  if (left < right) {\n    int middle = left + (right - left) / 2;\n    mergeSort(arr, left, middle);\n    mergeSort(arr, middle + 1, right);\n    merge(arr, left, middle, right);\n  }\n}\n\nint main() {\n  std::vector<int> array = {10, 4, 6, 8, 12, 2, 16, 20, 14, 18};\n  mergeSort(array, 0, array.size() - 1);\n  std::cout << \"Sorted array: \";\n  for (int num : array)\n    std::cout << num << \" \";\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the power of a number using recursion.",
+                "output": "2^5 is 32",
+                "logic": "#include <iostream>\nint power(int base, int exponent) {\n  if (exponent == 0)\n    return 1;\n  return base * power(base, exponent - 1);\n}\n\nint main() {\n  int base = 2, exponent = 5;\n  std::cout << base << \"^\" << exponent << \" is \" << power(base, exponent) << std::endl;\n  return 0;\n}"
+              }
+            ]
+          }, {
+            "name": "Arrays Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Find the sum of all elements in an array.",
+                "output": "Sum of elements: 42",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {10, 5, 8, 2, 17};\n  int sum = 0;\n  for (int i = 0; i < 5; i++) {\n    sum += arr[i];\n  }\n  std::cout << \"Sum of elements: \" << sum << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Find the maximum element in an array.",
+                "output": "Maximum element: 17",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {10, 5, 8, 2, 17};\n  int maxElement = arr[0];\n  for (int i = 1; i < 5; i++) {\n    if (arr[i] > maxElement)\n      maxElement = arr[i];\n  }\n  std::cout << \"Maximum element: \" << maxElement << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Find the average of elements in an array.",
+                "output": "Average of elements: 8.4",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {10, 5, 8, 2, 17};\n  int sum = 0;\n  for (int i = 0; i < 5; i++) {\n    sum += arr[i];\n  }\n  double average = static_cast<double>(sum) / 5;\n  std::cout << \"Average of elements: \" << average << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Rotate an array to the right by a given number of steps.",
+                "output": "Rotated array: 8 2 17 10 5",
+                "logic": "#include <iostream>\nvoid rotateArray(int arr[], int n, int k) {\n  k = k % n;\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[(n + i - k) % n] << \" \";\n  }\n}\nint main() {\n  int arr[] = {10, 5, 8, 2, 17};\n  int steps = 2;\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Rotated array: \";\n  rotateArray(arr, size, steps);\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Remove duplicates from a sorted array.",
+                "output": "Array with duplicates removed: 2 5 8 10 17",
+                "logic": "#include <iostream>\nint removeDuplicates(int arr[], int n) {\n  int uniqueIndex = 0;\n  for (int i = 1; i < n; i++) {\n    if (arr[i] != arr[uniqueIndex]) {\n      uniqueIndex++;\n      arr[uniqueIndex] = arr[i];\n    }\n  }\n  return uniqueIndex + 1;\n}\nint main() {\n  int arr[] = {2, 2, 5, 8, 10, 10, 17};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  int newSize = removeDuplicates(arr, size);\n  std::cout << \"Array with duplicates removed: \";\n  for (int i = 0; i < newSize; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the majority element in an array.",
+                "output": "Majority element: 5",
+                "logic": "#include <iostream>\nint findMajorityElement(int arr[], int n) {\n  int candidate, count = 0;\n  for (int i = 0; i < n; i++) {\n    if (count == 0) {\n      candidate = arr[i];\n    }\n    count += (arr[i] == candidate) ? 1 : -1;\n  }\n  return candidate;\n}\nint main() {\n  int arr[] = {5, 5, 2, 5, 8, 5, 10, 5};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Majority element: \" << findMajorityElement(arr, size) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement a binary search in a sorted rotated array.",
+                "output": "Element found at index 4.",
+                "logic": "// Assuming array is sorted and rotated\n#include <iostream>\nint searchRotatedArray(int arr[], int n, int target) {\n  int left = 0, right = n - 1;\n  while (left <= right) {\n    int mid = left + (right - left) / 2;\n    if (arr[mid] == target) {\n      return mid;\n    }\n    if (arr[left] <= arr[mid]) {\n      if (target >= arr[left] && target < arr[mid])\n        right = mid - 1;\n      else\n        left = mid + 1;\n    }\n    else {\n      if (target > arr[mid] && target <= arr[right])\n        left = mid + 1;\n      else\n        right = mid - 1;\n    }\n  }\n  return -1;\n}\nint main() {\n  int arr[] = {8, 10, 5, 2, 4};\n  int target = 4;\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Element found at index \" << searchRotatedArray(arr, size, target) << \".\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the smallest missing positive number in an unsorted array.",
+                "output": "Smallest missing positive number: 1",
+                "logic": "#include <iostream>\nint firstMissingPositive(int arr[], int n) {\n  for (int i = 0; i < n; i++) {\n    while (arr[i] > 0 && arr[i] <= n && arr[arr[i] - 1] != arr[i]) {\n      std::swap(arr[i], arr[arr[i] - 1]);\n    }\n  }\n  for (int i = 0; i < n; i++) {\n    if (arr[i] != i + 1)\n      return i + 1;\n  }\n  return n + 1;\n}\nint main() {\n  int arr[] = {3, 4, -1, 1};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Smallest missing positive number: \" << firstMissingPositive(arr, size) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Merge two sorted arrays into a single sorted array.",
+                "output": "Merged array: 2 5 8 10 17 20 25 30",
+                "logic": "#include <iostream>\nvoid mergeArrays(int arr1[], int m, int arr2[], int n) {\n  int i = m - 1, j = n - 1, k = m + n - 1;\n  while (i >= 0 && j >= 0) {\n    if (arr1[i] > arr2[j]) {\n      arr1[k--] = arr1[i--];\n    }\n    else {\n      arr1[k--] = arr2[j--];\n    }\n  }\n  while (j >= 0) {\n    arr1[k--] = arr2[j--];\n  }\n}\nint main() {\n  int arr1[8] = {10, 17, 25, 30};\n  int arr2[4] = {2, 5, 8, 20};\n  mergeArrays(arr1, 4, arr2, 4);\n  std::cout << \"Merged array: \";\n  for (int i = 0; i < 8; i++) {\n    std::cout << arr1[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement an algorithm to find the subarray with the maximum sum (Kadane's Algorithm).",
+                "output": "Maximum subarray sum: 18",
+                "logic": "#include <iostream>\nint maxSubarraySum(int arr[], int n) {\n  int maxEndingHere = arr[0], maxSoFar = arr[0];\n  for (int i = 1; i < n; i++) {\n    maxEndingHere = std::max(arr[i], maxEndingHere + arr[i]);\n    maxSoFar = std::max(maxSoFar, maxEndingHere);\n  }\n  return maxSoFar;\n}\nint main() {\n  int arr[] = {1, -2, 3, -4, 5, -2, 6, -1};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Maximum subarray sum: \" << maxSubarraySum(arr, size) << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Operations on Strings Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Find the length of a string.",
+                "output": "Length of the string: 8",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str[] = \"Hello123\";\n  int length = strlen(str);\n  std::cout << \"Length of the string: \" << length << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Concatenate two strings.",
+                "output": "Concatenated string: Hello, World!",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str1[] = \"Hello, \";\n  char str2[] = \"World!\";\n  strcat(str1, str2);\n  std::cout << \"Concatenated string: \" << str1 << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Convert a string to uppercase.",
+                "output": "Uppercase string: HELLO",
+                "logic": "#include <iostream>\n#include <cstring>\n#include <cctype>\nint main() {\n  char str[] = \"Hello\";\n  for (int i = 0; i < strlen(str); i++) {\n    str[i] = toupper(str[i]);\n  }\n  std::cout << \"Uppercase string: \" << str << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Check if a string is a palindrome.",
+                "output": "The string is a palindrome.",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str[] = \"madam\";\n  int length = strlen(str);\n  bool isPalindrome = true;\n  for (int i = 0; i < length / 2; i++) {\n    if (str[i] != str[length - 1 - i]) {\n      isPalindrome = false;\n      break;\n    }\n  }\n  if (isPalindrome)\n    std::cout << \"The string is a palindrome.\" << std::endl;\n  else\n    std::cout << \"The string is not a palindrome.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the first non-repeating character in a string.",
+                "output": "First non-repeating character: H",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str[] = \"Hello\";\n  int count[256] = {0};\n  for (int i = 0; i < strlen(str); i++) {\n    count[str[i]]++;\n  }\n  for (int i = 0; i < strlen(str); i++) {\n    if (count[str[i]] == 1) {\n      std::cout << \"First non-repeating character: \" << str[i] << std::endl;\n      break;\n    }\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Reverse words in a given string.",
+                "output": "Reversed string: World Hello",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str[] = \"Hello World\";\n  int start = 0;\n  for (int end = 0; end <= strlen(str); end++) {\n    if (str[end] == ' ' || str[end] == '\\0') {\n      for (int i = end - 1; i >= start; i--) {\n        std::cout << str[i];\n      }\n      std::cout << \" \";\n      start = end + 1;\n    }\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement string matching using the Knuth-Morris-Pratt algorithm.",
+                "output": "Pattern found at index 6.",
+                "logic": "// Assume text and pattern are given\n#include <iostream>\n#include <cstring>\nint main() {\n  char text[] = \"ABABDABACDABABCABAB\";\n  char pattern[] = \"ABABCABAB\";\n  int n = strlen(text);\n  int m = strlen(pattern);\n  // KMP algorithm implementation\n  // ... (detailed code not shown)\n  std::cout << \"Pattern found at index \" << index << \".\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Count the occurrences of a word in a given text.",
+                "output": "Occurrences of 'apple': 3",
+                "logic": "// Assume text and word are given\n#include <iostream>\n#include <cstring>\nint main() {\n  char text[] = \"apple is a fruit. An apple a day keeps the doctor away. I love apple pie.\";\n  char word[] = \"apple\";\n  int count = 0;\n  // Count occurrences of the word in the text\n  // ... (detailed code not shown)\n  std::cout << \"Occurrences of '\" << word << \"': \" << count << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Remove duplicate characters from a string.",
+                "output": "String after removing duplicates: Helo wrd!",
+                "logic": "#include <iostream>\n#include <cstring>\nint main() {\n  char str[] = \"Hello world!\";\n  bool characters[256] = {false};\n  int newIndex = 0;\n  for (int i = 0; i < strlen(str); i++) {\n    if (!characters[str[i]]) {\n      str[newIndex++] = str[i];\n      characters[str[i]] = true;\n    }\n  }\n  str[newIndex] = '\\0';\n  std::cout << \"String after removing duplicates: \" << str << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement a basic regular expression matching algorithm.",
+                "output": "Pattern 'ab*c' matches the string 'ac', 'abc', 'abbc', and 'abbbc'.",
+                "logic": "// Assume pattern and text are given\n#include <iostream>\n#include <cstring>\nbool isMatch(const char* text, const char* pattern) {\n  // Implementation of basic regular expression matching\n  // ... (detailed code not shown)\n}\nint main() {\n  const char* pattern = \"ab*c\";\n  const char* text1 = \"ac\";\n  const char* text2 = \"abc\";\n  const char* text3 = \"abbc\";\n  const char* text4 = \"abbbc\";\n  std::cout << \"Pattern '\" << pattern << \"' matches the string '\" << text1 << \"', '\" << text2 << \"', '\" << text3 << \"', and '\" << text4 << \"'.\" << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+           {
+            "name": "Matrix Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Transpose a matrix.",
+                "output": "Transposed matrix:\n1 4 7\n2 5 8\n3 6 9",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n  int transpose[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      transpose[j][i] = matrix[i][j];\n    }\n  }\n  std::cout << \"Transposed matrix:\" << std::endl;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      std::cout << transpose[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Add two matrices.",
+                "output": "Sum matrix:\n3 7 11\n5 9 13\n7 11 15",
+                "logic": "#include <iostream>\nint main() {\n  int matrix1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n  int matrix2[3][3] = {{2, 5, 8}, {1, 4, 7}, {0, 3, 6}};\n  int sum[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      sum[i][j] = matrix1[i][j] + matrix2[i][j];\n    }\n  }\n  std::cout << \"Sum matrix:\" << std::endl;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      std::cout << sum[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Check if a matrix is symmetric.",
+                "output": "The matrix is symmetric.",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 2, 3}, {2, 4, 5}, {3, 5, 6}};\n  bool symmetric = true;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      if (matrix[i][j] != matrix[j][i]) {\n        symmetric = false;\n        break;\n      }\n    }\n    if (!symmetric)\n      break;\n  }\n  if (symmetric)\n    std::cout << \"The matrix is symmetric.\" << std::endl;\n  else\n    std::cout << \"The matrix is not symmetric.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Multiply two matrices.",
+                "output": "Product matrix:\n30 36 42\n66 81 96\n102 126 150",
+                "logic": "#include <iostream>\nint main() {\n  int matrix1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n  int matrix2[3][3] = {{2, 3, 4}, {5, 6, 7}, {8, 9, 10}};\n  int product[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      product[i][j] = 0;\n      for (int k = 0; k < 3; k++) {\n        product[i][j] += matrix1[i][k] * matrix2[k][j];\n      }\n    }\n  }\n  std::cout << \"Product matrix:\" << std::endl;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      std::cout << product[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the determinant of a 3x3 matrix.",
+                "output": "Determinant: 3",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n  int determinant = matrix[0][0] * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1]) - matrix[0][1] * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0]) + matrix[0][2] * (matrix[1][0] * matrix[2][1] - matrix[1][1] * matrix[2][0]);\n  std::cout << \"Determinant: \" << determinant << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Rotate a matrix 90 degrees clockwise.",
+                "output": "Rotated matrix:\n7 4 1\n8 5 2\n9 6 3",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n  int temp[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      temp[j][2 - i] = matrix[i][j];\n    }\n  }\n  std::cout << \"Rotated matrix:\" << std::endl;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      std::cout << temp[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Check if a matrix is orthogonal.",
+                "output": "The matrix is orthogonal.",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}};\n  bool orthogonal = true;\n  int transpose[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      transpose[j][i] = matrix[i][j];\n    }\n  }\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      if (matrix[i][j] != transpose[i][j]) {\n        orthogonal = false;\n        break;\n      }\n    }\n    if (!orthogonal)\n      break;\n  }\n  if (orthogonal)\n    std::cout << \"The matrix is orthogonal.\" << std::endl;\n  else\n    std::cout << \"The matrix is not orthogonal.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the inverse of a 3x3 matrix.",
+                "output": "Inverse matrix:\n-3 2 -1\n-6 4 -2\n-3 2 -1",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{2, -1, 0}, {0, 1, 2}, {1, 1, 1}};\n  int determinant = matrix[0][0] * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1]) - matrix[0][1] * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0]) + matrix[0][2] * (matrix[1][0] * matrix[2][1] - matrix[1][1] * matrix[2][0]);\n  if (determinant == 0) {\n    std::cout << \"The matrix is singular. Inverse does not exist.\" << std::endl;\n    return 0;\n  }\n  int inverse[3][3];\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      inverse[i][j] = (matrix[(j + 1) % 3][(i + 1) % 3] * matrix[(j + 2) % 3][(i + 2) % 3] - matrix[(j + 1) % 3][(i + 2) % 3] * matrix[(j + 2) % 3][(i + 1) % 3]) / determinant;\n    }\n  }\n  std::cout << \"Inverse matrix:\" << std::endl;\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      std::cout << inverse[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Perform matrix exponentiation.",
+                "output": "Result matrix:\n37 54\n81 118",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[2][2] = {{3, 4}, {5, 6}};\n  int exponent = 2;\n  int result[2][2] = {{1, 0}, {0, 1}};\n  for (int i = 0; i < exponent; i++) {\n    int temp[2][2];\n    for (int j = 0; j < 2; j++) {\n      for (int k = 0; k < 2; k++) {\n        temp[j][k] = 0;\n        for (int l = 0; l < 2; l++) {\n          temp[j][k] += result[j][l] * matrix[l][k];\n        }\n      }\n    }\n    for (int j = 0; j < 2; j++) {\n      for (int k = 0; k < 2; k++) {\n        result[j][k] = temp[j][k];\n      }\n    }\n  }\n  std::cout << \"Result matrix:\" << std::endl;\n  for (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 2; j++) {\n      std::cout << result[i][j] << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },{
+                "category": "Hard",
+                "question": "Find the sum of elements in the upper triangular matrix.",
+                "output": "Sum of upper triangular matrix: 15",
+                "logic": "#include <iostream>\nint main() {\n  int matrix[3][3] = {{1, 2, 3}, {0, 4, 5}, {0, 0, 6}};\n  int sum = 0;\n  for (int i = 0; i < 3; i++) {\n    for (int j = i; j < 3; j++) {\n      sum += matrix[i][j];\n    }\n  }\n  std::cout << \"Sum of upper triangular matrix: \" << sum << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Pattern Printing Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Print a simple square pattern of size 4.",
+                "output": "****\n****\n****\n****",
+                "logic": "#include <iostream>\nint main() {\n  int size = 4;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size; j++) {\n      std::cout << \"*\";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Print a right-angled triangle pattern of size 5.",
+                "output": "*\n**\n***\n****\n*****",
+                "logic": "#include <iostream>\nint main() {\n  int size = 5;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j <= i; j++) {\n      std::cout << \"*\";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Print a hollow square pattern of size 3.",
+                "output": "***\n* *\n***",
+                "logic": "#include <iostream>\nint main() {\n  int size = 3;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size; j++) {\n      if (i == 0 || i == size - 1 || j == 0 || j == size - 1)\n        std::cout << \"*\";\n      else\n        std::cout << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Print a pyramid pattern of size 4.",
+                "output": "   *\n  ***\n *****\n*******",
+                "logic": "#include <iostream>\nint main() {\n  int size = 4;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    for (int k = 0; k < 2 * i + 1; k++)\n      std::cout << \"*\";\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Print a diamond pattern of size 3.",
+                "output": "  *\n ***\n*****\n ***\n  *",
+                "logic": "#include <iostream>\nint main() {\n  int size = 3;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    for (int k = 0; k < 2 * i + 1; k++)\n      std::cout << \"*\";\n    std::cout << std::endl;\n  }\n  for (int i = size - 2; i >= 0; i--) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    for (int k = 0; k < 2 * i + 1; k++)\n      std::cout << \"*\";\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Print a mirrored right-angled triangle pattern of size 6.",
+                "output": "     *\n    **\n   ***\n  ****\n *****\n******",
+                "logic": "#include <iostream>\nint main() {\n  int size = 6;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    for (int k = 0; k <= i; k++)\n      std::cout << \"*\";\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Print a spiral pattern of size 5.",
+                "output": "12345\n16  54\n17  43\n18  32\n19211",
+                "logic": "#include <iostream>\nint main() {\n  int size = 5;\n  int matrix[size][size];\n  int num = 1;\n  for (int i = 0; i < size; i++) {\n    for (int j = i; j < size - i; j++)\n      matrix[i][j] = num++;\n    for (int j = i + 1; j < size - i; j++)\n      matrix[j][size - i - 1] = num++;\n    for (int j = size - i - 2; j >= i; j--)\n      matrix[size - i - 1][j] = num++;\n    for (int j = size - i - 2; j > i; j--)\n      matrix[j][i] = num++;\n  }\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size; j++)\n      std::cout << (matrix[i][j] < 10 ? ' ' : '') << matrix[i][j] << \" \";\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Print the Pascal's Triangle for 5 rows.",
+                "output": "    1\n   1 1\n  1 2 1\n 1 3 3 1\n1 4 6 4 1",
+                "logic": "#include <iostream>\nint main() {\n  int rows = 5;\n  for (int i = 0; i < rows; i++) {\n    int coefficient = 1;\n    for (int j = 0; j <= i; j++) {\n      std::cout << coefficient << \" \";\n      coefficient = coefficient * (i - j) / (j + 1);\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Print a hollow diamond pattern of size 4.",
+                "output": "   *\n  * *\n *   *\n*     *\n *   *\n  * *\n   *",
+                "logic": "#include <iostream>\nint main() {\n  int size = 4;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    std::cout << \"*\";\n    if (i > 0) {\n      for (int k = 0; k < 2 * i - 1; k++)\n        std::cout << \" \";\n      std::cout << (i < size - 1 ? \"*\" : \"\");\n    }\n    std::cout << std::endl;\n  }\n  for (int i = size - 2; i >= 0; i--) {\n    for (int j = 0; j < size - i - 1; j++)\n      std::cout << \" \";\n    std::cout << \"*\";\n    if (i > 0) {\n      for (int k = 0; k < 2 * i - 1; k++)\n        std::cout << \" \";\n      std::cout << (i < size - 1 ? \"*\" : \"\");\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Print a hollow right-angled triangle pattern of size 6.",
+                "output": "*\n**\n* *\n*  *\n*   *\n******",
+                "logic": "#include <iostream>\nint main() {\n  int size = 6;\n  for (int i = 0; i < size; i++) {\n    for (int j = 0; j <= i; j++) {\n      if (j == 0 || j == i || i == size - 1)\n        std::cout << \"*\";\n      else\n        std::cout << \" \";\n    }\n    std::cout << std::endl;\n  }\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Searching in DSA Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Linear search in an array.",
+                "output": "Element found at index 3.",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {5, 8, 12, 7, 3};\n  int target = 7;\n  for (int i = 0; i < 5; i++) {\n    if (arr[i] == target) {\n      std::cout << \"Element found at index \" << i << \".\" << std::endl;\n      return 0;\n    }\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Binary search in a sorted array.",
+                "output": "Element found at index 2.",
+                "logic": "// Assuming array is sorted\n#include <iostream>\nint main() {\n  int arr[] = {2, 4, 7, 9, 12};\n  int target = 7;\n  int left = 0, right = 4, mid;\n  while (left <= right) {\n    mid = left + (right - left) / 2;\n    if (arr[mid] == target) {\n      std::cout << \"Element found at index \" << mid << \".\" << std::endl;\n      return 0;\n    }\n    else if (arr[mid] < target)\n      left = mid + 1;\n    else\n      right = mid - 1;\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Find the first occurrence of a number in an array.",
+                "output": "First occurrence at index 1.",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {3, 6, 8, 3, 9};\n  int target = 6;\n  for (int i = 0; i < 5; i++) {\n    if (arr[i] == target) {\n      std::cout << \"First occurrence at index \" << i << \".\" << std::endl;\n      return 0;\n    }\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Search an element in a rotated sorted array.",
+                "output": "Element found at index 4.",
+                "logic": "// Assuming array is rotated\n#include <iostream>\nint main() {\n  int arr[] = {7, 9, 12, 15, 3, 5};\n  int target = 3;\n  int left = 0, right = 5, mid;\n  while (left <= right) {\n    mid = left + (right - left) / 2;\n    if (arr[mid] == target) {\n      std::cout << \"Element found at index \" << mid << \".\" << std::endl;\n      return 0;\n    }\n    if (arr[left] <= arr[mid]) {\n      if (target >= arr[left] && target < arr[mid])\n        right = mid - 1;\n      else\n        left = mid + 1;\n    } else {\n      if (target > arr[mid] && target <= arr[right])\n        left = mid + 1;\n      else\n        right = mid - 1;\n    }\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the peak element in an array.",
+                "output": "Peak element found at index 2.",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {5, 10, 20, 15, 7};\n  int n = 5;\n  for (int i = 0; i < n; i++) {\n    if ((i == 0 || arr[i] >= arr[i - 1]) && (i == n - 1 || arr[i] >= arr[i + 1])) {\n      std::cout << \"Peak element found at index \" << i << \".\" << std::endl;\n      return 0;\n    }\n  }\n  std::cout << \"No peak element found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the two elements in an array that sum to a given target.",
+                "output": "Pair found: 3, 8",
+                "logic": "#include <iostream>\n#include <unordered_set>\nint main() {\n  int arr[] = {1, 5, 7, 3, 8, 4};\n  int target = 11;\n  std::unordered_set<int> complementSet;\n  for (int i = 0; i < 6; i++) {\n    int complement = target - arr[i];\n    if (complementSet.find(complement) != complementSet.end()) {\n      std::cout << \"Pair found: \" << arr[i] << \", \" << complement << std::endl;\n      return 0;\n    }\n    complementSet.insert(arr[i]);\n  }\n  std::cout << \"No pair found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Search in an infinite sorted array.",
+                "output": "Element found at index 9.",
+                "logic": "// Assuming array is infinite\n#include <iostream>\nint binarySearch(int arr[], int target, int left, int right) {\n  while (left <= right) {\n    int mid = left + (right - left) / 2;\n    if (arr[mid] == target)\n      return mid;\n    else if (arr[mid] < target)\n      left = mid + 1;\n    else\n      right = mid - 1;\n  }\n  return -1;\n}\nint main() {\n  int arr[] = {1, 3, 5, 7, 9, 12, 15, 20, 25, 30, /* ... infinite array ... */};\n  int target = 30;\n  int left = 0, right = 1;\n  while (arr[right] < target) {\n    left = right;\n    right *= 2;\n  }\n  int index = binarySearch(arr, target, left, right);\n  if (index != -1)\n    std::cout << \"Element found at index \" << index << \".\" << std::endl;\n  else\n    std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the smallest missing positive integer in an unsorted array.",
+                "output": "Smallest missing positive integer: 6",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {3, 1, 4, -1, -2, 2};\n  int n = 6;\n  for (int i = 0; i < n; i++) {\n    while (arr[i] > 0 && arr[i] <= n && arr[arr[i] - 1] != arr[i]) {\n      std::swap(arr[i], arr[arr[i] - 1]);\n    }\n  }\n  for (int i = 0; i < n; i++) {\n    if (arr[i] != i + 1) {\n      std::cout << \"Smallest missing positive integer: \" << i + 1 << std::endl;\n      return 0;\n    }\n  }\n  std::cout << \"No missing positive integer.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Search in a row-wise and column-wise sorted matrix.",
+                "output": "Element found at row 2, column 3.",
+                "logic": "// Assuming matrix is sorted in both rows and columns\n#include <iostream>\nint main() {\n  int matrix[3][4] = {\n    {1, 4, 7, 11},\n    {2, 5, 8, 12},\n    {3, 6, 9, 16}\n  };\n  int target = 8;\n  int rows = 3, cols = 4;\n  int row = 0, col = cols - 1;\n  while (row < rows && col >= 0) {\n    if (matrix[row][col] == target) {\n      std::cout << \"Element found at row \" << row << \", column \" << col << \".\" << std::endl;\n      return 0;\n    }\n    else if (matrix[row][col] < target)\n      row++;\n    else\n      col--;\n  }\n  std::cout << \"Element not found.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Search for a missing number in a sorted array of distinct integers from 1 to N.",
+                "output": "Missing number: 6",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {1, 2, 3, 4, 5, 7, 8, 9, 10};\n  int n = 10;\n  int expectedSum = n * (n + 1) / 2;\n  int actualSum = 0;\n  for (int i = 0; i < n - 1; i++) {\n    actualSum += arr[i];\n  }\n  int missingNumber = expectedSum - actualSum;\n  std::cout << \"Missing number: \" << missingNumber << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Sorting in DSA Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Implement the Bubble Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  for (int i = 0; i < n - 1; i++) {\n    for (int j = 0; j < n - i - 1; j++) {\n      if (arr[j] > arr[j + 1]) {\n        std::swap(arr[j], arr[j + 1]);\n      }\n    }\n  }\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Implement the Selection Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  for (int i = 0; i < n - 1; i++) {\n    int minIndex = i;\n    for (int j = i + 1; j < n; j++) {\n      if (arr[j] < arr[minIndex]) {\n        minIndex = j;\n      }\n    }\n    std::swap(arr[i], arr[minIndex]);\n  }\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Implement the Insertion Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  for (int i = 1; i < n; i++) {\n    int key = arr[i];\n    int j = i - 1;\n    while (j >= 0 && arr[j] > key) {\n      arr[j + 1] = arr[j];\n      j--;\n    }\n    arr[j + 1] = key;\n  }\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement the Merge Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid merge(int arr[], int left, int middle, int right) {...}\nvoid mergeSort(int arr[], int left, int right) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  mergeSort(arr, 0, n - 1);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement the Quick Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid quickSort(int arr[], int low, int high) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  quickSort(arr, 0, n - 1);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement the Heap Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid heapify(int arr[], int n, int i) {...}\nvoid heapSort(int arr[], int n) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  heapSort(arr, n);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement the Counting Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid countingSort(int arr[], int n) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  countingSort(arr, n);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement the Radix Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid radixSort(int arr[], int n) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  radixSort(arr, n);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement the Bucket Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid bucketSort(int arr[], int n) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  bucketSort(arr, n);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },{
+                "category": "Hard",
+                "question": "Implement the Shell Sort algorithm.",
+                "output": "Sorted array: 1 2 3 4 5",
+                "logic": "#include <iostream>\nvoid shellSort(int arr[], int n) {...}\nint main() {\n  int arr[] = {5, 3, 1, 4, 2};\n  int n = sizeof(arr) / sizeof(arr[0]);\n  shellSort(arr, n);\n  std::cout << \"Sorted array: \";\n  for (int i = 0; i < n; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Linked Lists Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Create a linked list and display its elements.",
+                "output": "Linked List: 1 -> 2 -> 3 -> 4 -> 5",
+                "logic": "// C++ program to create a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nint main() {\n  Node* head = new Node();\n  Node* second = new Node();\n  Node* third = new Node();\n  head->data = 1;\n  head->next = second;\n  second->data = 2;\n  second->next = third;\n  third->data = 3;\n  third->next = nullptr;\n  // Display linked list\n  Node* current = head;\n  std::cout << \"Linked List: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Insert a node at the beginning of a linked list.",
+                "output": "Linked List after insertion: 0 -> 1 -> 2 -> 3 -> 4",
+                "logic": "// C++ program to insert a node at the beginning of a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nvoid insertAtBeginning(Node*& head, int value) {\n  Node* newNode = new Node();\n  newNode->data = value;\n  newNode->next = head;\n  head = newNode;\n}\nint main() {\n  Node* head = nullptr;\n  // Insert a node at the beginning\n  insertAtBeginning(head, 0);\n  insertAtBeginning(head, 1);\n  insertAtBeginning(head, 2);\n  insertAtBeginning(head, 3);\n  insertAtBeginning(head, 4);\n  // Display linked list after insertion\n  Node* current = head;\n  std::cout << \"Linked List after insertion: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Delete a node at the given position in a linked list.",
+                "output": "Linked List after deletion: 1 -> 2 -> 4 -> 5",
+                "logic": "// C++ program to delete a node at the given position in a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nvoid deleteNodeAtPosition(Node*& head, int position) {\n  if (head == nullptr)\n    return;\n  Node* temp = head;\n  if (position == 0) {\n    head = temp->next;\n    delete temp;\n    return;\n  }\n  for (int i = 0; temp != nullptr && i < position - 1; i++)\n    temp = temp->next;\n  if (temp == nullptr || temp->next == nullptr)\n    return;\n  Node* nextNode = temp->next->next;\n  delete temp->next;\n  temp->next = nextNode;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list\n  // ... (similar to previous question)\n  // Delete a node at position 2\n  deleteNodeAtPosition(head, 2);\n  // Display linked list after deletion\n  Node* current = head;\n  std::cout << \"Linked List after deletion: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the middle element of a linked list.",
+                "output": "Middle element: 3",
+                "logic": "// C++ program to find the middle element of a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nint findMiddleElement(Node* head) {\n  Node* slow = head;\n  Node* fast = head;\n  while (fast != nullptr && fast->next != nullptr) {\n    slow = slow->next;\n    fast = fast->next->next;\n  }\n  return slow->data;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list\n  // ... (similar to previous question)\n  // Find the middle element\n  int middleElement = findMiddleElement(head);\n  std::cout << \"Middle element: \" << middleElement << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Reverse a linked list.",
+                "output": "Reversed linked list: 5 -> 4 -> 3 -> 2 -> 1",
+                "logic": "// C++ program to reverse a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nNode* reverseLinkedList(Node* head) {\n  Node* prev = nullptr;\n  Node* current = head;\n  Node* nextNode;\n  while (current != nullptr) {\n    nextNode = current->next;\n    current->next = prev;\n    prev = current;\n    current = nextNode;\n  }\n  return prev;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list\n  // ... (similar to previous question)\n  // Reverse the linked list\n  Node* reversedHead = reverseLinkedList(head);\n  // Display reversed linked list\n  Node* current = reversedHead;\n  std::cout << \"Reversed linked list: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Detect a cycle in a linked list.",
+                "output": "Cycle detected.",
+                "logic": "// C++ program to detect a cycle in a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nbool detectCycle(Node* head) {\n  Node* slow = head;\n  Node* fast = head;\n  while (fast != nullptr && fast->next != nullptr) {\n    slow = slow->next;\n    fast = fast->next->next;\n    if (slow == fast)\n      return true;\n  }\n  return false;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list\n  // ... (similar to previous question)\n  // Create a cycle (for testing)\n  head->next->next->next->next = head->next;\n  // Detect cycle\n  if (detectCycle(head))\n    std::cout << \"Cycle detected.\" << std::endl;\n  else\n    std::cout << \"No cycle.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Merge two sorted linked lists.",
+                "output": "Merged linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9",
+                "logic": "// C++ program to merge two sorted linked lists\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nNode* mergeSortedLists(Node* list1, Node* list2) {\n  if (list1 == nullptr)\n    return list2;\n  if (list2 == nullptr)\n    return list1;\n  Node* mergedList;\n  if (list1->data < list2->data) {\n    mergedList = list1;\n    mergedList->next = mergeSortedLists(list1->next, list2);\n  } else {\n    mergedList = list2;\n    mergedList->next = mergeSortedLists(list1, list2->next);\n  }\n  return mergedList;\n}\nint main() {\n  Node* list1 = new Node();\n  Node* list2 = new Node();\n  // Construct two sorted linked lists\n  // ... (similar to previous questions)\n  // Merge the two lists\n  Node* mergedList = mergeSortedLists(list1, list2);\n  // Display merged linked list\n  Node* current = mergedList;\n  std::cout << \"Merged linked list: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Rotate a linked list by k positions.",
+                "output": "Rotated linked list: 4 -> 5 -> 1 -> 2 -> 3",
+                "logic": "// C++ program to rotate a linked list by k positions\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nNode* rotateLinkedList(Node* head, int k) {\n  if (head == nullptr || k == 0)\n    return head;\n  int count = 1;\n  Node* current = head;\n  while (count < k && current != nullptr) {\n    current = current->next;\n    count++;\n  }\n  if (current == nullptr)\n    return head;\n  Node* kthNode = current;\n  while (current->next != nullptr)\n    current = current->next;\n  current->next = head;\n  head = kthNode->next;\n  kthNode->next = nullptr;\n  return head;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list\n  // ... (similar to previous questions)\n  // Rotate the linked list by 2 positions\n  int k = 2;\n  Node* rotatedList = rotateLinkedList(head, k);\n  // Display rotated linked list\n  Node* current = rotatedList;\n  std::cout << \"Rotated linked list: \";\n  while (current != nullptr) {\n    std::cout << current->data << \" -> \";\n    current = current->next;\n  }\n  std::cout << \"nullptr\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Clone a linked list with next and random pointers.",
+                "output": "Original linked list: 1 -> 2 -> 3 -> 4 -> 5\nCloned linked list: 1 -> 2 -> 3 -> 4 -> 5",
+                "logic": "// C++ program to clone a linked list with next and random pointers\n#include <iostream>\n#include <unordered_map>\nclass Node {\npublic:\n  int data;\n  Node* next;\n  Node* random;\n};\nNode* cloneLinkedList(Node* head) {\n  if (head == nullptr)\n    return nullptr;\n  std::unordered_map<Node*, Node*> nodeMap;\n  Node* original = head;\n  Node* cloned = nullptr;\n  while (original != nullptr) {\n    cloned = new Node();\n    cloned->data = original->data;\n    cloned->next = nullptr;\n    cloned->random = nullptr;\n    nodeMap[original] = cloned;\n    original = original->next;\n  }\n  original = head;\n  while (original != nullptr) {\n    nodeMap[original]->next = nodeMap[original->next];\n    nodeMap[original]->random = nodeMap[original->random];\n    original = original->next;\n  }\n  return nodeMap[head];\n}\nint main() {\n  Node* head = new Node();\n  // Construct an original linked list\n  // ... (similar to previous questions)\n  // Clone the linked list\n  Node* clonedList = cloneLinkedList(head);\n  // Display original and cloned linked lists\n  // ... (similar to previous questions)\n  return 0;\n}"
+              },{
+                "category": "Medium",
+                "question": "Detect and remove a loop in a linked list.",
+                "output": "Loop detected and removed.",
+                "logic": "// C++ program to detect and remove a loop in a linked list\n#include <iostream>\nclass Node {\npublic:\n  int data;\n  Node* next;\n};\nbool detectAndRemoveLoop(Node* head) {\n  Node* slow = head;\n  Node* fast = head;\n  while (fast != nullptr && fast->next != nullptr) {\n    slow = slow->next;\n    fast = fast->next->next;\n    if (slow == fast) {\n      // Loop detected\n      Node* start = head;\n      while (start->next != slow->next) {\n        start = start->next;\n        slow = slow->next;\n      }\n      // Remove the loop\n      slow->next = nullptr;\n      return true;\n    }\n  }\n  return false;\n}\nint main() {\n  Node* head = new Node();\n  // Construct a linked list with a loop (for testing)\n  head->next->next->next->next = head->next;\n  // Detect and remove the loop\n  if (detectAndRemoveLoop(head))\n    std::cout << \"Loop detected and removed.\" << std::endl;\n  else\n    std::cout << \"No loop.\" << std::endl;\n  return 0;\n}"
+              }
+            ]
+          },
+          {
+            "name": "Stacks and Queues Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Implement a stack using an array.",
+                "output": "Stack: 5 10 15",
+                "logic": "#include <iostream>\n#define MAX_SIZE 5\nclass Stack {\n  int top;\n  int arr[MAX_SIZE];\npublic:\n  Stack() { top = -1; }\n  void push(int value) { arr[++top] = value; }\n  void pop() { if (top >= 0) top--; }\n  int peek() { return arr[top]; }\n};\nint main() {\n  Stack stack;\n  stack.push(5);\n  stack.push(10);\n  stack.push(15);\n  std::cout << \"Stack: \";\n  while (stack.peek() != -1) {\n    std::cout << stack.peek() << \" \";\n    stack.pop();\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Implement a queue using an array.",
+                "output": "Queue: 5 10 15",
+                "logic": "#include <iostream>\n#define MAX_SIZE 5\nclass Queue {\n  int front, rear;\n  int arr[MAX_SIZE];\npublic:\n  Queue() { front = rear = -1; }\n  void enqueue(int value) { arr[++rear] = value; }\n  void dequeue() { if (front < rear) front++; }\n  int frontValue() { return arr[front + 1]; }\n};\nint main() {\n  Queue queue;\n  queue.enqueue(5);\n  queue.enqueue(10);\n  queue.enqueue(15);\n  std::cout << \"Queue: \";\n  while (queue.frontValue() != -1) {\n    std::cout << queue.frontValue() << \" \";\n    queue.dequeue();\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Check for balanced parentheses in an expression.",
+                "output": "The expression is balanced.",
+                "logic": "#include <iostream>\n#include <stack>\nbool isBalanced(std::string expression) {\n  std::stack<char> st;\n  for (char bracket : expression) {\n    if (bracket == '(' || bracket == '{' || bracket == '[')\n      st.push(bracket);\n    else if (!st.empty() && ((bracket == ')' && st.top() == '(') || (bracket == '}' && st.top() == '{') || (bracket == ']' && st.top() == '[')))\n      st.pop();\n    else\n      return false;\n  }\n  return st.empty();\n}\nint main() {\n  std::string expression = \"(a + b) * (c - d)\";\n  if (isBalanced(expression))\n    std::cout << \"The expression is balanced.\" << std::endl;\n  else\n    std::cout << \"The expression is not balanced.\" << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement a stack using linked list.",
+                "output": "Stack: 15 10 5",
+                "logic": "// Node structure\nstruct Node {\n  int data;\n  Node* next;\n  Node(int value) : data(value), next(nullptr) {}\n};\n// Stack class\nclass Stack {\n  Node* top;\npublic:\n  Stack() : top(nullptr) {}\n  void push(int value) {\n    Node* newNode = new Node(value);\n    newNode->next = top;\n    top = newNode;\n  }\n  void pop() {\n    if (top) {\n      Node* temp = top;\n      top = top->next;\n      delete temp;\n    }\n  }\n  int peek() {\n    return top ? top->data : -1;\n  }\n};\nint main() {\n  Stack stack;\n  stack.push(5);\n  stack.push(10);\n  stack.push(15);\n  std::cout << \"Stack: \";\n  while (stack.peek() != -1) {\n    std::cout << stack.peek() << \" \";\n    stack.pop();\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Implement a queue using linked list.",
+                "output": "Queue: 5 10 15",
+                "logic": "// Node structure\nstruct Node {\n  int data;\n  Node* next;\n  Node(int value) : data(value), next(nullptr) {}\n};\n// Queue class\nclass Queue {\n  Node* front;\n  Node* rear;\npublic:\n  Queue() : front(nullptr), rear(nullptr) {}\n  void enqueue(int value) {\n    Node* newNode = new Node(value);\n    if (!rear) front = rear = newNode;\n    else {\n      rear->next = newNode;\n      rear = newNode;\n    }\n  }\n  void dequeue() {\n    if (front) {\n      Node* temp = front;\n      front = front->next;\n      if (!front) rear = nullptr;\n      delete temp;\n    }\n  }\n  int frontValue() {\n    return front ? front->data : -1;\n  }\n};\nint main() {\n  Queue queue;\n  queue.enqueue(5);\n  queue.enqueue(10);\n  queue.enqueue(15);\n  std::cout << \"Queue: \";\n  while (queue.frontValue() != -1) {\n    std::cout << queue.frontValue() << \" \";\n    queue.dequeue();\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Evaluate a postfix expression.",
+                "output": "Result: 7",
+                "logic": "#include <iostream>\n#include <stack>\nint evaluatePostfix(std::string expression) {\n  std::stack<int> st;\n  for (char token : expression) {\n    if (isdigit(token))\n      st.push(token - '0');\n    else {\n      int operand2 = st.top(); st.pop();\n      int operand1 = st.top(); st.pop();\n      switch(token) {\n        case '+': st.push(operand1 + operand2); break;\n        case '-': st.push(operand1 - operand2); break;\n        case '*': st.push(operand1 * operand2); break;\n        case '/': st.push(operand1 / operand2); break;\n      }\n    }\n  }\n  return st.top();\n}\nint main() {\n  std::string expression = \"23*5+\";\n  std::cout << \"Result: \" << evaluatePostfix(expression) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
+                "output": "Min Element: 2",
+                "logic": "#include <iostream>\n#include <stack>\nclass MinStack {\n  std::stack<int> st;\n  std::stack<int> minSt;\npublic:\n  void push(int value) {\n    st.push(value);\n    if (minSt.empty() || value <= minSt.top())\n      minSt.push(value);\n  }\n  void pop() {\n    if (!st.empty()) {\n      if (st.top() == minSt.top())\n        minSt.pop();\n      st.pop();\n    }\n  }\n  int top() {\n    return st.empty() ? -1 : st.top();\n  }\n  int getMin() {\n    return minSt.empty() ? -1 : minSt.top();\n  }\n};\nint main() {\n  MinStack minStack;\n  minStack.push(3);\n  minStack.push(5);\n  minStack.push(2);\n  std::cout << \"Min Element: \" << minStack.getMin() << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement a circular queue.",
+                "output": "Circular Queue: 5 10 15",
+                "logic": "#include <iostream>\n#define MAX_SIZE 5\nclass CircularQueue {\n  int front, rear;\n  int arr[MAX_SIZE];\npublic:\n  CircularQueue() : front(-1), rear(-1) {}\n  bool isFull() { return (front == 0 && rear == MAX_SIZE - 1) || (rear == (front - 1) % (MAX_SIZE - 1)); }\n  bool isEmpty() { return front == -1; }\n  void enqueue(int value) {\n    if (!isFull()) {\n      if (front == -1) front = rear = 0;\n      else rear = (rear + 1) % MAX_SIZE;\n      arr[rear] = value;\n    }\n  }\n  void dequeue() {\n    if (!isEmpty()) {\n      if (front == rear) front = rear = -1;\n      else front = (front + 1) % MAX_SIZE;\n    }\n  }\n  int frontValue() {\n    return isEmpty() ? -1 : arr[front];\n  }\n};\nint main() {\n  CircularQueue cQueue;\n  cQueue.enqueue(5);\n  cQueue.enqueue(10);\n  cQueue.enqueue(15);\n  std::cout << \"Circular Queue: \";\n  while (cQueue.frontValue() != -1) {\n    std::cout << cQueue.frontValue() << \" \";\n    cQueue.dequeue();\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement a stack that supports push, pop, top, and retrieving the maximum element in constant time.",
+                "output": "Max Element: 15",
+                "logic": "#include <iostream>\n#include <stack>\nclass MaxStack {\n  std::stack<int> st;\n  std::stack<int> maxSt;\npublic:\n  void push(int value) {\n    st.push(value);\n    if (maxSt.empty() || value >= maxSt.top())\n      maxSt.push(value);\n  }\n  void pop() {\n    if (!st.empty()) {\n      if (st.top() == maxSt.top())\n        maxSt.pop();\n      st.pop();\n    }\n  }\n  int top() {\n    return st.empty() ? -1 : st.top();\n  }\n  int getMax() {\n    return maxSt.empty() ? -1 : maxSt.top();\n  }\n};\nint main() {\n  MaxStack maxStack;\n  maxStack.push(3);\n  maxStack.push(5);\n  maxStack.push(15);\n  std::cout << \"Max Element: \" << maxStack.getMax() << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Design a stack that supports push, pop, top, and retrieving the minimum element, all in constant time.",
+                "output": "Min Element: 2",
+                "logic": "#include <iostream>\n#include <stack>\nclass MinStack {\n  std::stack<int> st;\n  int minElement;\npublic:\n  MinStack() : minElement(INT_MAX) {}\n  void push(int value) {\n    if (value <= minElement) {\n      st.push(minElement);\n      minElement = value;\n    }\n    st.push(value);\n  }\n  void pop() {\n    if (!st.empty()) {\n      if (st.top() == minElement) {\n        st.pop();\n        minElement = st.top();\n        st.pop();\n      }\n      else\n        st.pop();\n    }\n  }\n  int top() {\n    return st.empty() ? -1 : st.top();\n  }\n  int getMin() {\n    return minElement;\n  }\n};\nint main() {\n  MinStack minStack;\n  minStack.push(5);\n  minStack.push(10);\n  minStack.push(2);\n  std::cout << \"Min Element: \" << minStack.getMin() << std::endl;\n  return 0;\n}"
+              }              
+            ]
+          },
+          {
+            "name": "Trees in DSA Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Find the height of a binary tree.",
+                "output": "Height of the binary tree: 3",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nint findHeight(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  int leftHeight = findHeight(root->left);\n  int rightHeight = findHeight(root->right);\n  return std::max(leftHeight, rightHeight) + 1;\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, nullptr, nullptr}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"Height of the binary tree: \" << findHeight(root) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Check if a binary tree is a binary search tree (BST).",
+                "output": "The binary tree is a BST.",
+                "logic": "#include <iostream>\n#include <climits>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nbool isBST(TreeNode* root, int minValue = INT_MIN, int maxValue = INT_MAX) {\n  if (root == nullptr)\n    return true;\n  if (root->data <= minValue || root->data >= maxValue)\n    return false;\n  return isBST(root->left, minValue, root->data) && isBST(root->right, root->data, maxValue);\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{2, new TreeNode{1, nullptr, nullptr}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << (isBST(root) ? \"The binary tree is a BST.\" : \"The binary tree is not a BST.\") << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Perform an in-order traversal of a binary tree.",
+                "output": "In-order traversal: 4 2 5 1 3",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nvoid inOrderTraversal(TreeNode* root) {\n  if (root == nullptr)\n    return;\n  inOrderTraversal(root->left);\n  std::cout << root->data << \" \";\n  inOrderTraversal(root->right);\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, new TreeNode{4, nullptr, nullptr}, new TreeNode{5, nullptr, nullptr}}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"In-order traversal: \";\n  inOrderTraversal(root);\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+                "output": "LCA of nodes 2 and 3: 1",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nTreeNode* findLCA(TreeNode* root, int node1, int node2) {\n  if (root == nullptr)\n    return nullptr;\n  if (root->data == node1 || root->data == node2)\n    return root;\n  TreeNode* leftLCA = findLCA(root->left, node1, node2);\n  TreeNode* rightLCA = findLCA(root->right, node1, node2);\n  if (leftLCA != nullptr && rightLCA != nullptr)\n    return root;\n  return (leftLCA != nullptr) ? leftLCA : rightLCA;\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, nullptr, nullptr}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"LCA of nodes 2 and 3: \" << findLCA(root, 2, 3)->data << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the diameter of a binary tree.",
+                "output": "Diameter of the binary tree: 4",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nint height(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  return 1 + std::max(height(root->left), height(root->right));\n}\nint diameter(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  int leftHeight = height(root->left);\n  int rightHeight = height(root->right);\n  int leftDiameter = diameter(root->left);\n  int rightDiameter = diameter(root->right);\n  return std::max({leftHeight + rightHeight + 1, leftDiameter, rightDiameter});\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, new TreeNode{4, nullptr, nullptr}, nullptr}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"Diameter of the binary tree: \" << diameter(root) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Convert a binary search tree (BST) to a sorted doubly linked list (DLL).",
+                "output": "Sorted DLL: 1 2 3 4 5",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nTreeNode* prevNode = nullptr;\nTreeNode* convertToDLL(TreeNode* root) {\n  if (root == nullptr)\n    return nullptr;\n  TreeNode* head = convertToDLL(root->left);\n  if (prevNode != nullptr)\n    prevNode->right = root;\n  root->left = prevNode;\n  prevNode = root;\n  convertToDLL(root->right);\n  return (head == nullptr) ? root : head;\n}\nint main() {\n  // Create and populate the binary search tree\n  TreeNode* root = new TreeNode{3, new TreeNode{2, new TreeNode{1, nullptr, nullptr}, nullptr}, new TreeNode{5, new TreeNode{4, nullptr, nullptr}, nullptr}};\n  // Add more nodes as needed\n  TreeNode* sortedDLL = convertToDLL(root);\n  std::cout << \"Sorted DLL: \";\n  while (sortedDLL != nullptr) {\n    std::cout << sortedDLL->data << \" \";\n    sortedDLL = sortedDLL->right;\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Serialize and deserialize a binary tree.",
+                "output": "Serialized tree: 1 2 3 # # 4 5 # # # #",
+                "logic": "#include <iostream>\n#include <sstream>\n#include <queue>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nstd::string serialize(TreeNode* root) {\n  if (root == nullptr)\n    return \"# \";\n  return std::to_string(root->data) + \" \" + serialize(root->left) + serialize(root->right);\n}\nTreeNode* deserialize(std::istringstream& iss) {\n  std::string token;\n  iss >> token;\n  if (token == \"#\")\n    return nullptr;\n  TreeNode* root = new TreeNode{std::stoi(token), nullptr, nullptr};\n  root->left = deserialize(iss);\n  root->right = deserialize(iss);\n  return root;\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, nullptr, nullptr}, new TreeNode{3, new TreeNode{4, nullptr, nullptr}, new TreeNode{5, nullptr, nullptr}}};\n  // Add more nodes as needed\n  std::string serializedTree = serialize(root);\n  std::istringstream iss(serializedTree);\n  TreeNode* deserializedRoot = deserialize(iss);\n  std::cout << \"Serialized tree: \" << serializedTree << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the kth smallest element in a binary search tree (BST).",
+                "output": "3rd smallest element: 3",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nint countNodes(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  return 1 + countNodes(root->left) + countNodes(root->right);\n}\nint kthSmallest(TreeNode* root, int k) {\n  int leftCount = countNodes(root->left);\n  if (k <= leftCount)\n    return kthSmallest(root->left, k);\n  if (k == leftCount + 1)\n    return root->data;\n  return kthSmallest(root->right, k - leftCount - 1);\n}\nint main() {\n  // Create and populate the binary search tree\n  TreeNode* root = new TreeNode{3, new TreeNode{1, nullptr, nullptr}, new TreeNode{4, new TreeNode{2, nullptr, nullptr}, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"3rd smallest element: \" << kthSmallest(root, 3) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Check if a binary tree is balanced.",
+                "output": "The binary tree is balanced.",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nint height(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  return 1 + std::max(height(root->left), height(root->right));\n}\nbool isBalanced(TreeNode* root) {\n  if (root == nullptr)\n    return true;\n  int leftHeight = height(root->left);\n  int rightHeight = height(root->right);\n  return std::abs(leftHeight - rightHeight) <= 1 && isBalanced(root->left) && isBalanced(root->right);\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, nullptr, nullptr}, new TreeNode{3, nullptr, nullptr}};\n  // Add more nodes as needed\n  std::cout << (isBalanced(root) ? \"The binary tree is balanced.\" : \"The binary tree is not balanced.\") << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the maximum depth of a binary tree.",
+                "output": "Maximum depth of the binary tree: 3",
+                "logic": "#include <iostream>\nstruct TreeNode {\n  int data;\n  TreeNode* left;\n  TreeNode* right;\n};\nint maxDepth(TreeNode* root) {\n  if (root == nullptr)\n    return 0;\n  int leftDepth = maxDepth(root->left);\n  int rightDepth = maxDepth(root->right);\n  return std::max(leftDepth, rightDepth) + 1;\n}\nint main() {\n  // Create and populate the binary tree\n  TreeNode* root = new TreeNode{1, new TreeNode{2, nullptr, nullptr}, new TreeNode{3, new TreeNode{4, nullptr, nullptr}, nullptr}};\n  // Add more nodes as needed\n  std::cout << \"Maximum depth of the binary tree: \" << maxDepth(root) << std::endl;\n  return 0;\n}"
+              }              
+            ]
+          },
+          {
+            "name": "Arrays in DSA Coding Questions ",
+            "questions": [
+              {
+                "category": "Easy",
+                "question": "Find the maximum element in an array.",
+                "output": "Maximum element in the array: 8",
+                "logic": "#include <iostream>\nint findMaxElement(int arr[], int size) {\n  int maxElement = arr[0];\n  for (int i = 1; i < size; i++) {\n    if (arr[i] > maxElement)\n      maxElement = arr[i];\n  }\n  return maxElement;\n}\nint main() {\n  int arr[] = {3, 7, 2, 8, 4};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Maximum element in the array: \" << findMaxElement(arr, size) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Check if an array is sorted in non-decreasing order.",
+                "output": "The array is sorted.",
+                "logic": "#include <iostream>\nbool isSorted(int arr[], int size) {\n  for (int i = 1; i < size; i++) {\n    if (arr[i] < arr[i - 1])\n      return false;\n  }\n  return true;\n}\nint main() {\n  int arr[] = {1, 2, 3, 4, 5};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << (isSorted(arr, size) ? \"The array is sorted.\" : \"The array is not sorted.\") << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Easy",
+                "question": "Find the sum of all elements in an array.",
+                "output": "Sum of elements in the array: 20",
+                "logic": "#include <iostream>\nint findSum(int arr[], int size) {\n  int sum = 0;\n  for (int i = 0; i < size; i++) {\n    sum += arr[i];\n  }\n  return sum;\n}\nint main() {\n  int arr[] = {3, 7, 2, 5, 3};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Sum of elements in the array: \" << findSum(arr, size) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Rotate an array to the right by k steps.",
+                "output": "Rotated array: 3 7 2 5 3",
+                "logic": "#include <iostream>\nvoid rotateArray(int arr[], int size, int k) {\n  k = k % size; // Handle cases where k is greater than array size\n  reverse(arr, 0, size - 1);\n  reverse(arr, 0, k - 1);\n  reverse(arr, k, size - 1);\n}\nvoid reverse(int arr[], int start, int end) {\n  while (start < end) {\n    std::swap(arr[start], arr[end]);\n    start++;\n    end--;\n  }\n}\nint main() {\n  int arr[] = {3, 7, 2, 5, 3};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  int k = 2;\n  rotateArray(arr, size, k);\n  std::cout << \"Rotated array: \";\n  for (int i = 0; i < size; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the first missing positive integer in an unsorted array.",
+                "output": "First missing positive integer: 1",
+                "logic": "#include <iostream>\nint firstMissingPositive(int arr[], int size) {\n  for (int i = 0; i < size; i++) {\n    while (arr[i] > 0 && arr[i] <= size && arr[arr[i] - 1] != arr[i]) {\n      std::swap(arr[i], arr[arr[i] - 1]);\n    }\n  }\n  for (int i = 0; i < size; i++) {\n    if (arr[i] != i + 1)\n      return i + 1;\n  }\n  return size + 1;\n}\nint main() {\n  int arr[] = {3, 7, -1, 1, 5, 2};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"First missing positive integer: \" << firstMissingPositive(arr, size) << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Find the subarray with the maximum sum (Kadane's algorithm).",
+                "output": "Maximum sum subarray: 7 2 5 3",
+                "logic": "#include <iostream>\n#include <climits>\nvoid maxSumSubarray(int arr[], int size) {\n  int maxEndingHere = 0, maxSoFar = INT_MIN;\n  int start = 0, end = 0, s = 0;\n  for (int i = 0; i < size; i++) {\n    maxEndingHere += arr[i];\n    if (maxEndingHere < arr[i]) {\n      maxEndingHere = arr[i];\n      s = i;\n    }\n    if (maxEndingHere > maxSoFar) {\n      maxSoFar = maxEndingHere;\n      start = s;\n      end = i;\n    }\n  }\n  std::cout << \"Maximum sum subarray: \";\n  for (int i = start; i <= end; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n}\nint main() {\n  int arr[] = {3, -2, 7, -4, 2, 1, -5, 6};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  maxSumSubarray(arr, size);\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Implement the 'next permutation' algorithm for an array of integers.",
+                "output": "Next permutation: 2 3 1",
+                "logic": "#include <iostream>\n#include <algorithm>\nvoid nextPermutation(int arr[], int size) {\n  int i = size - 2;\n  while (i >= 0 && arr[i] >= arr[i + 1])\n    i--;\n  if (i >= 0) {\n    int j = size - 1;\n    while (arr[j] <= arr[i])\n      j--;\n    std::swap(arr[i], arr[j]);\n  }\n  std::reverse(arr + i + 1, arr + size);\n}\nint main() {\n  int arr[] = {1, 3, 2};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  nextPermutation(arr, size);\n  std::cout << \"Next permutation: \";\n  for (int i = 0; i < size; i++) {\n    std::cout << arr[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Merge two sorted arrays in-place.",
+                "output": "Merged array: 1 2 3 4 5 7 8",
+                "logic": "#include <iostream>\nvoid mergeArrays(int arr1[], int size1, int arr2[], int size2) {\n  int i = size1 - 1, j = size2 - 1, k = size1 + size2 - 1;\n  while (i >= 0 && j >= 0) {\n    if (arr1[i] > arr2[j]) {\n      arr1[k--] = arr1[i--];\n    } else {\n      arr1[k--] = arr2[j--];\n    }\n  }\n  while (j >= 0) {\n    arr1[k--] = arr2[j--];\n  }\n}\nint main() {\n  int arr1[] = {1, 3, 5, 7, 0, 0, 0};\n  int size1 = 4;\n  int arr2[] = {2, 4, 8};\n  int size2 = sizeof(arr2) / sizeof(arr2[0]);\n  mergeArrays(arr1, size1, arr2, size2);\n  std::cout << \"Merged array: \";\n  for (int i = 0; i < size1 + size2; i++) {\n    std::cout << arr1[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Hard",
+                "question": "Find the longest increasing subsequence in an array.",
+                "output": "Longest increasing subsequence: 2 5 7 8",
+                "logic": "#include <iostream>\n#include <vector>\nint lengthOfLIS(int arr[], int size) {\n  std::vector<int> lis(size, 1);\n  for (int i = 1; i < size; i++) {\n    for (int j = 0; j < i; j++) {\n      if (arr[i] > arr[j] && lis[i] < lis[j] + 1)\n        lis[i] = lis[j] + 1;\n    }\n  }\n  int maxLength = 0;\n  for (int i = 0; i < size; i++) {\n    if (lis[i] > maxLength)\n      maxLength = lis[i];\n  }\n  return maxLength;\n}\nint main() {\n  int arr[] = {3, 10, 2, 1, 20, 5, 7, 8};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  std::cout << \"Longest increasing subsequence: \";\n  // Additional logic to print the actual subsequence\n  std::vector<int> lis(size, 1);\n  for (int i = 1; i < size; i++) {\n    for (int j = 0; j < i; j++) {\n      if (arr[i] > arr[j] && lis[i] < lis[j] + 1)\n        lis[i] = lis[j] + 1;\n    }\n  }\n  int maxLength = lengthOfLIS(arr, size);\n  std::vector<int> result;\n  for (int i = size - 1; i >= 0; i--) {\n    if (lis[i] == maxLength) {\n      result.push_back(arr[i]);\n      maxLength--;\n    }\n  }\n  for (int i = result.size() - 1; i >= 0; i--) {\n    std::cout << result[i] << \" \";\n  }\n  std::cout << std::endl;\n  return 0;\n}"
+              },
+              {
+                "category": "Medium",
+                "question": "Determine if there are any two elements in an array whose sum equals a given target.",
+                "output": "There are two elements whose sum equals the target.",
+                "logic": "#include <iostream>\n#include <unordered_set>\nbool hasSumPair(int arr[], int size, int target) {\n  std::unordered_set<int> complementSet;\n  for (int i = 0; i < size; i++) {\n    int complement = target - arr[i];\n    if (complementSet.find(complement) != complementSet.end()) {\n      return true;\n    }\n    complementSet.insert(arr[i]);\n  }\n  return false;\n}\nint main() {\n  int arr[] = {4, 7, 2, 9, 5};\n  int size = sizeof(arr) / sizeof(arr[0]);\n  int target = 11;\n  std::cout << (hasSumPair(arr, size, target) ? \"There are two elements whose sum equals the target.\" : \"No such elements found.\") << std::endl;\n  return 0;\n}"
+              }
+            ]
+          }
+    ]
+}

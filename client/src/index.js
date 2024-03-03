@@ -14,6 +14,11 @@ import Signup from './views/Signup/Signup';
 import Books from './components/Books/Books';
 import Roadmap from './components/Roadmap/Roadmap';
 import Projects from './components/Projects/Projects';
+import Aptitude from './components/Aptitude/Aptitude';
+import Reasoning from './components/Reasoning/Reasoning';
+import Verbal from './components/Verbal/Verbal';
+import Interview from './components/Interview/Interview';
+import Problems from './components/Problems/Problems';
 
 
 
@@ -71,6 +76,26 @@ const router = createBrowserRouter([
     {
       "path": "/projects",
       "element": <Projects/>
+    },
+    {
+      "path": "/aptitude",
+      "element": <Aptitude/>
+    },
+    {
+      "path": "/reasoning",
+      "element": <Reasoning/>
+    },
+    {
+      "path": "/verbal",
+      "element": <Verbal/>
+    },
+    {
+      "path": "/interview-questions",
+      "element": <Interview/>
+    },
+    {
+      "path": "/problems",
+      "element": <Problems/>
     },
 
   
