@@ -1,0 +1,118 @@
+/* chatbot.css */
+
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto !important;
+  border-radius: 19px;
+  column-gap: 3%;
+  background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
+
+}
+
+.chatbot-img {
+  height: 25vh;
+  margin: 3% 0% 3% 20%;
+}
+
+.chatbot-tagline {
+  width: 75%;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #ccc; 
+ 
+
+}
+
+.chatbot-search{
+  color: #0093E9;
+}
+
+.chatbot-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #c6d3cc;
+  font-weight: bold;
+  background-color: #0a0a0a;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+}
+
+.chatbot-btn:hover {
+  background-color: #080f11;
+  color: #48acc8;
+  transition: color 0.3s ease-in-out;
+}
+
+.chatbot-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  margin: 5% 0;
+  background-color: rgb(56, 54, 54);
+  transition: all 1s ease-in-out;
+}
+
+
+/* Style the scrollbar */
+.chatbot-modal::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-modal::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  border-radius: 10px;
+}
+
+.chatbot-modal::-webkit-scrollbar-track {
+  background-color: #080F11;
+}
+
+.chatbot-box-container {
+  background-color: #c6d3cc;
+  border-radius: 25px;
+  width: 60%;
+  padding: 30px;
+  color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.chatbot-submit-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 25px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-submit-btn:hover {
+  background-color: #219653;
+}
+
+.chatbot-answer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
