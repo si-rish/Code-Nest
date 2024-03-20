@@ -37,6 +37,7 @@ function Community() {
         </div>
         <br/>
     <Chatbot/>
+    <hr className='community-hr'/>
     
     </>
   )

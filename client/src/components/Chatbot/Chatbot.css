@@ -9,6 +9,8 @@
   border-radius: 19px;
   column-gap: 3%;
   background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 20px 30px -10px;
+
 
 }
 
@@ -59,6 +61,7 @@
   margin: 5% 0;
   background-color: rgb(56, 54, 54);
   transition: all 1s ease-in-out;
+  
 }
 
 
