@@ -1,0 +1,104 @@
+/* Add this keyframes section at the beginning of your CSS file or style block */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login-page-background {
+  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
+  /* ... existing styles ... */
+}
+
+.login-container {
+  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
+  /* ... existing styles ... */
+}
+
+.login-title {
+  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
+  /* ... existing styles ... */
+}
+
+.input-label,
+.input-field,
+.login-btn,
+.login-signup-btn {
+  opacity: 0; /* Initially set the opacity to 0 */
+  animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation and keep the final state */
+}
+
+.input-container {
+  margin: 20px auto;
+  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
+}
+
+/* Additional styles... */
+
+
+.login-page-background{
+  background: url('https://images.pexels.com/photos/5380596/pexels-photo-5380596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.721);
+  background-blend-mode: multiply;
+  height: 97vh;
+}
+
+.login-container{
+  color: white;
+    width: fit-content;
+    margin: 0px auto 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px 40px;
+    border-radius: 15px;
+    
+  }
+  
+  .login-title{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 50px ;
+  }
+  
+  .input-label{
+    display: block;
+    font-size: 22px;
+    padding: 3% 0%;
+    font-weight: bold;
+  }
+
+  
+  .input-field{
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 19px;
+  }
+  
+  .input-container{
+    margin: 20px auto;
+  }
+  
+  
+  .login-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #219653; /* Add your desired color */
+    color: #fff; /* Add your desired color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 19px;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .login-signup-btn{
+    text-align: center;
+  }

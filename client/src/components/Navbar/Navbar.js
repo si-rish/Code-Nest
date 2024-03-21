@@ -1,15 +1,46 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import drop from '../assets/drop.png';
 import logo from '../assets/logo7.png';
+=======
+import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
+import logo from '../assets/logo7.png'
+import drop from '../assets/drop.png'
+>>>>>>> cc00aec4c8aaac16e9921b119484ca824e2f1ea5
+
 
 import './Navbar.css'; // Assuming you have a CSS file for styling
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [userName, setUserName] = useState('');
+
+  useEffect(() => {
+    // Check if the user is logged in
+    const user = JSON.parse(localStorage.getItem('user'));
+    if (user) {
+      setLoggedIn(true);
+      setUserName(user.username);
+    } else {
+      setLoggedIn(false);
+      setUserName('');
+    }
+  }, []);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+
+  const logout = () => {
+    // Clear user data from localStorage and update state
+    localStorage.removeItem('user');
+    setLoggedIn(false);
+    setUserName('');
   };
 
   return (
@@ -29,13 +60,6 @@ const Navbar = () => {
             {/* <Link to="/others">Others</Link> */}
           </div>
         </div>
-        {/* <div className="submenu">
-          <Link to="/utilities">Utilities&nbsp;<img src={drop} className='cn-drop'/> </Link>
-          <div className="dropdown-content">
-            <Link to="/resume-builder">Resume Builder</Link><hr/>
-            <Link to="/jobs-internships">Jobs & Internships</Link>
-          </div>
-        </div> */}
         <div className="submenu">
           <Link to="/practice">Practice&nbsp;<img src={drop} className='cn-drop'/></Link>
           <div className="dropdown-content">
@@ -50,8 +74,19 @@ const Navbar = () => {
       </div>
 
       <div className="auth-buttons">
-        <Link to="/login"> Login</Link>
-        <Link to="/signup"> Signup</Link>
+        {loggedIn ? (
+          <>
+            <p className="user-name"><FontAwesomeIcon icon={faUser} className='user-profile'/> {userName}</p>
+            <button className="logout-btn" onClick={logout}>
+              Logout
+            </button>
+          </>
+        ) : (
+          <>
+            <Link to="/login">Login <FontAwesomeIcon icon={faRightToBracket} /></Link>
+            {/* <Link to="/signup">Signup</Link> */}
+          </>
+        )}
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>

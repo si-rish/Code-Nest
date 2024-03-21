@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import FeatureSection from '../../components/FeatureSection/FeatureSection'
 
+
 function Home() {
   return (
     <>
@@ -12,6 +13,8 @@ function Home() {
     <hr/>
     <br/>
     <FeatureSection/>
+    <br/>
+    
     </>
   )
 }

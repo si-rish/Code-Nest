@@ -8,7 +8,6 @@ import Community from './views/Community/Community';
 import Contact from './views/Contact/Contact';
 import Practice from './views/Practice/Practice';
 import Resources from './views/Resources/Resources';
-import Utilities from './views/Utilities/Utilities';
 import Login from './views/Login/Login';
 import Signup from './views/Signup/Signup';
 import Books from './components/Books/Books';
@@ -55,10 +54,6 @@ const router = createBrowserRouter([
       "element": <Resources/>
     },
     {
-      "path": "/utilities",
-      "element": <Utilities/>
-    },
-    {
       "path": "/login",
       "element": <Login/>
     },
@@ -99,7 +94,10 @@ const router = createBrowserRouter([
       "element": <Problems/>
     },
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc00aec4c8aaac16e9921b119484ca824e2f1ea5
 
   
 ])
