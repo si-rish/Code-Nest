@@ -22,6 +22,7 @@ import Problems from './components/Problems/Problems';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -97,6 +98,8 @@ const router = createBrowserRouter([
       "path": "/problems",
       "element": <Problems/>
     },
+    
+
 
   
 ])
