@@ -17,10 +17,7 @@
     "axios": "^1.6.7",
     "crunchy-toast": "^0.1.6",
     "dotenv": "^16.4.5",
-<<<<<<< HEAD
-=======
     "openai": "^4.28.4",
->>>>>>> cc00aec4c8aaac16e9921b119484ca824e2f1ea5
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",

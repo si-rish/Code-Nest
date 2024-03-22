@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import drop from '../assets/drop.png';
 import logo from '../assets/logo7.png';
-=======
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom'
-import logo from '../assets/logo7.png'
-import drop from '../assets/drop.png'
->>>>>>> cc00aec4c8aaac16e9921b119484ca824e2f1ea5
+
 
 
 import './Navbar.css'; // Assuming you have a CSS file for styling
