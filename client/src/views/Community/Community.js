@@ -6,6 +6,7 @@ import Chatbot from '../../components/Chatbot/Chatbot'
 import { checkLogin } from '../../utils/auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleNodes } from '@fortawesome/free-solid-svg-icons'
+import CommunityPage from '../../components/CommunityPage/CommunityPage'
 
 
 
@@ -38,6 +39,7 @@ function Community() {
         <br/>
     <Chatbot/>
     <hr className='community-hr'/>
+    <CommunityPage/>
     
     </>
   )

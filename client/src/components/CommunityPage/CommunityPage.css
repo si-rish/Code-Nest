@@ -1,0 +1,350 @@
+/* CommunityPage.css */
+
+.community-page-heading {
+  text-align: center;
+
+}
+
+.community-page-caption {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: gray;
+}
+
+.community-question-list {
+  display: grid;
+  grid-template-columns: repeat(minmax(100%, 1fr));
+  gap: 20px;
+  row-gap: 40px;
+  margin: 5% auto;
+  width: 70%;
+}
+
+.post-question-btn {
+  background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
+  margin: 10px auto;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 1rem;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: block;
+  font-weight: 700;
+}
+
+
+.post-question-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.community-user-profile {
+  background: #614385;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #516395, #614385);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #516395, #614385);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 0px 15px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "sofia";
+  font-optical-sizing: auto;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.card-user-profile {
+  padding-right: 5px;
+  height: 13px;
+  border-radius: 50%;
+  color: #d6f344;
+}
+
+
+.community-question-card {
+  background: #141E30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 2;
+}
+
+.metadata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.community-title {
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  word-wrap: wrap;
+
+}
+.community-title:hover{
+  transition: all 0.3s ease-in-out;
+  color: rgba(75, 117, 255, 0.789);
+ 
+
+}
+
+.community-hr-line{
+  width: 100%;
+  margin: 15px auto 0px;
+}
+
+.community-description {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.community-update-btn {
+  background-color: #4b7afb;
+}
+.community-update-btn:hover {
+  background-color: #3769f3d2;
+}
+
+.card-update-icons {
+  color: whitesmoke;
+}
+.community-delete-btn {
+  background-color: #f75267;
+  font-weight: bold;
+}
+.community-delete-btn:hover {
+  background-color: #fa3f3fd5;
+}
+
+.card-delete-icons {
+  color: whitesmoke;
+}
+
+.community-comment-btn{
+  background-color: #51a35cd5;
+  font-weight: bold;
+}
+.community-comment-btn:hover{
+  background-color: #5ead2dcc;
+  font-weight: bold;
+}
+
+/*comment section*/
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment{
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-text{
+  white-space: pre-wrap;
+}
+
+.comment-user{
+  font-weight: bold;
+  background-color: grey;
+  color: #000000b7;
+  padding: 1px 5px;
+  border-radius: 5px;
+  text-transform: lowercase;
+}
+
+.comment-textarea{
+  display: block;
+  width: 80%;
+  padding: 15px;
+  margin: 10px ;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 1rem;
+ 
+}
+
+.community-post-comment{
+  margin: 10px ;
+  font-weight: bold;
+  
+}
+
+/* Modal Styles */
+.community-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.579);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-modal-content {
+  background-color: rgba(255, 255, 255, 0.881);
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  width: 550px;
+  height: 450px;
+}
+
+.community-modal-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 15px;
+}
+
+
+.modal-form-input {
+  border: none;
+  height: 30px;
+  padding: 3px 8px;
+  font-size: 1rem;
+  text-wrap: wrap;
+  border-radius: 5px;
+}
+
+.modal-textarea {
+  border: none;
+  height: 30px;
+  padding: 3px 8px;
+  font-size: 1rem;
+  text-wrap: wrap;
+  border-radius: 5px;
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.modal-textarea::placeholder {
+  color: rgba(128, 128, 128, 0.678);
+}
+
+.modal-add-btn {
+  background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.modal-add-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.modal-cancel-btn {
+  background-image: linear-gradient(to right, #76b852 0%, #8DC26F 51%, #76b852 100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-weight: 600;
+
+}
+
+.modal-cancel-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.close {
+  position: absolute;
+  top: 120px;
+  right: 400px;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: rgb(255, 240, 240);
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0px 10px;
+  background-image: radial-gradient(circle farthest-corner at 17.1% 22.8%, rgba(226, 24, 24, 1) 0%, rgba(160, 6, 6, 1) 90%);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .community-question-list {
+    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+  }
+}
+
+/* Animations */
+.community-question-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
