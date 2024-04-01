@@ -45,6 +45,7 @@ function CommunityPage() {
       if (selectedQuestion) {
         // Update existing question
         await axios.put(`http://localhost:5000/api/questions/${selectedQuestion._id}`, { title, description });
+        showToast('Question Updated Successfully', 'success', 3000);
       } else {
         // Post new question
         await axios.post('http://localhost:5000/api/questions', { title, description, username, createdAt: new Date() });
