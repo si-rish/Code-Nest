@@ -18,6 +18,8 @@ import Reasoning from './components/Reasoning/Reasoning';
 import Verbal from './components/Verbal/Verbal';
 import Interview from './components/Interview/Interview';
 import Problems from './components/Problems/Problems';
+import Resume from './views/Resume/Resume';
+
 
 
 
@@ -92,9 +94,14 @@ const router = createBrowserRouter([
       "path": "/problems",
       "element": <Problems/>
     },
-    
+    {
+      "path": "/resume-builder",
+      "element": <Resume/>
+    },
 
-  
+
+
+
 ])
 
 root.render(<RouterProvider router={router} />);

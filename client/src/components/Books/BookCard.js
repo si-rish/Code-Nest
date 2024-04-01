@@ -24,7 +24,7 @@ const BookCard = ({ book }) => {
                                     {/* <p className="amount">&#8377;{amount}</p> */}
                                 </div>
                             </div>
-                              <BookModal show={show} item={bookItem} onClose={()=>setShow(false)}/>
+                            <BookModal show={show} item={bookItem} onClose={()=>setShow(false)}/>
                             </>
                         )
                     }
