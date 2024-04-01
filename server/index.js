@@ -8,6 +8,7 @@ const __dirname = path.resolve();
 
 import mongoose from 'mongoose';
 import User from './models/User.js';
+import Resume from './models/resume.js';
 
 dotenv.config();
 
@@ -203,6 +204,48 @@ app.post("/login", async(req, res)=>{
     })
   }
 })
+
+
+// Endpoint to post resume data
+app.post('/api/resumes', async (req, res) => {
+  try {
+    const {
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    } = req.body;
+
+    const resume = new Resume({
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    });
+
+    await resume.save();
+    res.status(201).json({ message: 'Resume data added successfully' });
+  } catch (error) {
+    console.error('Error adding resume data:', error.message);
+    res.status(500).json({ message: 'Failed to add resume data' });
+  }
+});
+
+// Endpoint to fetch all resumes
+app.get('/api/resumes', async (req, res) => {
+  try {
+    const resumes = await Resume.find();
+    res.json(resumes);
+  } catch (error) {
+    console.error('Error fetching resumes:', error.message);
+    res.status(500).json({ message: 'Failed to fetch resumes' });
+  }
+});
+
 
 
 
