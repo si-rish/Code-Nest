@@ -8,6 +8,7 @@ const __dirname = path.resolve();
 
 import mongoose from 'mongoose';
 import User from './models/User.js';
+import Question from './models/Question.js';
 
 dotenv.config();
 
@@ -204,6 +205,92 @@ app.post("/login", async(req, res)=>{
   }
 })
 
+// API endpoint to post questions
+app.post('/api/questions', async (req, res) => {
+  const { title, description } = req.body;
+
+  try {
+    const newQuestion = new Question({ title, description });
+    await newQuestion.save();
+    res.json({ message: 'Question posted successfully!' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error posting question' });
+  }
+});
+
+// Get all questions (for fetching data to display on community page)
+app.get('/api/questions', async (req, res) => {
+  try {
+    const questions = await Question.find().sort({ createdAt: -1 }); // Get questions sorted by creation date (descending)
+    res.json(questions);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error fetching questions' });
+  }
+});
+
+// Server >> index.js
+
+// Update question by ID
+app.put('/api/questions/:id', async (req, res) => {
+  const { id } = req.params;
+  const { title, description } = req.body;
+
+  try {
+    const updatedQuestion = await Question.findByIdAndUpdate(id, { title, description }, { new: true });
+    res.json(updatedQuestion);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error updating question' });
+  }
+});
+
+// Delete question by ID
+app.delete('/api/questions/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    await Question.findByIdAndDelete(id);
+    res.json({ message: 'Question deleted successfully!' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error deleting question' });
+  }
+});
+
+// Add API endpoints for comments
+// Add comment to question by ID
+app.post('/api/questions/:id/comments', async (req, res) => {
+  const { id } = req.params;
+  const { user, content } = req.body;
+
+  try {
+    const updatedQuestion = await Question.findByIdAndUpdate(id, {
+      $push: { comments: { user, content } }
+    }, { new: true });
+    res.json(updatedQuestion);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error adding comment' });
+  }
+});
+
+
+// Delete comment of question by ID
+app.delete('/api/questions/:questionId/comments/:commentId', async (req, res) => {
+  const { questionId, commentId } = req.params;
+
+  try {
+    const updatedQuestion = await Question.findByIdAndUpdate(questionId, {
+      $pull: { comments: { _id: commentId } }
+    }, { new: true });
+    res.json(updatedQuestion);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Error deleting comment' });
+  }
+});
 
 
 

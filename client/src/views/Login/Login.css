@@ -8,97 +8,189 @@
   }
 }
 
-.login-page-background {
-  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
-  /* ... existing styles ... */
+.login-title{
+  text-align: center;
+  margin:80px auto 0px;
+}
+/* Overall layout */
+.main-container-login {
+  animation: fadeIn 0.5s ease-in-out; /* Apply fadeIn animation to main-container-login */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 45rem;
+  margin:60px auto;
+  overflow: hidden;
+  border: solid rgba(255, 255, 255, 0.058) !important;;
+  border-radius: 0.5rem;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 18px 50px -10px;
+
 }
 
-.login-container {
-  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
-  /* ... existing styles ... */
+/* Image container */
+.img-container {
+  display: none;
+  height: 150px;
+
 }
 
-.login-title {
-  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
-  /* ... existing styles ... */
+@media (min-width: 768px) {
+  .img-container {
+      display: block;
+      flex: 1;
+      background-size: cover;
+  }
 }
 
-.input-label,
-.input-field,
-.login-btn,
-.login-signup-btn {
-  opacity: 0; /* Initially set the opacity to 0 */
-  animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation and keep the final state */
+.img-container img {
+  width: 100%;
+  height: 300%;
+  
 }
 
+/* Form container */
+.form-container {
+  flex: 1;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+/* Logo */
+.logo {
+  width: auto;
+  height: 2.25rem;
+}
+
+.logo-container{
+ 
+  margin-left: 145px;
+
+
+}
+
+/* Welcome text */
+.welcome-text {
+  margin-top: 0;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #4b5563;
+  font-weight: bolder;
+}
+
+/* Sign-in text */
+.signin-text {
+  font-weight: bold;
+ 
+}
+
+/* OR Divider */
+.or-divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #4b5563;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #4b5563;
+}
+
+.or-text {
+  margin: 0 0.5rem;
+}
+
+/* Input container */
 .input-container {
-  margin: 20px auto;
-  animation: fadeIn 1s ease; /* Apply the fadeIn animation */
+  margin-bottom: 1rem;
 }
 
-/* Additional styles... */
-
-
-.login-page-background{
-  background: url('https://images.pexels.com/photos/5380596/pexels-photo-5380596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.721);
-  background-blend-mode: multiply;
-  height: 97vh;
+/* Input field */
+.input {
+  width: 95%;
+  padding: 0.5rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent; 
+  color: white !important;
 }
 
-.login-container{
+/* Label */
+.label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #4b5563;
+}
+
+/* Sign-in button container */
+.signin-button-container {
+  margin: 1rem auto;
+}
+
+/* Sign-in button */
+.signin-button {
+  width: 100%;
+  padding: 0.5rem;
   color: white;
-    width: fit-content;
-    margin: 0px auto 0px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px 40px;
-    border-radius: 15px;
-    
-  }
-  
-  .login-title{
-    text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 50px ;
-  }
-  
-  .input-label{
-    display: block;
-    font-size: 22px;
-    padding: 3% 0%;
-    font-weight: bold;
-  }
+  background-color: #3b73c2;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+}
 
-  
-  .input-field{
-    font-size: 20px;
-    padding: 5px 15px;
-    border: none;
-    border-radius: 19px;
-  }
-  
-  .input-container{
-    margin: 20px auto;
-  }
-  
-  
-  .login-btn{
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #219653; /* Add your desired color */
-    color: #fff; /* Add your desired color */
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border-radius: 19px;
-    display: block;
-    margin: 50px auto;
-  }
+.signin-button:hover {
+  background-color: #2d3748;
+}
 
-  .login-signup-btn{
-    text-align: center;
+/* Sign-up link */
+.signup-link {
+  color: #4b5563;
+  text-decoration: none;
+  margin-top: 3%;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+  color: lightblue;
+  transition: all ease-in-out .3s;
+}
+
+/* Add this CSS to your existing Login.css or create a new CSS file */
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('../../components/assets/view.png'); /* Add your eye icon image */
+  background-size: cover;
+  cursor: pointer;
+  color: white !important;
+
+}
+
+.eye-icon.open {
+  background-image: url('../../components/assets/hide.png'); /* Add your open eye icon image */
+  color: white !important;
+}
+
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Example media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .eye-icon {
+      right: 5px;
   }
+}
+
