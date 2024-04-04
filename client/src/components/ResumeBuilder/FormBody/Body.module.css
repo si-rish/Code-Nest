@@ -1,4 +1,4 @@
-.container {
+.formContainer {
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -7,12 +7,12 @@
     padding-top: 0;
   }
   
-  .heading {
+  .formHeading {
     font-weight: 500;
     font-size: 2.1rem;
   }
   
-  .toolbar {
+  .formToolbar {
     width: 100%;
     display: flex;
     gap: 40px;
@@ -20,23 +20,23 @@
     align-items: center;
   }
   
-  .colors {
+  .formColors {
     display: flex;
     gap: 20px;
     padding: 0 30px;
   }
   
-  .colors .color {
+  .formColors .formColor {
     height: 36px;
     width: 36px;
     border-radius: 50%;
     background-color: #239ce2;
   }
-  .colors .active {
+  .formColors .active {
     border: 2px solid #000;
   }
   
-  .toolbar button {
+  .formToolbar button {
     padding: 8px 16px;
     border-radius: 5px;
     background-color: #239ce2;
@@ -52,12 +52,12 @@
     cursor: pointer;
   }
   
-  .toolbar button svg {
+  .formToolbar button svg {
     height: 20px;
     width: 20px;
   }
   
-  .main {
+  .formMain {
     display: flex;
     flex-direction: column;
     gap: 30px;

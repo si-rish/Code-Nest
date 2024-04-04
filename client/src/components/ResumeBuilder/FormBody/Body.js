@@ -60,15 +60,15 @@ function Body() {
   });
 
   return (
-    <div className={styles.container}>
-      <p className={styles.heading}>Resume Builder</p>
-      <div className={styles.toolbar}>
-        <div className={styles.colors}>
+    <div className={styles.formContainer}>
+      <p className={styles.formHeading}>Resume Builder</p>
+      <div className={styles.formToolbar}>
+        <div className={styles.formColors}>
           {colors.map((item) => (
             <span
               key={item}
               style={{ backgroundColor: item }}
-              className={`${styles.color} ${
+              className={`${styles.formColor} ${
                 activeColor === item ? styles.active : ""
               }`}
               onClick={() => setActiveColor(item)}
@@ -86,7 +86,7 @@ function Body() {
           content={() => resumeRef.current}
         />
       </div>
-      <div className={styles.main}>
+      <div className={styles.formMain}>
         <Editor
           sections={sections}
           information={resumeInformation}

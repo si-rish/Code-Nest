@@ -37,7 +37,7 @@ function Editor(props) {
   };
 
   const workExpBody = (
-    <div className={styles.detail}>
+    <div className={styles.formDetail}>
       <div className={styles.row}>
         <InputControl
           label="Title"
