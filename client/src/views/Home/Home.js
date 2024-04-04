@@ -3,6 +3,8 @@ import "./Home.css"
 import Navbar from '../../components/Navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import FeatureSection from '../../components/FeatureSection/FeatureSection'
+import FeatureElement from '../../components/FeatureElement/FeatureElement'
+import PricingPlan from '../../components/PricingPlan/PricingPlan'
 
 
 function Home() {
@@ -10,10 +12,13 @@ function Home() {
     <>
     <Navbar/>
     <HeroSection/>
+    <br/>
     <hr/>
-    <br/>
     <FeatureSection/>
+    {/* <br/> */}
+    {/* <FeatureElement/> */}
     <br/>
+    <PricingPlan/>
     
     </>
   )

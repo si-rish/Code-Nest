@@ -6,6 +6,7 @@ import Chatbot from '../../components/Chatbot/Chatbot'
 import { checkLogin } from '../../utils/auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleNodes } from '@fortawesome/free-solid-svg-icons'
+import CommunityPage from '../../components/CommunityPage/CommunityPage'
 
 
 
@@ -32,12 +33,13 @@ function Community() {
     <>
     <Navbar/>
     <div className="top-section">
-            <h1>CodeNest <span  className="text sec-text">CONNECT <FontAwesomeIcon icon={faCircleNodes} /></span></h1>
+            <h1>CodeNest <span  className="text sec-text">CONNECT-AI <FontAwesomeIcon icon={faCircleNodes} /></span></h1>
             {/* <p>Collaborate. Innovate. Elevate: Unleashing the Power of Community.</p> */}
         </div>
         <br/>
     <Chatbot/>
     <hr className='community-hr'/>
+    <CommunityPage/>
     
     </>
   )

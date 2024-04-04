@@ -1,13 +1,12 @@
 import React from 'react'
 import "./Resume.css"
 import Navbar from '../../components/Navbar/Navbar'
-import ResumeBuilder from '../../components/ResumeBuilder/ResumeBuilder'
-
+import Body from '../../components/ResumeBuilder/Body/Body'
 function Resume() {
   return (
     <>
     <Navbar/>
-    <ResumeBuilder/>
+    <Body />
     
     {/* <PersonalDetailsForm/> */}
     </>

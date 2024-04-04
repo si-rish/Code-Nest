@@ -4,8 +4,7 @@ import drop from '../assets/drop.png';
 import logo from '../assets/logo7.png';
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
-
+import { faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
 
 
 import './Navbar.css'; // Assuming you have a CSS file for styling
@@ -40,13 +39,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src={logo} className='cn-logo'/></div>
+      <div className="logo"><img src={logo} className='cn-logo' alt='logo'/></div>
 
       <div className={`menu ${showMenu ? 'show' : ''}`}>
         <Link to="/"> Home</Link>
         <Link to="/newsletter"> Newsletter</Link>
         <div className="submenu">
-          <Link to="/resources"> Resources&nbsp;<img src={drop} className='cn-drop'/> </Link>
+          <Link to="/"> Resources&nbsp;<img src={drop} className='cn-drop' alt='drop-icon'/> </Link>
           <div className="dropdown-content">
             <Link to="/roadmaps">Roadmaps</Link><hr/>
             <Link to="/projects">Projects</Link><hr/>
@@ -56,7 +55,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="submenu">
-          <Link to="/practice">Practice&nbsp;<img src={drop} className='cn-drop'/></Link>
+          <Link to="/">Practice&nbsp;<img src={drop} className='cn-drop' alt='drop-icon'/></Link>
           <div className="dropdown-content">
             <Link to="/aptitude">Aptitude</Link><hr/>
             <Link to="/reasoning">Logical Reasoning</Link><hr/>
