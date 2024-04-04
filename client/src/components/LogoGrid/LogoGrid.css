@@ -1,0 +1,51 @@
+.logo-grid-container {
+    padding-top: 3.5rem; /* equivalent to py-14 */
+    max-width: 90rem; /* equivalent to max-w-screen-xl */
+    margin: 0 auto;
+    padding-left: 1rem; /* equivalent to px-4 */
+    padding-right: 1rem; /* equivalent to px-4 */
+}
+
+.logo-grid-content {
+    max-width: 36rem; /* equivalent to max-w-xl */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-grid-heading {
+    margin-top: 3rem; /* equivalent to mt-12 */
+}
+
+.logo-grid-title {
+    color: #374151; /* equivalent to text-gray-800 */
+    font-size: 1.875rem; /* equivalent to text-3xl */
+    font-weight: 600; /* equivalent to font-semibold */
+}
+
+.logo-grid-description {
+    color: #4b5563; /* equivalent to text-gray-600 */
+    margin-top: 0.75rem; /* equivalent to mt-3 */
+}
+
+.logo-grid-logos {
+    margin-top: 3rem; /* equivalent to mt-12 */
+}
+
+.logo-grid-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* equivalent to grid-cols-2 */
+    gap: 1.25rem; /* equivalent to gap-x-10 and gap-y-6 */
+}
+
+@media (min-width: 768px) {
+    .logo-grid-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)); /* equivalent to md:grid-cols-3 */
+        gap: 2rem; /* equivalent to md:gap-x-16 and md:gap-y-6 */
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo-grid-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr)); /* equivalent to lg:grid-cols-4 */
+    }
+}
