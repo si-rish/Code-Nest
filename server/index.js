@@ -9,6 +9,7 @@ const __dirname = path.resolve();
 import mongoose from 'mongoose';
 import User from './models/User.js';
 import Question from './models/Question.js';
+// import Resume from './models/Resume.js';
 
 dotenv.config();
 
@@ -292,9 +293,74 @@ app.delete('/api/questions/:questionId/comments/:commentId', async (req, res) =>
   }
 });
 
+// Endpoint to post resume data
+app.post('/api/resumes', async (req, res) => {
+  try {
+    const {
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    } = req.body;
+
+    const resume = new Resume({
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    });
+
+    await resume.save();
+    res.status(201).json({ message: 'Resume data added successfully' });
+  } catch (error) {
+    console.error('Error adding resume data:', error.message);
+    res.status(500).json({ message: 'Failed to add resume data' });
+  }
+});
+
+
+// Endpoint to fetch all resumes
+app.get('/api/resumes', async (req, res) => {
+  try {
+    const resumes = await Resume.find();
+    res.json(resumes);
+  } catch (error) {
+    console.error('Error fetching resumes:', error.message);
+    res.status(500).json({ message: 'Failed to fetch resumes' });
+  }
+});
 
 
 
+// Mongoose Schema
+const FormSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  message: String
+});
+
+const FormModel = mongoose.model('Form', FormSchema);
+
+
+app.post('/api/submit', async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+    const newFormEntry = new FormModel({
+      name,
+      email,
+      message
+    });
+    await newFormEntry.save();
+    res.json({ success: true, message: 'Form submitted successfully!' });
+  } catch (error) {
+    console.error('Error saving form entry:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+});
 
 
 
