@@ -7,24 +7,26 @@
 }
 
 .logo-grid-content {
-    max-width: 36rem; /* equivalent to max-w-xl */
+    max-width: 56rem; /* equivalent to max-w-xl */
     margin: 0 auto;
     text-align: center;
 }
 
 .logo-grid-heading {
-    margin-top: 3rem; /* equivalent to mt-12 */
+    margin-top: 1.5rem; /* equivalent to mt-12 */
 }
 
 .logo-grid-title {
-    color: #374151; /* equivalent to text-gray-800 */
-    font-size: 1.875rem; /* equivalent to text-3xl */
-    font-weight: 600; /* equivalent to font-semibold */
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3498db; 
 }
 
 .logo-grid-description {
-    color: #4b5563; /* equivalent to text-gray-600 */
-    margin-top: 0.75rem; /* equivalent to mt-3 */
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #b2b9c6 !important;
 }
 
 .logo-grid-logos {
@@ -33,8 +35,14 @@
 
 .logo-grid-grid {
     display: grid;
+   
     grid-template-columns: repeat(2, minmax(0, 1fr)); /* equivalent to grid-cols-2 */
     gap: 1.25rem; /* equivalent to gap-x-10 and gap-y-6 */
+}
+
+.grid-logo{
+    height: 35px;
+    margin-top: 20px;
 }
 
 @media (min-width: 768px) {

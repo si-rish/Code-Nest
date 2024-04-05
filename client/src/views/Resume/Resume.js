@@ -6,7 +6,7 @@ function Resume() {
   return (
     <>
     <Navbar/>
-    <ResumeForm/>
+    <Body/>
     
  
     </>

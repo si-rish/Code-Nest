@@ -31,7 +31,7 @@ const FeatureItem = ({ icon, title, description }) => {
   return (
     <div className="feature-item">
       <div className="icon-container">
-        <img src={icon} alt="Feature Icon" className="feature-icon" />
+        <img src={icon} alt="Feature Icon" className="feature-section-icon" />
       </div>
       <div className="text-container">
         <div className="feature-title">{title}</div>

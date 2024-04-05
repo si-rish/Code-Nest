@@ -7,6 +7,7 @@ import FeatureElement from '../../components/FeatureElement/FeatureElement'
 import PricingPlan from '../../components/PricingPlan/PricingPlan'
 import Footer from '../../components/Footer/Footer'
 import LogoGrid from '../../components/LogoGrid/LogoGrid'
+import SubscribePage from '../../components/SubscribePage/SubscribePage'
 
 
 function Home() {
@@ -19,11 +20,15 @@ function Home() {
     <FeatureSection/>
     {/* <br/> */}
     {/* <FeatureElement/> */}
-    <br/>
+ 
+    <hr style={{width:'20%'}}/>
     <LogoGrid/>
+    <hr style={{width:'20%', marginTop:'5rem'}}/>
     <PricingPlan/>
 
-    {/* <Footer/> */}
+    <SubscribePage/>
+    <hr style={{width:'20%', marginTop:'5rem'}}/>
+    <Footer/>
     
     </>
   )
