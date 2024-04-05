@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import ReactToPrint from "react-to-print";
 import { ArrowDown } from "react-feather";
 
-import Editor from "../Editor/Editor";
+import Editor from "../Form/Form";
 import Resume from "../Resume/Resume";
 
 import styles from "./Body.module.css";
@@ -86,12 +86,17 @@ function Body() {
           content={() => resumeRef.current}
         />
       </div>
+      
+
       <div className={styles.formMain}>
         <Editor
           sections={sections}
           information={resumeInformation}
           setInformation={setResumeInformation}
         />
+       <div className={styles.formContainer}>
+        <p className={styles.formHeading} >Resume</p>
+        </div>
         <Resume
           ref={resumeRef}
           sections={sections}
