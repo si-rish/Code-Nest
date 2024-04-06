@@ -5,11 +5,13 @@ import Body from '../../components/ResumeBuilder/FormBody/Body'
 function Resume() {
   return (
     <>
+    <div className='Resume'>
     <Navbar/>
     <Body/>
-    
+    </div>
  
     </>
+
   )
 }
 

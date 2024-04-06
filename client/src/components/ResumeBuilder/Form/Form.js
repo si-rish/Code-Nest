@@ -4,7 +4,7 @@ import { X } from "react-feather";
 
 import InputControl from "../InputControl/InputControl";
 
-import styles from "./Editor.module.css";
+import styles from "./Form.module.css";
 
 function Editor(props) {
   const sections = props.sections;
@@ -37,7 +37,10 @@ function Editor(props) {
   };
 
   const workExpBody = (
-    <div className={styles.formDetail}>
+
+
+    //-------------------------- Form ------------------------//
+    <div className={styles.detail}>
       <div className={styles.row}>
         <InputControl
           label="Title"
@@ -47,6 +50,7 @@ function Editor(props) {
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
         />
+       
         <InputControl
           label="Company Name"
           placeholder="Enter company name eg. amazon"
@@ -105,6 +109,7 @@ function Editor(props) {
           value={values.points ? values.points[0] : ""}
           onChange={(event) => handlePointUpdate(event.target.value, 0)}
         />
+        {/* <br/> */}
         <InputControl
           placeholder="Line 2"
           value={values.points ? values.points[1] : ""}
