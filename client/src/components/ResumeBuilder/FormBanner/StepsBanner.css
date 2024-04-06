@@ -1,0 +1,37 @@
+.steps-banner {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .steps-banner-heading {
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+    color: rgb(255, 239, 173);
+  }
+  .botam-margin{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .steps-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .steps-section {
+    width: 30%; /* Adjust width for responsiveness */
+    margin-bottom: 20px;
+  }
+  
+  .steps-section-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .steps-section-description {
+    font-size: 20px;
+    font-weight: 300;
+    color: antiquewhite;
+  }
+  
