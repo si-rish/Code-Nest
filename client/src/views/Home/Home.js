@@ -5,6 +5,7 @@ import HeroSection from '../../components/HeroSection/HeroSection'
 import FeatureSection from '../../components/FeatureSection/FeatureSection'
 import FeatureElement from '../../components/FeatureElement/FeatureElement'
 import PricingPlan from '../../components/PricingPlan/PricingPlan'
+import Contact from '../Contact/Contact'
 
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
     {/* <FeatureElement/> */}
     <br/>
     <PricingPlan/>
-    
+    <Contact/>
     </>
   )
 }
