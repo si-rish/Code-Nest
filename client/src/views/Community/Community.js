@@ -7,6 +7,7 @@ import { checkLogin } from '../../utils/auth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleNodes } from '@fortawesome/free-solid-svg-icons'
 import CommunityPage from '../../components/CommunityPage/CommunityPage'
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -40,6 +41,10 @@ function Community() {
     <Chatbot/>
     <hr className='community-hr'/>
     <CommunityPage/>
+
+    <hr style={{width:'20%', marginTop:'5rem'}}/>
+    <Footer/>
+    
     
     </>
   )
