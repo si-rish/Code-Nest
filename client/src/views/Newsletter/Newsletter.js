@@ -2,6 +2,7 @@ import React from 'react'
 import "./Newsletter.css"
 import Navbar from '../../components/Navbar/Navbar'
 import NewsApp from '../../components/NewsApp/NewsApp'
+import Footer from '../../components/Footer/Footer'
 
 function Newsletter() {
     return (<>
@@ -14,6 +15,9 @@ function Newsletter() {
         <hr/>
         <br/>
         <NewsApp />
+
+        <hr style={{width:'20%', marginTop:'5rem'}}/>
+    <Footer/>
 
     </>
     )

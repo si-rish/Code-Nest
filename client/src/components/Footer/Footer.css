@@ -1,0 +1,150 @@
+/* styles.css */
+
+/* Base styles */
+.footer-container {
+    position: relative;
+    margin-top: 16px;
+    /* background-color: #683ab76a;  */
+  }
+  
+  .footer-svg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 6px;
+    margin-top: -5px;
+  }
+  
+  .footer-content {
+    padding: 0 24px; /* Adjust padding as needed */
+  }
+  
+  .footer-company-info {
+    margin-bottom: 16px; /* Adjust margin as needed */
+  }
+  
+  .company-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; /* White */
+  }
+  
+  .company-svg {
+    width: 24px;
+    fill: #4caf50; /* Teal accent 400 */
+  }
+  
+  .company-name {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .footer-company-description {
+    margin-top: 8px; /* Adjust margin as needed */
+  }
+  
+  .footer-description-text {
+    margin: 0;
+    color: #ffffff; /* White */
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-link-group {
+    flex: 1;
+    margin-right: 24px; /* Adjust margin as needed */
+  }
+  
+  .footer-link-group-title {
+    margin-bottom: 8px; /* Adjust margin as needed */
+    font-weight: bold;
+    color: #ffffff; /* White */
+  }
+  
+  .footer-link-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #ffffff; /* White */
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px; /* Adjust padding as needed */
+    background-color: #512da8; /* Deep purple accent 700 */
+  }
+  
+  .copyright-text {
+    margin: 0;
+    color: #ffffff; /* White */
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-link {
+    margin-right: 8px; /* Adjust margin as needed */
+  }
+  
+  .social-svg {
+    width: 24px;
+    fill: #ffffff; /* White */
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* Small devices (portrait phones, less than 640px) */
+  @media (max-width: 639px) {
+    .footer-content {
+      padding: 0 16px; /* Adjust padding as needed */
+    }
+  
+    .footer-link-group {
+      flex-basis: 50%; /* Adjust flex basis as needed */
+      margin-right: 0;
+      margin-bottom: 16px; /* Adjust margin as needed */
+    }
+  }
+  
+  /* Medium devices (landscape phones, 640px and up) */
+  @media (min-width: 640px) {
+    .footer-content {
+      padding: 0 24px; /* Adjust padding as needed */
+    }
+  
+    .footer-link-group {
+      flex-basis: 25%; /* Adjust flex basis as needed */
+      margin-right: 24px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* Large devices (tablets and desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .footer-container {
+      padding: 24px 0; /* Adjust padding as needed */
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1440px and up) */
+  @media (min-width: 1440px) {
+    .footer-container {
+      max-width: 1440px; /* Adjust max width as needed */
+      margin: 0 auto; /* Center align */
+    }
+  }
+  

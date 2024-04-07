@@ -5,6 +5,7 @@ import Body from '../../components/ResumeBuilder/FormBody/Body'
 import Banner from '../../components/ResumeBuilder/FormBanner/Banner';
 function Resume() {
   return (
+    <>
     <div className='Resume'>
     <Navbar/>
     <br></br>
@@ -21,6 +22,9 @@ function Resume() {
     <Body/>
     
     </div>
+ 
+    </>
+
   )
 }
 
