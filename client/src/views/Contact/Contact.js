@@ -11,10 +11,17 @@ const MainContainer = styled.main`
 const ContentContainer = styled.div`
   position: relative;
   z-index: 10;
-  max-width: 75vw;
+  max-width: 40vw;
   margin: 0 auto;
   color: #d1d5db;
   text-align: center;
+
+  h2{
+    color:#26C6DA;
+  }
+  h1{
+    color:white;
+  }
 `;
 
 const FormContainer = styled.div`
@@ -23,17 +30,21 @@ const FormContainer = styled.div`
   background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  max-width: 95vw;
+  max-width: 75vw;
   margin: 0 auto;
+  
 
   form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-right:2rem;
   }
 
   label {
-    font-weight: 500;
+    font-weight: 400;
+    
+    color:grey;
   }
 
   input,
@@ -72,8 +83,8 @@ const Contact = () => {
     <MainContainer>
       <ContentContainer>
         <div>
-          <h3>Contact</h3>
-          <h2>Get in touch</h2>
+          <h2>Contact</h2>
+          <h1>Get in touch</h1>
           <p>We’d love to hear from you! Please fill out the form below.</p>
         </div>
         <FormContainer>
@@ -89,12 +100,8 @@ const Contact = () => {
             <div>
               <label>Phone number</label>
               <div>
-                <select>
-                  <option>US</option>
-                  <option>ES</option>
-                  <option>MR</option>
-                </select>
-                <input type="number" placeholder="+1 (555) 000-000" required />
+                
+                <input type="number" placeholder="+91 " required />
               </div>
             </div>
             <div>
