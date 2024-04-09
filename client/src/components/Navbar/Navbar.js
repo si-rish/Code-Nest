@@ -4,7 +4,7 @@ import drop from '../assets/drop.png';
 import logo from '../assets/logo7.png';
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
 
 
 import './Navbar.css'; // Assuming you have a CSS file for styling
@@ -39,7 +39,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src={logo} className='cn-logo' alt='logo'/></div>
+      <div className="logo">
+        <a href='/'>
+        <img src={logo} className='cn-logo' alt='logo'/>
+        </a>
+        </div>
 
       <div className={`menu ${showMenu ? 'show' : ''}`}>
         <Link to="/"> Home</Link>
@@ -84,6 +88,10 @@ const Navbar = () => {
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>
+
+      <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
         
       </div>
     </nav>

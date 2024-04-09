@@ -1,18 +1,30 @@
 import React from 'react'
 import "./Resume.css"
 import Navbar from '../../components/Navbar/Navbar'
-import ResumeForm from '../../components/ResumeBulder/ResumeBulder'
-// import PersonalDetailsForm from '../../components/ResumeBulder/form'
-import ResumeApp from '../../components/ResumeBulder/Experience'
-
+import Body from '../../components/ResumeBuilder/FormBody/Body'
+import Banner from '../../components/ResumeBuilder/FormBanner/Banner';
 function Resume() {
   return (
     <>
+    <div className='Resume'>
     <Navbar/>
-    <ResumeForm/>
+    <br></br>
     
-    {/* <PersonalDetailsForm/> */}
+    <Banner/>
+    <br></br>
+    <hr></hr>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Body/>
+    
+    </div>
+ 
     </>
+
   )
 }
 

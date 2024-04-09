@@ -9,6 +9,7 @@ const __dirname = path.resolve();
 import mongoose from 'mongoose';
 import User from './models/User.js';
 import Question from './models/Question.js';
+// import Resume from './models/Resume.js';
 
 dotenv.config();
 
@@ -43,9 +44,6 @@ const projectSchema = new mongoose.Schema({
 
 const Project = mongoose.model('Project', projectSchema);
 
-
-
-
 app.post('/api/projects', async (req, res) => {
   try {
     const {
@@ -75,13 +73,6 @@ app.post('/api/projects', async (req, res) => {
 
 
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'))
-  });
-}
 
 
 // ...
@@ -292,10 +283,104 @@ app.delete('/api/questions/:questionId/comments/:commentId', async (req, res) =>
   }
 });
 
+// Endpoint to post resume data
+app.post('/api/resumes', async (req, res) => {
+  try {
+    const {
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    } = req.body;
+
+    const resume = new Resume({
+      personalInformation,
+      professionalExperience,
+      educationalBackground,
+      skills,
+      interestsAndHobbies,
+      certifications,
+    });
+
+    await resume.save();
+    res.status(201).json({ message: 'Resume data added successfully' });
+  } catch (error) {
+    console.error('Error adding resume data:', error.message);
+    res.status(500).json({ message: 'Failed to add resume data' });
+  }
+});
+
+
+// Endpoint to fetch all resumes
+app.get('/api/resumes', async (req, res) => {
+  try {
+    const resumes = await Resume.find();
+    res.json(resumes);
+  } catch (error) {
+    console.error('Error fetching resumes:', error.message);
+    res.status(500).json({ message: 'Failed to fetch resumes' });
+  }
+});
 
 
 
+// Mongoose Schema
+const FormSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  message: String
+});
 
+const FormModel = mongoose.model('Form', FormSchema);
+
+
+app.post('/api/submit', async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+    const newFormEntry = new FormModel({
+      name,
+      email,
+      message
+    });
+    await newFormEntry.save();
+    res.json({ success: true, message: 'Form submitted successfully!' });
+  } catch (error) {
+    console.error('Error saving form entry:', error);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+});
+
+
+// Define schema and model for newsletter subscription
+const newsletterSchema = new mongoose.Schema({
+  email: String,
+  timestamp: { type: Date, default: Date.now }
+});
+const Newsletter = mongoose.model('Newsletter', newsletterSchema);
+
+// API endpoint for subscribing to the newsletter
+app.post('/api/subscribe', async (req, res) => {
+  try {
+    const { email } = req.body;
+
+    // Check if email already exists
+    const existingSubscriber = await Newsletter.findOne({ email });
+    if (existingSubscriber) {
+      return res.status(400).json({ message: 'Email already subscribed' });
+    }
+
+    // Create new subscriber
+    const newSubscriber = new Newsletter({ email });
+    await newSubscriber.save();
+
+    return res.status(200).json({ message: 'Subscription successful' });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: 'Internal server error' });
+  }
+});
 
 
 
@@ -308,7 +393,6 @@ if(process.env.NODE_ENV === "production"){
     res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'))
   });
 }
-
 
 
 const PORT = process.env.PORT || 5001;

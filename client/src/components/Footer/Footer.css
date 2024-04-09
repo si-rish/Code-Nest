@@ -1,0 +1,146 @@
+.footer {
+  border-top: 1px solid #ffffff;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.footer-logo {
+  max-width: 20rem;
+}
+
+.footer-logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-logo-text span {
+  color: #2563eb;
+}
+
+.footer-description {
+  color: #65696f;
+}
+
+.footer-section-title {
+  font-weight: medium;
+  margin-bottom: 0.5rem;
+}
+
+.footer-address {
+  color: #6b7280;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.footer-subscribe-input {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  background-color: #f3f4f6;
+  margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.footer-subscribe-input:focus {
+  outline: 2px solid #2563eb;
+}
+
+.footer-subscribe-button {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #2563eb;
+  color: #fff;
+  font-weight: medium;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer-subscribe-button:hover {
+  background-color: #1d4ed8;
+}
+
+.footer-copyright {
+  background-color: #081f4d;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.footer-copyright-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright-links a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-copyright-links a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.footer-copyright-links span {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 786px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .footer-logo {
+    max-width: 100%;
+  }
+
+  .footer-subscribe-input,
+  .footer-subscribe-button {
+    max-width: 90%;
+  }
+}
