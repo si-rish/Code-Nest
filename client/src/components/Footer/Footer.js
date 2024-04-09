@@ -51,19 +51,19 @@ const Footer = () => {
           <nav aria-label="Footer Navigation">
             <ul className="footer-links">
               <li>
-                <a href="#">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="#">News</a>
+                <a href="/newsletter">News</a>
               </li>
               <li>
                 <a href="#">Resources</a>
               </li>
               <li>
-                <a href="#">Community</a>
+                <a href="/community">Community</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </nav>

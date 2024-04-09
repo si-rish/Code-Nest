@@ -1,11 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+
 
 // Styled components for CSS styling
 const MainContainer = styled.main`
   position: relative;
-  padding-top: 7rem; /* Adjust as needed */
-  background-color: #1f2937;
+  padding-top: 2rem; /* Adjust as needed */
+  padding-bottom: 5rem; /* Adjust as needed */
+  // background-color: #1f2937;
 `;
 
 const ContentContainer = styled.div`
@@ -80,6 +84,8 @@ const FormContainer = styled.div`
 // React component
 const Contact = () => {
   return (
+    <>
+    <Navbar/>
     <MainContainer>
       <ContentContainer>
         <div>
@@ -114,6 +120,8 @@ const Contact = () => {
       </ContentContainer>
       <div style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)" }}></div>
     </MainContainer>
+    <Footer/>
+    </>
   );
 };
 
