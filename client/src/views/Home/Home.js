@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import "./Home.css"
+import { checkLogin } from '../../utils/auth';
+import { useNavigate  } from 'react-router-dom'; // Assuming you are using React Router
 import Navbar from '../../components/Navbar/Navbar'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import FeatureSection from '../../components/FeatureSection/FeatureSection'
@@ -15,6 +17,21 @@ import SubscribePage from '../../components/SubscribePage/SubscribePage'
 
 
 function Home() {
+  // const navigate  = useNavigate();
+  
+  //   useEffect(() => {
+  //     const isLoggedIn = checkLogin();
+  
+  //     if (!isLoggedIn) {
+        
+  //       navigate.push('/login'); 
+  //     }
+  //   }, [navigate]);
+  
+  //   if (!checkLogin()) {
+  //     e
+  //     return null;
+  //   }
   return (
     <>
     <Navbar/>

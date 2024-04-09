@@ -12,21 +12,22 @@ import Footer from '../../components/Footer/Footer'
 
 
 function Community() {
-    const navigate  = useNavigate();
+    // const navigate  = useNavigate();
   
-    useEffect(() => {
-      const isLoggedIn = checkLogin();
+    // useEffect(() => {
+    //   const isLoggedIn = checkLogin();
   
-      if (!isLoggedIn) {
-        // Redirect to the login page if the user is not logged in
-        navigate.push('/login'); // Update the path according to your route setup
-      }
-    }, [navigate]);
+    //   if (!isLoggedIn) {
+       
+    //     navigate.push('/login'); 
+    //   }
+    // }, [navigate]);
   
-    if (!checkLogin()) {
-      // If the user is not logged in, prevent rendering the Community page
-      return null;
-    }
+    // if (!checkLogin()) {
+   
+    //   navigate.push('/');
+    //   return null;
+    // }
 
 
 
