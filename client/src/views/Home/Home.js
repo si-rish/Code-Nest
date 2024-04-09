@@ -39,12 +39,12 @@ function Home() {
     {/* <FeatureElement/> */}
  
     <hr style={{width:'20%'}}/>
-    <LogoGrid/>
+    {/* <LogoGrid/> */}
     <hr style={{width:'20%', marginTop:'5rem'}}/>
     <PricingPlan/>
 
-    <SubscribePage/>
-    <hr style={{width:'20%', marginTop:'5rem'}}/>
+    {/* <SubscribePage/> */}
+    {/* <hr style={{width:'20%', marginTop:'5rem'}}/> */}
     <Footer/>
     
     </>

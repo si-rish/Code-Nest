@@ -39,7 +39,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src={logo} className='cn-logo' alt='logo'/></div>
+      <div className="logo">
+        <a href='/'>
+        <img src={logo} className='cn-logo' alt='logo'/>
+        </a>
+        </div>
 
       <div className={`menu ${showMenu ? 'show' : ''}`}>
         <Link to="/"> Home</Link>
@@ -84,6 +88,10 @@ const Navbar = () => {
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>
+
+      <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
         
       </div>
     </nav>
