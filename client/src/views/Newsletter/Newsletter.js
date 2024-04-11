@@ -20,6 +20,7 @@ function Newsletter() {
 
     return (
         <>
+        <div className='animation-container'>
             <Navbar />
             {isLoading ? (
                 <Box
@@ -30,7 +31,7 @@ function Newsletter() {
                         height: '50vh',
                     }}
                 >
-                    <CircularProgress />
+                    <CircularProgress /> &nbsp;&nbsp;Loading News....
                 </Box>
             ) : (
                 <div>
@@ -42,10 +43,12 @@ function Newsletter() {
                     <hr />
                     <br />
                     <NewsApp />
-                    <hr style={{ width: '20%', marginTop: '5rem' }} />
+                    
                     <Footer />
                 </div>
+                
             )}
+            </div>
         </>
     );
 }

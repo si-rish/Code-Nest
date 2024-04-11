@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Footer.css';
+import logo from '../assets/logo7.png';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -13,9 +14,9 @@ const Footer = () => {
         },
         body: JSON.stringify({ email })
       });
-      
+
       const data = await response.json();
-      
+
       if (response.ok) {
         alert(data.message); // Display dialog box for successful subscription
         setEmail(''); // Clear email input field
@@ -28,14 +29,21 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className="footer background-gradient">
+
+      <div className="footer-container ">
         <div className="footer-logo">
-          <div className="footer-logo-text">
+          {/* <div className="footer-logo-text">
             Code<span>Nest</span>.
+          </div> */}
+          <div className="logo">
+            <a href='/'>
+              <img src={logo} className='cn-logo' alt='logo' />
+            </a>
           </div>
+
           <div className="footer-description">
-          Coding companion for AI-powered problem-solving, tech news updates, personalized learning, project collaboration, and career guidance.
+            Coding companion for AI-powered problem-solving, tech news updates, personalized learning, project collaboration, and career guidance.
           </div>
         </div>
         <div className="footer-section">
@@ -57,7 +65,7 @@ const Footer = () => {
                 <a href="/newsletter">News</a>
               </li>
               <li>
-                <a href="#">Resources</a>
+                <a href="/resume-builder">Resume</a>
               </li>
               <li>
                 <a href="/community">Community</a>
@@ -69,18 +77,18 @@ const Footer = () => {
           </nav>
         </div>
         <div className="footer-section">
-        <div className="footer-section-title">Subscribe to our Newsletter</div>
-        <div>
-          <input
-            type="email"
-            className="footer-subscribe-input"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <button className="footer-subscribe-button" onClick={handleSubscribe}>Subscribe</button>
+          <div className="footer-section-title">Subscribe to our Newsletter</div>
+          <div>
+            <input
+              type="email"
+              className="footer-subscribe-input"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <button className="footer-subscribe-button" onClick={handleSubscribe}>Subscribe</button>
+          </div>
         </div>
-      </div>
       </div>
       <div className="footer-copyright">
         <div className="footer-copyright-content">
@@ -95,6 +103,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+
   );
 };
 

@@ -1,31 +1,52 @@
-
+.about-page{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%);
+    filter: blur(118px);
+    max-width: 1180px;
+    max-height: 100vh;
+}
 
 .sectiontag {
-    color: #3b73c2;
+    color: #562bf4;
+    font-size: 2.5rem;
 }
 
 .subsectiontag {
-    color: aliceblue;
+    color: #b2b9c6 !important;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .secright {
-    height: 500px;
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
-    margin: auto;
-    font-family: 'Ubuntu', sans-serif;
+    max-width: 80%;
+    margin: 45px auto;
+    border-bottom: 1px solid #ffffff94;
+    border-radius: 22px;
+    gap: 50px;
+    padding: 35px 35px; 
+    
 }
-.secleft{
-    height: 500px;
+
+
+.secleft {
+    height: max-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
-    margin: auto;
-    font-family: 'Ubuntu', sans-serif;
+    max-width: 80%;
+    margin: 35px auto;
+    /* border: 1px solid #fff; */
+    border-radius: 22px;
+    gap: 50px;
+    padding: 25px 35px;
     flex-direction: row-reverse;
+    border-bottom: 1px solid #fff;
+   
 }
 
 .thumbnail img {
@@ -33,9 +54,6 @@
     width: 450px;
 }
 
-.paras {
-    padding: 0px 65px;
-}
 
 .subsectiontag {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,6 +92,3 @@
     justify-content: center;
     padding: 100px;
 }
-
-
-    
