@@ -1,4 +1,79 @@
-.dadawd{
+
+
+.sectiontag {
+    color: #3b73c2;
+}
+
+.subsectiontag {
+    color: aliceblue;
+}
+
+.secright {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    height: 400px;
+    width: 450px;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.subsectiontag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.container h1 {
+    margin-top: 50px;
+}
+
+/* .sign {
+    background: url('') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.sign h1 {
+    font-family: 'lobster', cursive;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+}
+
 
     
-}
