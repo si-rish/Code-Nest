@@ -11,6 +11,7 @@ import PricingPlan from '../../components/PricingPlan/PricingPlan'
 import Footer from '../../components/Footer/Footer'
 import LogoGrid from '../../components/LogoGrid/LogoGrid'
 import SubscribePage from '../../components/SubscribePage/SubscribePage'
+import Steps from '../../components/Steps/Steps';
 
 
 
@@ -40,7 +41,9 @@ function Home() {
     {/* <br/> */}
     {/* <FeatureElement/> */}
  
-    <hr style={{width:'20%'}}/>
+    {/* <hr style={{width:'20%'}}/> */}
+    <hr style={{width:'20%', marginTop:'5rem'}}/>
+    <Steps/>
     {/* <LogoGrid/> */}
     <hr style={{width:'20%', marginTop:'5rem'}}/>
     <PricingPlan/>
