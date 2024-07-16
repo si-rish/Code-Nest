@@ -45,7 +45,7 @@ const ProjectForm = () => {
         formDataObj.append(key, formData[key]);
       }
 
-      const response = await fetch('https://code-nest-backend.onrender.com/api/projects', {
+      const response = await fetch('http://localhost:5000/api/projects', {
         method: 'POST',
         body: formDataObj,
       });
@@ -72,7 +72,7 @@ const ProjectForm = () => {
     setModalVisible(false);
 
      // Fetch the updated list of projects after adding a new project
-     const projectsResponse = await fetch('https://code-nest-backend.onrender.com/api/projects');
+     const projectsResponse = await fetch('http://localhost:5000/api/projects');
      const projectsData = await projectsResponse.json();
      setProjectList(projectsData);
    } catch (error) {
@@ -95,7 +95,7 @@ const ProjectForm = () => {
     // Fetch projects when the component mounts
     const fetchProjects = async () => {
       try {
-        const projectsResponse = await fetch('https://code-nest-backend.onrender.com/api/projects');
+        const projectsResponse = await fetch('http://localhost:5000/api/projects');
         const projectsData = await projectsResponse.json();
         setProjectList(projectsData);
       } catch (error) {
