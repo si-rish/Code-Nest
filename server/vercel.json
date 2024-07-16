@@ -6,9 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  {
-  "buildCommand": "next build"
-}
   "routes": [
     {
       "src": "/(.*)",
